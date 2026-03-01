@@ -1,5 +1,5 @@
 // ── SPLASH SCREEN ────────────────────────────────────────────────────
-const CORRECT_HASH = 'a8088a48ba7e7a6e6d9c5bcd68f5d95c73e0aa71d231549493d0617d7a29a67b';
+const CORRECT_HASH = 'f361179056a7c5459008d34248fbb755517d1756dc8dfdf46eb1a5cf45d36039';
 
 async function checkPassword() {
   const val = document.getElementById('s-pw').value;
