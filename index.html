@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitman LAX — Practice Plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.montgomeryschoolsmd.org/schools-css/whitmanhs/main.css">
+<!-- Backend CSS -->
+<link rel="stylesheet" href="backend/base.css">
+<link rel="stylesheet" href="backend/layout.css">
+<link rel="stylesheet" href="backend/print.css">
+<!-- Frontend CSS -->
+<link rel="stylesheet" href="frontend/splash.css">
+<link rel="stylesheet" href="frontend/header.css">
+<link rel="stylesheet" href="frontend/plan-panel.css">
+<link rel="stylesheet" href="frontend/depth-panel.css">
+<link rel="stylesheet" href="frontend/modal.css">
+<link rel="stylesheet" href="frontend/toast.css">
+<link rel="stylesheet" href="frontend/footer.css">
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="ss-top"></div><div class="ss-bot"></div>
+  <div class="s-school">Walt Whitman High School · Lacrosse</div>
+  <div class="s-title">PRACTICE<br><span class="ac">PLAN</span></div>
+  <div class="s-bar"></div>
+  <div class="s-quote">"To Begin, Begin"</div>
+  <div class="s-meta">Compete · Shake the Rust · 2.28.2026</div>
+  <div class="s-pw-wrap">
+    <input type="password" id="s-pw" class="s-pw-in" placeholder="Password"
+      onkeydown="if(event.key==='Enter')checkPassword()" autofocus>
+    <div class="s-pw-err" id="s-pw-err"></div>
+  </div>
+  <button class="s-cta" onclick="checkPassword()">Open Practice Plan</button>
+  <div class="s-inj">⚠ Injury Report<br>Danny (ankle) · Cooper (mono)</div>
+  <div class="s-datebl">SAT 2/28/2026 · 10:00 AM – 12:30 PM</div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <header class="app-header">
+    <div class="hbt">Whitman <span>LAX Practice Plan</span></div>
+    <div class="header-actions">
+      <div class="inj-pill"><div class="inj-dot"></div>Danny (ankle) · Cooper (mono)</div>
+      <button class="btn btn-blue" onclick="window.print()">🖨 Print / PDF</button>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <!-- PLAN -->
+    <div class="plan-panel">
+
+      <!-- DATE BAR -->
+      <div class="date-bar">
+        <span class="date-bar-label">Date</span>
+        <span class="date-bar-value" id="dateDisplay">Saturday, February 28, 2026</span>
+        <input type="date" id="datePicker" class="date-native" value="2026-02-28">
+      </div>
+
+      <!-- COACH NOTES -->
+      <div class="notes-box">
+        <div class="nl">Coach Notes</div>
+        <div id="coachNotes" class="notes-f" contenteditable="true" spellcheck="false">Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One</div>
+        <hr class="notes-div">
+        <div class="nl nl-red">Overall Note</div>
+        <div id="overallNote" class="overall-f" contenteditable="true" spellcheck="false">Hard Hat Lesson One — Compete &amp; Shake the Rust</div>
+      </div>
+
+      <!-- INFO CHIPS -->
+      <div class="info-bar">
+        <div class="chip chip-blue">
+          <span class="chip-lbl">Focus:&nbsp;</span>
+          <span class="chip-e" contenteditable="true" id="focusText" spellcheck="false">Compete</span>
+        </div>
+        <div class="chip chip-dark" id="totalChip"></div>
+      </div>
+
+      <div class="pquote">"To Begin, Begin"</div>
+
+      <!-- START TIME -->
+      <div class="st-row">
+        <span class="st-lbl">Starts</span>
+        <input class="st-in" id="stIn" value="10:00" onchange="renderDrills()" onblur="renderDrills()">
+        <div class="ampm-wrap">
+          <button class="ampm-btn on" id="btnAM" onclick="setAmPm('AM')">AM</button>
+          <button class="ampm-btn" id="btnPM" onclick="setAmPm('PM')">PM</button>
+        </div>
+        <span class="ttd" id="ttd"></span>
+      </div>
+
+      <div class="sec-head">Drill Schedule</div>
+
+      <table class="dtable">
+        <thead><tr>
+          <th style="width:20px;"></th>
+          <th style="width:118px;">Time</th>
+          <th>Drill / Notes</th>
+          <th style="width:72px;">Mins</th>
+          <th style="width:28px;"></th>
+        </tr></thead>
+        <tbody id="drillsList"></tbody>
+      </table>
+
+      <!-- ADD DRILL + LIBRARY -->
+      <div class="add-drill-wrap" id="addDrillWrap">
+        <button class="add-drill-btn" id="addDrillBtn" onclick="toggleLibrary()">
+          <span id="addBtnText">+ Add Drill</span>
+          <span id="addBtnArrow" style="margin-left:auto; font-size:10px;">▼</span>
+        </button>
+        <div class="drill-lib" id="drillLib">
+          <div class="lib-header">
+            <input class="lib-search" id="libSearch" placeholder="Search drills…" oninput="renderLibrary()">
+            <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+          </div>
+          <div class="lib-list" id="libList"></div>
+          <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEPTH -->
+    <div class="depth-panel">
+      <div class="sec-head" style="font-size:1.1em;">Depth Chart</div>
+      <div id="depthChart"></div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <div>Walt Whitman High School · <span>Lacrosse</span></div>
+    <div>Practice <span id="footerDate">2/28/2026</span></div>
+  </footer>
+</div>
+
+<!-- ADD DRILL MODAL (for new library entries) -->
+<div class="mo hidden" id="newDrillModal">
+  <div class="mbox">
+    <h2>Add to Drill Library</h2>
+    <div class="mf">
+      <div class="ml">Drill Name</div>
+      <input class="mi" id="ndName" placeholder="e.g. 4v3 Transition">
+    </div>
+    <div class="mf">
+      <div class="ml">Default Duration (minutes)</div>
+      <input class="mi" id="ndDur" type="number" min="1" max="120" placeholder="10">
+    </div>
+    <div class="ma">
+      <button class="btn btn-dark" onclick="closeNewDrillModal()">Cancel</button>
+      <button class="btn btn-blue" onclick="saveNewDrillToLib()">Add to Library</button>
+    </div>
+  </div>
+</div>
+
+<!-- Backend JS (must load first) -->
+<script src="backend/data.js"></script>
+<script src="backend/utils.js"></script>
+<script src="backend/time-utils.js"></script>
+<!-- Frontend JS -->
+<script src="frontend/splash.js"></script>
+<script src="frontend/date-picker.js"></script>
+<script src="frontend/drills.js"></script>
+<script src="frontend/drill-library.js"></script>
+<script src="frontend/depth-chart.js"></script>
+<!-- Init (must be last) -->
+<script src="frontend/init.js"></script>
+</body>
+</html>

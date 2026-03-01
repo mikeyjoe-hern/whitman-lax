@@ -1,0 +1,7 @@
+/* ── BASE RESET & APP CONTAINER ── */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin:0; padding:0; font-family:'Oxygen',sans-serif; background:#f7f7f5; color:#272727; }
+
+#app { display:none; min-height:100vh; }
+#app.visible { display:flex; flex-direction:column; animation:fadeIn .4s ease; }
+@keyframes fadeIn { from{opacity:0;} to{opacity:1;} }

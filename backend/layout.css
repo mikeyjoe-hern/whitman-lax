@@ -1,0 +1,21 @@
+/* ── SHARED BUTTONS ── */
+.btn { padding:7px 18px; font-family:'Oxygen',sans-serif; font-size:12px; font-weight:400; letter-spacing:.12em; text-transform:uppercase; cursor:pointer; border:none; transition:background .15s; }
+.btn-blue { background:#03a5e3; color:#fff; }
+.btn-blue:hover { background:#4fcdfd; }
+.btn-dark { background:#3a3f45; color:#fff; border:1px solid #555; }
+.btn-dark:hover { background:#010101; }
+
+/* ── BODY GRID ── */
+.app-body { display:grid; grid-template-columns:1fr 280px; gap:0; flex:1; }
+
+/* ── SECTION HEADING ── */
+.sec-head { font-family:'Oxygen',sans-serif; font-size:1.3em; font-weight:400; text-transform:uppercase; color:#272727; border-bottom:3px solid #03a5e3; padding-bottom:4px; margin:0 0 10px 0; letter-spacing:.04em; }
+
+/* ── INFO BAR & CHIPS ── */
+.info-bar { display:flex; gap:7px; margin-bottom:12px; flex-wrap:wrap; align-items:center; }
+.chip { display:inline-flex; align-items:center; gap:5px; padding:4px 11px; font-family:'Oxygen',sans-serif; font-size:11px; font-weight:400; letter-spacing:.1em; text-transform:uppercase; }
+.chip-blue { background:#03a5e3; color:#fff; }
+.chip-dark { background:#272727; color:#fff; }
+.chip-e { outline:none; border:none; background:transparent; font-family:'Oxygen',sans-serif; font-size:11px; letter-spacing:.1em; text-transform:uppercase; border-bottom:1px dashed rgba(255,255,255,.4); min-width:30px; color:inherit; }
+.chip-e:focus { border-bottom-color:#fff; }
+.chip-lbl { font-size:9px; opacity:.7; }

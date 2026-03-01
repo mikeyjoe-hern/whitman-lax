@@ -1,0 +1,4 @@
+/* ── TOAST NOTIFICATION ── */
+.toast { position:fixed; bottom:20px; right:20px; z-index:999; background:#272727; color:#fff; padding:9px 20px; font-family:'Oxygen',sans-serif; font-size:12px; letter-spacing:.1em; text-transform:uppercase; border-left:4px solid #03a5e3; animation:tIn .22s ease, tOut .28s ease 1.9s forwards; pointer-events:none; }
+@keyframes tIn { from{opacity:0;transform:translateY(8px);} to{opacity:1;transform:translateY(0);} }
+@keyframes tOut { to{opacity:0;transform:translateY(8px);} }

@@ -1,0 +1,115 @@
+/* ══════════════════════════════════════════
+   PRINT — single 8.5×11 sheet, 1in margins
+══════════════════════════════════════════ */
+@media print {
+  @page { size:8.5in 11in; margin:1in; }
+
+  /* Hide all interactive UI */
+  #splash, .header-actions, .dh, .ddel, .dur-in,
+  .add-drill-wrap, .ap-row, .pdel, .app-footer,
+  .date-native, .ampm-wrap, .ttd, button { display:none !important; }
+
+  html, body {
+    height:auto; overflow:visible; background:#fff !important;
+  }
+
+  /* Remove scroll containers so content flows naturally */
+  #app { display:block !important; overflow:visible !important; }
+  #app.visible { animation:none; }
+  .plan-panel, .depth-panel { overflow:visible !important; height:auto !important; max-height:none !important; }
+
+  /* Use CSS transform to scale the full layout to fit */
+  html { zoom: 0.72; }
+
+  /* Header */
+  .app-header {
+    position:static !important; background:#fff !important;
+    border-top:3pt solid #03a5e3 !important; border-bottom:2pt solid #03a5e3 !important;
+    padding:4pt 0 !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .hbt { font-size:14pt !important; color:#272727 !important; }
+  .hbt span { color:#272727 !important; }
+  .inj-pill {
+    font-size:7pt !important; padding:2pt 6pt !important;
+    border:1pt solid #a61e0a !important; color:#a61e0a !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Two-column body layout */
+  .app-body {
+    display:grid !important;
+    grid-template-columns:1fr 200pt !important;
+    gap:12pt !important;
+    align-items:start !important;
+  }
+  .plan-panel { padding:0 !important; border-right:1pt solid #ddd !important; padding-right:10pt !important; }
+  .depth-panel { padding:0 !important; padding-left:10pt !important; background:#fff !important; border-left:none !important; }
+
+  /* Date bar */
+  .date-bar {
+    border:1.5pt solid #a61e0a !important; padding:4pt 8pt !important; margin-bottom:5pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .date-bar-value { font-size:12pt !important; }
+
+  /* Notes */
+  .notes-box { border:2pt solid #ecece7 !important; padding:5pt 8pt !important; margin-bottom:5pt !important; }
+
+  /* Info bar */
+  .info-bar { margin-bottom:5pt !important; }
+  .chip {
+    padding:2pt 6pt !important; font-size:7pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Quote */
+  .pquote {
+    padding:4pt 8pt !important; margin-bottom:5pt !important; font-size:8pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Section headings */
+  .sec-head {
+    font-size:9pt !important; margin-bottom:4pt !important; padding-bottom:2pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Drills table */
+  .dtable { font-size:7.5pt !important; }
+  .dtable thead tr { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dtable thead th { padding:3pt 6pt !important; font-size:7pt !important; }
+  .drow td { padding:3pt 6pt !important; }
+  .drow { background:#fff !important; }
+  .drow:nth-child(even) { background:#f9f9f9 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dtc { font-size:7pt !important; color:#03a5e3 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dn { font-size:7.5pt !important; }
+  .dnotes { font-size:6.5pt !important; color:#888 !important; }
+  /* Show duration as text via data attribute, hide the input wrapper */
+  .dur-wrap { display:none !important; }
+  .durc::after { content:attr(data-dur); font-family:'Oxygen',sans-serif; font-size:7pt; color:#555; }
+
+  /* Start time row hidden — times already shown in table */
+  .st-row { display:none !important; }
+
+  /* ── DEPTH CHART — compact 2-col grid ── */
+  .depth-panel .sec-head { font-size:9pt !important; margin-bottom:6pt !important; }
+  #depthChart {
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+    gap:6pt 8pt !important;
+    align-items:start !important;
+  }
+  .dg { margin-bottom:0 !important; break-inside:avoid; }
+  .dgt {
+    font-size:7pt !important; padding:2pt 6pt !important; margin-bottom:2pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .pc {
+    padding:2pt 5pt !important; font-size:7pt !important;
+    background:#fff !important; border:0.5pt solid #ddd !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .pb { font-size:6pt !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .pr { font-size:7pt !important; }
+}
