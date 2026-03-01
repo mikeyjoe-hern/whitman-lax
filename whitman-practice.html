@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitman LAX — Practice Plan</title>
+<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.montgomeryschoolsmd.org/schools-css/whitmanhs/main.css">
+<style>
+*, *::before, *::after { box-sizing: border-box; }
+body { margin:0; padding:0; font-family:'Oswald',sans-serif; background:#f7f7f5; color:#272727; }
+
+/* ── SPLASH ── */
+#splash { position:fixed; inset:0; z-index:1000; background:#272727; display:flex; flex-direction:column; align-items:center; justify-content:center; cursor:pointer; }
+.ss-top { position:absolute; top:0; left:0; right:0; height:8px; background:#03a5e3; }
+.ss-bot { position:absolute; bottom:0; left:0; right:0; height:8px; background:#03a5e3; }
+.s-school { font-size:12px; letter-spacing:.35em; text-transform:uppercase; color:#03a5e3; margin-bottom:14px; opacity:0; animation:fadeUp .5s ease .2s forwards; }
+.s-title { font-family:'Oswald',sans-serif; font-size:clamp(72px,14vw,160px); font-weight:600; line-height:.88; text-transform:uppercase; text-align:center; color:#fff; opacity:0; animation:fadeUp .6s ease .4s forwards; }
+.s-title .ac { color:#03a5e3; }
+.s-bar { width:72px; height:5px; background:#a61e0a; margin:22px auto; opacity:0; animation:fadeUp .4s ease .7s forwards; }
+.s-quote { font-size:17px; font-weight:300; font-style:italic; color:#aaa; letter-spacing:.08em; opacity:0; animation:fadeUp .5s ease .9s forwards; }
+.s-meta { margin-top:6px; font-size:12px; color:#666; letter-spacing:.14em; text-transform:uppercase; opacity:0; animation:fadeUp .5s ease 1s forwards; }
+.s-cta { margin-top:38px; padding:13px 50px; background:#03a5e3; color:#fff; border:none; cursor:pointer; font-family:'Oswald',sans-serif; font-size:15px; font-weight:400; letter-spacing:.18em; text-transform:uppercase; transition:background .18s,transform .12s; opacity:0; animation:fadeUp .5s ease 1.2s forwards; }
+.s-cta:hover { background:#4fcdfd; transform:translateY(-2px); }
+.s-inj { position:absolute; bottom:26px; right:26px; font-size:11px; color:#a61e0a; text-align:right; opacity:0; animation:fadeUp .4s ease 1.4s forwards; }
+.s-datebl { position:absolute; bottom:26px; left:26px; font-size:11px; color:#666; opacity:0; animation:fadeUp .4s ease 1.4s forwards; }
+@keyframes fadeUp { from{opacity:0;transform:translateY(14px);} to{opacity:1;transform:translateY(0);} }
+.splash-out { animation:splashOut .38s ease forwards; }
+@keyframes splashOut { to{opacity:0;transform:scale(1.02);} }
+
+/* ── APP ── */
+#app { display:none; min-height:100vh; }
+#app.visible { display:flex; flex-direction:column; animation:fadeIn .4s ease; }
+@keyframes fadeIn { from{opacity:0;} to{opacity:1;} }
+
+/* ── HEADER ── */
+.app-header { background:#272727; border-top:6px solid #03a5e3; border-bottom:5px solid #03a5e3; padding:12px 24px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; flex-wrap:wrap; gap:8px; }
+.hbt { color:#03a5e3; font-family:'Oswald',sans-serif; font-size:1.7em; font-weight:600; text-transform:uppercase; letter-spacing:.04em; margin:0; }
+.hbt span { font-weight:300; color:#fff; font-size:.52em; }
+.header-actions { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.inj-pill { background:rgba(166,30,10,.15); border:1px solid #a61e0a; color:#a61e0a; padding:5px 10px; font-size:10px; letter-spacing:.04em; text-transform:uppercase; display:flex; align-items:center; gap:5px; }
+.inj-dot { width:6px; height:6px; border-radius:50%; background:#a61e0a; animation:blink 1.4s infinite; }
+@keyframes blink { 0%,100%{opacity:1;} 50%{opacity:.2;} }
+.btn { padding:7px 18px; font-family:'Oswald',sans-serif; font-size:12px; font-weight:400; letter-spacing:.12em; text-transform:uppercase; cursor:pointer; border:none; transition:background .15s; }
+.btn-blue { background:#03a5e3; color:#fff; }
+.btn-blue:hover { background:#4fcdfd; }
+.btn-dark { background:#3a3f45; color:#fff; border:1px solid #555; }
+.btn-dark:hover { background:#010101; }
+
+/* ── BODY GRID ── */
+.app-body { display:grid; grid-template-columns:1fr 280px; gap:0; flex:1; }
+
+/* ── PLAN PANEL ── */
+.plan-panel { padding:16px 22px; border-right:1px solid #ecece7; overflow-y:auto; }
+.sec-head { font-family:'Oswald',sans-serif; font-size:1.3em; font-weight:400; text-transform:uppercase; color:#272727; border-bottom:3px solid #03a5e3; padding-bottom:4px; margin:0 0 10px 0; letter-spacing:.04em; }
+
+/* DATE BAR */
+.date-bar { display:flex; align-items:center; gap:12px; margin-bottom:12px; padding:9px 14px; background:#fff; border:2px solid #a61e0a; }
+.date-bar-label { font-size:9px; letter-spacing:.18em; text-transform:uppercase; color:#a61e0a; font-weight:600; white-space:nowrap; }
+.date-bar-value { font-family:'Oswald',sans-serif; font-size:1.45em; font-weight:600; color:#a61e0a; letter-spacing:.03em; text-transform:uppercase; flex:1; }
+/* Visible styled date input */
+.date-native {
+  border:1px dashed #a61e0a; background:transparent; color:#a61e0a;
+  padding:4px 8px; font-family:'Oswald',sans-serif; font-size:11px;
+  letter-spacing:.08em; cursor:pointer; outline:none;
+  color-scheme: light;
+}
+.date-native:hover { background:#a61e0a; color:#fff; }
+
+/* COACH NOTES */
+.notes-box { background:#f7f7f5; border:4px solid #ecece7; border-radius:3px; padding:10px 14px; margin-bottom:12px; }
+.nl { font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:#03a5e3; margin-bottom:4px; font-weight:600; }
+.nl-red { color:#a61e0a; }
+.notes-f { font-size:12px; color:#3a3f45; outline:none; line-height:1.5; font-family:'Oswald',sans-serif; font-weight:300; min-height:16px; width:100%; border:none; background:transparent; border-bottom:1px dashed transparent; transition:border-color .15s; }
+.notes-f:focus { border-bottom-color:#03a5e3; }
+.notes-div { border:none; border-top:1px dashed #ecece7; margin:7px 0; }
+.overall-f { font-size:13px; font-weight:600; color:#a61e0a; outline:none; font-family:'Oswald',sans-serif; letter-spacing:.04em; width:100%; border:none; background:transparent; border-bottom:1px dashed transparent; transition:border-color .15s; text-transform:uppercase; }
+.overall-f:focus { border-bottom-color:#a61e0a; }
+
+/* INFO BAR */
+.info-bar { display:flex; gap:7px; margin-bottom:12px; flex-wrap:wrap; align-items:center; }
+.chip { display:inline-flex; align-items:center; gap:5px; padding:4px 11px; font-family:'Oswald',sans-serif; font-size:11px; font-weight:400; letter-spacing:.1em; text-transform:uppercase; }
+.chip-blue { background:#03a5e3; color:#fff; }
+.chip-dark { background:#272727; color:#fff; }
+.chip-e { outline:none; border:none; background:transparent; font-family:'Oswald',sans-serif; font-size:11px; letter-spacing:.1em; text-transform:uppercase; border-bottom:1px dashed rgba(255,255,255,.4); min-width:30px; color:inherit; }
+.chip-e:focus { border-bottom-color:#fff; }
+.chip-lbl { font-size:9px; opacity:.7; }
+
+/* START TIME */
+.st-row { display:flex; align-items:center; gap:8px; margin-bottom:10px; padding:7px 11px; background:#fff; border:1px solid #ecece7; flex-wrap:wrap; }
+.st-lbl { font-size:9px; letter-spacing:.14em; text-transform:uppercase; color:#888; font-weight:600; white-space:nowrap; }
+.st-in { font-family:'Oswald',sans-serif; font-size:13px; font-weight:400; color:#03a5e3; border:none; background:transparent; outline:none; border-bottom:1px dashed #03a5e3; width:68px; letter-spacing:.05em; }
+.st-in:focus { border-bottom-color:#272727; color:#272727; }
+.ampm-wrap { display:flex; }
+.ampm-btn { padding:2px 7px; font-family:'Oswald',sans-serif; font-size:10px; cursor:pointer; border:1px solid #ccc; background:#f7f7f5; color:#888; letter-spacing:.08em; transition:all .12s; }
+.ampm-btn.on { background:#272727; color:#fff; border-color:#272727; }
+.ttd { font-size:11px; color:#888; margin-left:auto; letter-spacing:.03em; }
+.ttd strong { color:#272727; }
+
+/* PLAN QUOTE */
+.pquote { background:#3a3f45; color:#fff; padding:8px 14px; margin-bottom:10px; font-size:13px; font-style:italic; font-weight:300; border-left:4px solid #a61e0a; }
+
+/* DRILLS TABLE */
+.dtable { width:100%; border-collapse:collapse; }
+.dtable thead tr { background:#272727; color:#fff; }
+.dtable thead th { font-family:'Oswald',sans-serif; font-size:10px; font-weight:400; letter-spacing:.12em; text-transform:uppercase; padding:7px 10px; text-align:left; }
+.drow { border-bottom:1px solid #ecece7; background:#fff; transition:background .1s; cursor:grab; }
+.drow:nth-child(even) { background:#f7f7f5; }
+.drow:hover { background:#edf7ff; }
+.drow.dragging { opacity:.4; box-shadow:0 4px 16px rgba(0,0,0,.15); }
+.drow.drag-over { outline:2px solid #03a5e3; background:#e4f4fc; }
+.drow td { padding:7px 10px; vertical-align:middle; }
+.dh { color:#ccc; font-size:13px; cursor:grab; width:20px; padding:7px 4px 7px 10px !important; }
+.dtc { font-size:11px; color:#03a5e3; font-weight:400; white-space:nowrap; min-width:110px; font-family:'Oswald',sans-serif; letter-spacing:.03em; }
+.durc { white-space:nowrap; width:72px; }
+.dur-wrap { display:flex; align-items:center; gap:2px; }
+.dur-in { font-family:'Oswald',sans-serif; font-size:13px; color:#272727; background:transparent; border:none; outline:none; border-bottom:1px dashed #ccc; width:32px; text-align:right; transition:border-color .12s; }
+.dur-in:focus { border-bottom-color:#272727; color:#a61e0a; }
+.dur-lbl { font-size:10px; color:#aaa; font-family:'Oswald',sans-serif; }
+.dn { font-family:'Oswald',sans-serif; font-size:13px; font-weight:400; color:#272727; outline:none; border:none; background:transparent; width:100%; display:block; border-bottom:1px dashed transparent; transition:border-color .12s; }
+.dn:focus { color:#a61e0a; border-bottom-color:#a61e0a; }
+.dnotes { font-family:'Oswald',sans-serif; font-size:11px; font-weight:300; color:#666; background:transparent; border:none; outline:none; width:100%; resize:none; display:block; margin-top:2px; line-height:1.4; border-bottom:1px dashed transparent; }
+.dnotes:focus { color:#3a3f45; border-bottom-color:#ccc; }
+.dnotes::placeholder { color:#ccc; }
+.ddel { background:transparent; border:none; color:#ddd; cursor:pointer; font-size:13px; padding:2px 4px; transition:color .12s; }
+.ddel:hover { color:#a61e0a; }
+
+/* ADD DRILL AREA */
+.add-drill-wrap { position:relative; margin-top:8px; }
+.add-drill-btn { display:flex; align-items:center; gap:7px; background:transparent; border:2px dashed #ecece7; color:#aaa; padding:9px 16px; font-family:'Oswald',sans-serif; font-size:12px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer; width:100%; transition:all .14s; }
+.add-drill-btn:hover { border-color:#03a5e3; color:#03a5e3; background:#edf7ff; }
+
+/* DRILL LIBRARY DROPDOWN */
+.drill-lib { display:none; position:absolute; top:100%; left:0; right:0; background:#fff; border:1px solid #03a5e3; border-top:none; z-index:200; max-height:340px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.15); }
+.drill-lib.open { display:flex; flex-direction:column; }
+.lib-header { display:flex; align-items:center; gap:8px; padding:8px 12px; background:#272727; flex-shrink:0; }
+.lib-search { flex:1; background:#3a3f45; border:none; outline:none; color:#fff; font-family:'Oswald',sans-serif; font-size:12px; padding:5px 8px; font-weight:300; letter-spacing:.04em; }
+.lib-search::placeholder { color:#888; }
+.lib-add-new { padding:5px 12px; background:#03a5e3; color:#fff; border:none; font-family:'Oswald',sans-serif; font-size:11px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer; white-space:nowrap; transition:background .12s; flex-shrink:0; }
+.lib-add-new:hover { background:#4fcdfd; }
+.lib-list { overflow-y:auto; flex:1; }
+.lib-item { display:flex; align-items:center; padding:7px 12px; border-bottom:1px solid #f0f0f0; transition:background .1s; cursor:pointer; gap:8px; }
+.lib-item:hover { background:#edf7ff; }
+.lib-item:hover .lib-item-add { color:#03a5e3; }
+.lib-item-name { flex:1; font-family:'Oswald',sans-serif; font-size:13px; font-weight:300; color:#272727; }
+.lib-item-dur { font-family:'Oswald',sans-serif; font-size:11px; color:#aaa; white-space:nowrap; }
+.lib-item-add { font-size:16px; color:#ccc; transition:color .12s; line-height:1; }
+.lib-item-del { font-size:11px; color:#ddd; background:transparent; border:none; cursor:pointer; padding:0; transition:color .12s; line-height:1; }
+.lib-item-del:hover { color:#a61e0a; }
+.lib-empty { padding:20px; text-align:center; color:#aaa; font-size:12px; font-family:'Oswald',sans-serif; letter-spacing:.1em; }
+.lib-footer { padding:6px 12px; background:#f7f7f5; border-top:1px solid #ecece7; font-size:10px; color:#aaa; letter-spacing:.08em; flex-shrink:0; }
+
+/* DEPTH PANEL */
+.depth-panel { background:#fff; border-left:1px solid #ecece7; padding:14px 14px; overflow-y:auto; }
+.dg { margin-bottom:13px; }
+.dgt { font-family:'Oswald',sans-serif; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:.12em; color:#fff; padding:4px 9px; margin-bottom:4px; }
+.bg-att { background:#a61e0a; } .bg-mid { background:#03a5e3; } .bg-def { background:#272727; } .bg-gol { background:#3a3f45; } .bg-fo { background:#555; }
+.pl { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:2px; }
+.pc { display:flex; align-items:center; background:#f7f7f5; border:1px solid #ecece7; padding:4px 8px; font-family:'Oswald',sans-serif; font-size:12px; font-weight:300; cursor:grab; user-select:none; transition:all .1s; }
+.pc:hover { background:#edf7ff; border-color:#03a5e3; }
+.pc.dragging { opacity:.4; }
+.pc.drag-over { outline:2px solid #03a5e3; }
+.pr { font-size:9px; color:#aaa; min-width:16px; flex-shrink:0; }
+.pnf { flex:1; padding:0 5px; outline:none; border:none; background:transparent; font-family:'Oswald',sans-serif; font-size:12px; font-weight:300; color:#272727; border-bottom:1px dashed transparent; transition:border-color .12s; min-width:0; }
+.pnf:focus { border-bottom-color:#03a5e3; color:#a61e0a; cursor:text; }
+.pb { font-size:8px; padding:1px 5px; letter-spacing:.06em; font-weight:600; text-transform:uppercase; flex-shrink:0; }
+.b1 { background:#272727; color:#fff; } .b2 { background:#ecece7; color:#3a3f45; } .b3 { background:transparent; color:#ccc; }
+.pdel { background:transparent; border:none; color:#ccc; cursor:pointer; font-size:11px; padding:0 0 0 4px; transition:color .1s; flex-shrink:0; }
+.pdel:hover { color:#a61e0a; }
+.ap-row { display:flex; gap:3px; margin-top:4px; }
+.ap-in { flex:1; background:#f7f7f5; border:1px dashed #ccc; color:#272727; padding:4px 6px; font-family:'Oswald',sans-serif; font-size:11px; outline:none; }
+.ap-in:focus { border-color:#03a5e3; }
+.ap-btn { background:#03a5e3; color:#fff; border:none; padding:4px 8px; font-family:'Oswald',sans-serif; font-size:10px; cursor:pointer; letter-spacing:.06em; transition:background .1s; }
+.ap-btn:hover { background:#4fcdfd; }
+
+/* MODAL */
+.mo { position:fixed; inset:0; background:rgba(39,39,39,.78); z-index:500; display:flex; align-items:center; justify-content:center; backdrop-filter:blur(3px); }
+.mo.hidden { display:none; }
+.mbox { background:#fff; padding:24px 28px; min-width:380px; max-width:92vw; border-top:6px solid #03a5e3; box-shadow:0 12px 40px rgba(0,0,0,.22); animation:modalIn .2s ease; }
+@keyframes modalIn { from{opacity:0;transform:scale(.96);} to{opacity:1;transform:scale(1);} }
+.mbox h2 { font-size:1.6em; margin:0 0 16px; color:#272727; font-weight:400; }
+.mf { margin-bottom:11px; }
+.ml { font-size:9px; letter-spacing:.12em; color:#03a5e3; text-transform:uppercase; margin-bottom:3px; font-weight:600; }
+.mi { width:100%; border:1px solid #ecece7; background:#f7f7f5; color:#272727; padding:8px 11px; font-family:'Oswald',sans-serif; font-size:13px; font-weight:300; outline:none; }
+.mi:focus { border-color:#03a5e3; background:#edf7ff; }
+.mhint { font-size:10px; color:#aaa; margin-top:3px; font-style:italic; }
+.ma { display:flex; gap:8px; justify-content:flex-end; margin-top:16px; }
+
+/* TOAST */
+.toast { position:fixed; bottom:20px; right:20px; z-index:999; background:#272727; color:#fff; padding:9px 20px; font-family:'Oswald',sans-serif; font-size:12px; letter-spacing:.1em; text-transform:uppercase; border-left:4px solid #03a5e3; animation:tIn .22s ease, tOut .28s ease 1.9s forwards; pointer-events:none; }
+@keyframes tIn { from{opacity:0;transform:translateY(8px);} to{opacity:1;transform:translateY(0);} }
+@keyframes tOut { to{opacity:0;transform:translateY(8px);} }
+
+/* FOOTER */
+.app-footer { background:#272727; padding:10px 24px; font-size:11px; color:#888; letter-spacing:.05em; display:flex; justify-content:space-between; border-top:5px solid #03a5e3; }
+.app-footer span { color:#03a5e3; }
+
+/* ══════════════════════════════════════════
+   PRINT — single 8.5×11 sheet, 1in margins
+══════════════════════════════════════════ */
+@media print {
+  @page { size:8.5in 11in; margin:1in; }
+
+  /* Hide all interactive UI */
+  #splash, .header-actions, .dh, .ddel, .dur-in,
+  .add-drill-wrap, .ap-row, .pdel, .app-footer,
+  .date-native, .ampm-wrap, .ttd, button { display:none !important; }
+
+  html, body {
+    height:auto; overflow:visible; background:#fff !important;
+    /* Scale the whole page down to fit within 1in margins on 8.5×11 */
+    /* Printable area = 6.5in wide × 9in tall */
+  }
+
+  /* Remove scroll containers so content flows naturally */
+  #app { display:block !important; overflow:visible !important; }
+  #app.visible { animation:none; }
+  .plan-panel, .depth-panel { overflow:visible !important; height:auto !important; max-height:none !important; }
+
+  /* Use CSS transform to scale the full layout to fit */
+  /* At 96dpi, 6.5in = 624px wide. We design at ~900px so scale ≈ 0.69 */
+  /* But browsers handle @page margins + scale better with zoom */
+  html { zoom: 0.72; }
+
+  /* Header */
+  .app-header {
+    position:static !important; background:#fff !important;
+    border-top:3pt solid #03a5e3 !important; border-bottom:2pt solid #03a5e3 !important;
+    padding:4pt 0 !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .hbt { font-size:14pt !important; color:#272727 !important; }
+  .hbt span { color:#272727 !important; }
+  .inj-pill {
+    font-size:7pt !important; padding:2pt 6pt !important;
+    border:1pt solid #a61e0a !important; color:#a61e0a !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Two-column body layout */
+  .app-body {
+    display:grid !important;
+    grid-template-columns:1fr 200pt !important;
+    gap:12pt !important;
+    align-items:start !important;
+  }
+  .plan-panel { padding:0 !important; border-right:1pt solid #ddd !important; padding-right:10pt !important; }
+  .depth-panel { padding:0 !important; padding-left:10pt !important; background:#fff !important; border-left:none !important; }
+
+  /* Date bar */
+  .date-bar {
+    border:1.5pt solid #a61e0a !important; padding:4pt 8pt !important; margin-bottom:5pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .date-bar-value { font-size:12pt !important; }
+
+  /* Notes */
+  .notes-box { border:2pt solid #ecece7 !important; padding:5pt 8pt !important; margin-bottom:5pt !important; }
+
+  /* Info bar */
+  .info-bar { margin-bottom:5pt !important; }
+  .chip {
+    padding:2pt 6pt !important; font-size:7pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Quote */
+  .pquote {
+    padding:4pt 8pt !important; margin-bottom:5pt !important; font-size:8pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Section headings */
+  .sec-head {
+    font-size:9pt !important; margin-bottom:4pt !important; padding-bottom:2pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+
+  /* Drills table */
+  .dtable { font-size:7.5pt !important; }
+  .dtable thead tr { -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dtable thead th { padding:3pt 6pt !important; font-size:7pt !important; }
+  .drow td { padding:3pt 6pt !important; }
+  .drow { background:#fff !important; }
+  .drow:nth-child(even) { background:#f9f9f9 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dtc { font-size:7pt !important; color:#03a5e3 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .dn { font-size:7.5pt !important; }
+  .dnotes { font-size:6.5pt !important; color:#888 !important; }
+  /* Show duration as text via data attribute, hide the input wrapper */
+  .dur-wrap { display:none !important; }
+  .durc::after { content:attr(data-dur); font-family:'Oswald',sans-serif; font-size:7pt; color:#555; }
+
+  /* Start time row hidden — times already shown in table */
+  .st-row { display:none !important; }
+
+  /* ── DEPTH CHART — compact 2-col grid ── */
+  .depth-panel .sec-head { font-size:9pt !important; margin-bottom:6pt !important; }
+  #depthChart {
+    display:grid !important;
+    grid-template-columns:1fr 1fr !important;
+    gap:6pt 8pt !important;
+    align-items:start !important;
+  }
+  .dg { margin-bottom:0 !important; break-inside:avoid; }
+  .dgt {
+    font-size:7pt !important; padding:2pt 6pt !important; margin-bottom:2pt !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .pc {
+    padding:2pt 5pt !important; font-size:7pt !important;
+    background:#fff !important; border:0.5pt solid #ddd !important;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+  }
+  .pb { font-size:6pt !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  .pr { font-size:7pt !important; }
+}
+</style>
+</head>
+<body>
+
+<!-- SPLASH -->
+<div id="splash">
+  <div class="ss-top"></div><div class="ss-bot"></div>
+  <div class="s-school">Walt Whitman High School · Lacrosse</div>
+  <div class="s-title">PRACTICE<br><span class="ac">PLAN</span></div>
+  <div class="s-bar"></div>
+  <div class="s-quote">"To Begin, Begin"</div>
+  <div class="s-meta">Compete · Shake the Rust · 2.28.2026</div>
+  <button class="s-cta" onclick="enterApp()">Open Practice Plan</button>
+  <div class="s-inj">⚠ Injury Report<br>Danny (ankle) · Cooper (mono)</div>
+  <div class="s-datebl">SAT 2/28/2026 · 10:00 AM – 12:30 PM</div>
+</div>
+
+<!-- APP -->
+<div id="app">
+  <header class="app-header">
+    <div class="hbt">Whitman <span>LAX Practice Plan</span></div>
+    <div class="header-actions">
+      <div class="inj-pill"><div class="inj-dot"></div>Danny (ankle) · Cooper (mono)</div>
+      <button class="btn btn-blue" onclick="window.print()">🖨 Print / PDF</button>
+    </div>
+  </header>
+
+  <div class="app-body">
+    <!-- PLAN -->
+    <div class="plan-panel">
+
+      <!-- DATE BAR -->
+      <div class="date-bar">
+        <span class="date-bar-label">Date</span>
+        <span class="date-bar-value" id="dateDisplay">Saturday, February 28, 2026</span>
+        <input type="date" id="datePicker" class="date-native" value="2026-02-28">
+      </div>
+
+      <!-- COACH NOTES -->
+      <div class="notes-box">
+        <div class="nl">Coach Notes</div>
+        <div id="coachNotes" class="notes-f" contenteditable="true" spellcheck="false">Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One</div>
+        <hr class="notes-div">
+        <div class="nl nl-red">Overall Note</div>
+        <div id="overallNote" class="overall-f" contenteditable="true" spellcheck="false">Hard Hat Lesson One — Compete &amp; Shake the Rust</div>
+      </div>
+
+      <!-- INFO CHIPS -->
+      <div class="info-bar">
+        <div class="chip chip-blue">
+          <span class="chip-lbl">Focus:&nbsp;</span>
+          <span class="chip-e" contenteditable="true" id="focusText" spellcheck="false">Compete</span>
+        </div>
+        <div class="chip chip-dark" id="totalChip"></div>
+      </div>
+
+      <div class="pquote">"To Begin, Begin"</div>
+
+      <!-- START TIME -->
+      <div class="st-row">
+        <span class="st-lbl">Starts</span>
+        <input class="st-in" id="stIn" value="10:00" onchange="renderDrills()" onblur="renderDrills()">
+        <div class="ampm-wrap">
+          <button class="ampm-btn on" id="btnAM" onclick="setAmPm('AM')">AM</button>
+          <button class="ampm-btn" id="btnPM" onclick="setAmPm('PM')">PM</button>
+        </div>
+        <span class="ttd" id="ttd"></span>
+      </div>
+
+      <div class="sec-head">Drill Schedule</div>
+
+      <table class="dtable">
+        <thead><tr>
+          <th style="width:20px;"></th>
+          <th style="width:118px;">Time</th>
+          <th>Drill / Notes</th>
+          <th style="width:72px;">Mins</th>
+          <th style="width:28px;"></th>
+        </tr></thead>
+        <tbody id="drillsList"></tbody>
+      </table>
+
+      <!-- ADD DRILL + LIBRARY -->
+      <div class="add-drill-wrap" id="addDrillWrap">
+        <button class="add-drill-btn" id="addDrillBtn" onclick="toggleLibrary()">
+          <span id="addBtnText">+ Add Drill</span>
+          <span id="addBtnArrow" style="margin-left:auto; font-size:10px;">▼</span>
+        </button>
+        <div class="drill-lib" id="drillLib">
+          <div class="lib-header">
+            <input class="lib-search" id="libSearch" placeholder="Search drills…" oninput="renderLibrary()">
+            <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+          </div>
+          <div class="lib-list" id="libList"></div>
+          <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEPTH -->
+    <div class="depth-panel">
+      <div class="sec-head" style="font-size:1.1em;">Depth Chart</div>
+      <div id="depthChart"></div>
+    </div>
+  </div>
+
+  <footer class="app-footer">
+    <div>Walt Whitman High School · <span>Lacrosse</span></div>
+    <div>Practice <span id="footerDate">2/28/2026</span></div>
+  </footer>
+</div>
+
+<!-- ADD DRILL MODAL (for new library entries) -->
+<div class="mo hidden" id="newDrillModal">
+  <div class="mbox">
+    <h2>Add to Drill Library</h2>
+    <div class="mf">
+      <div class="ml">Drill Name</div>
+      <input class="mi" id="ndName" placeholder="e.g. 4v3 Transition">
+    </div>
+    <div class="mf">
+      <div class="ml">Default Duration (minutes)</div>
+      <input class="mi" id="ndDur" type="number" min="1" max="120" placeholder="10">
+    </div>
+    <div class="ma">
+      <button class="btn btn-dark" onclick="closeNewDrillModal()">Cancel</button>
+      <button class="btn btn-blue" onclick="saveNewDrillToLib()">Add to Library</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── DATA ──────────────────────────────────────────────────────────────
+let drills = [
+  { id:1,  dur:30, name:'Wall Ball Testing',        notes:'Partners — 2 groups' },
+  { id:2,  dur:10, name:'Warm Up',                  notes:'Sticks to the Outside' },
+  { id:3,  dur:10, name:'Meatloaf',                 notes:'3 Stations: GB Trail, 2v1 GB, Gauntlet' },
+  { id:4,  dur:10, name:'GB Fundies',               notes:'O: Fundy Shooting (Turn & Shoot, Swat Fly) · D: Hern' },
+  { id:5,  dur:12, name:'O/D Split',                notes:'O & D split sessions' },
+  { id:6,  dur:15, name:'3v3 Corner GBs to Goal',   notes:'Competitive — switch sides halfway through' },
+  { id:7,  dur:10, name:'2v2 +1 Circle GBs',        notes:'Competitive' },
+  { id:8,  dur:10, name:'1v1 Diamond',              notes:'Ohio to pairs' },
+  { id:9,  dur:10, name:'2v2',                      notes:'From Sides' },
+  { id:10, dur:15, name:'Numbers Drill',            notes:'' },
+  { id:11, dur:15, name:'Buildup Conditioning',     notes:'Quarter, Half, Full, Half, Quarter' },
+];
+
+// Drill library (master list, alphabetical)
+let drillLibrary = [
+  { lid:1,  name:'1v1 Diamond',            dur:10 },
+  { lid:2,  name:'1v1 Dodge Series',       dur:10 },
+  { lid:3,  name:'2v1 GB',                 dur:10 },
+  { lid:4,  name:'2v2',                    dur:10 },
+  { lid:5,  name:'2v2 +1 Circle GBs',      dur:10 },
+  { lid:6,  name:'3v3 Corner GBs to Goal', dur:15 },
+  { lid:7,  name:'4v3 Transition',         dur:12 },
+  { lid:8,  name:'Buildup Conditioning',   dur:15 },
+  { lid:9,  name:'Cage Shooting',          dur:10 },
+  { lid:10, name:'Clears',                 dur:10 },
+  { lid:11, name:'Fast Break',             dur:10 },
+  { lid:12, name:'GB Fundies',             dur:10 },
+  { lid:13, name:'Gauntlet',               dur:10 },
+  { lid:14, name:'Meatloaf',               dur:10 },
+  { lid:15, name:'Numbers Drill',          dur:15 },
+  { lid:16, name:'O/D Split',              dur:12 },
+  { lid:17, name:'Ride & Clear',           dur:10 },
+  { lid:18, name:'Settled Offense',        dur:15 },
+  { lid:19, name:'Settled Defense',        dur:15 },
+  { lid:20, name:'Turn & Shoot',           dur:10 },
+  { lid:21, name:'Wall Ball Testing',      dur:30 },
+  { lid:22, name:'Warm Up',               dur:10 },
+];
+
+let depthData = {
+  'ATTACK':        { cls:'att', players:['Tommy G','Danny','Colten','Jordan','Buck','Angus?','Byrd/Lowe?'] },
+  'MIDFIELD':      { cls:'mid', players:['Sean','Arkin','Dylan?','Jude','Bo?','Ziggy Powell','Magnus','Zach Worthen'] },
+  'DEFENSE — CD':  { cls:'def', players:['Durke','Lukas','Charm','Elliot','Henry','Cooper'] },
+  'DEFENSE — DM':  { cls:'def', players:['Franny','Conor G','Georges','Rafe?','Zaki?'] },
+  'DEFENSE — LSM': { cls:'def', players:['T-Sull','Jack Cummings','Aden (SSDM?)'] },
+  'GOALIE':        { cls:'gol', players:['Beckett'] },
+  'FACE-OFF':      { cls:'fo',  players:['Knox','Jake'] },
+};
+
+let nextId = 100;
+let nextLid = 50;
+let dragSrcDrill = null;
+let dragSrcPlayer = null;
+let startAmPm = 'AM';
+let libOpen = false;
+
+// ── DATE PICKER ───────────────────────────────────────────────────────
+// Use change event on the native input directly — reliable cross-browser
+document.getElementById('datePicker').addEventListener('change', function() {
+  const v = this.value; // "2026-02-28"
+  if (!v) return;
+  const [y, mo, d] = v.split('-').map(Number);
+  const dt = new Date(y, mo-1, d);
+  document.getElementById('dateDisplay').textContent = dt.toLocaleDateString('en-US', {
+    weekday:'long', year:'numeric', month:'long', day:'numeric'
+  });
+  document.getElementById('footerDate').textContent = `${mo}/${d}/${y}`;
+});
+
+// ── TIME UTILS ────────────────────────────────────────────────────────
+function getStartMins() {
+  const v = document.getElementById('stIn').value.trim();
+  const m = v.match(/^(\d{1,2}):(\d{2})/);
+  if (!m) return 600;
+  let h = parseInt(m[1]); const min = parseInt(m[2]);
+  if (startAmPm === 'PM' && h < 12) h += 12;
+  if (startAmPm === 'AM' && h === 12) h = 0;
+  return h*60 + min;
+}
+function mins12h(t) {
+  let h = Math.floor(t/60), m = t%60;
+  const ap = h >= 12 ? 'PM' : 'AM';
+  if (h > 12) h -= 12; if (h === 0) h = 12;
+  return `${h}:${String(m).padStart(2,'0')} ${ap}`;
+}
+function computeTimes() {
+  let c = getStartMins();
+  return drills.map(d => { const s=c, e=c+(parseInt(d.dur)||0); c=e; return {s:mins12h(s), e:mins12h(e)}; });
+}
+function totalMins() { return drills.reduce((a,d)=>a+(parseInt(d.dur)||0),0); }
+function updateChips() {
+  const t = totalMins(), h=Math.floor(t/60), m=t%60;
+  const lbl = h>0 ? `${h}h ${m>0?m+'m':''}`.trim() : `${m} min`;
+  document.getElementById('totalChip').innerHTML = `<span class="chip-lbl">Total:&nbsp;</span><span style="font-weight:500">${lbl}</span>`;
+  const times = computeTimes();
+  const end = times.length ? times[times.length-1].e : '—';
+  document.getElementById('ttd').innerHTML = `<strong>${mins12h(getStartMins())}</strong> → <strong>${end}</strong>&nbsp;·&nbsp;${lbl}`;
+}
+function setAmPm(v) {
+  startAmPm = v;
+  document.getElementById('btnAM').classList.toggle('on', v==='AM');
+  document.getElementById('btnPM').classList.toggle('on', v==='PM');
+  renderDrills();
+}
+
+// ── SPLASH ────────────────────────────────────────────────────────────
+function enterApp() {
+  document.getElementById('splash').classList.add('splash-out');
+  setTimeout(()=>{ document.getElementById('splash').style.display='none'; document.getElementById('app').classList.add('visible'); }, 400);
+}
+
+// ── RENDER DRILLS ─────────────────────────────────────────────────────
+function renderDrills() {
+  const times = computeTimes();
+  const tbody = document.getElementById('drillsList');
+  tbody.innerHTML = '';
+  drills.forEach((d, idx) => {
+    const t = times[idx];
+    const tr = document.createElement('tr');
+    tr.className = 'drow';
+    tr.draggable = true;
+    // data-dur for print CSS
+    const durTd = `<td class="durc" data-dur="${d.dur} min"><div class="dur-wrap"><input class="dur-in" type="number" min="1" max="240" value="${d.dur}" onchange="updDur(${d.id},this.value)" onblur="updDur(${d.id},this.value)"><span class="dur-lbl">min</span></div></td>`;
+    tr.innerHTML = `
+      <td class="dh" title="Drag to reorder">⠿</td>
+      <td class="dtc">${t.s}–${t.e}</td>
+      <td>
+        <div class="dn" contenteditable="true" onblur="updName(${d.id},this.innerText)" spellcheck="false">${esc(d.name)}</div>
+        <textarea class="dnotes" rows="1" placeholder="Notes…" onchange="updNotes(${d.id},this.value)">${esc(d.notes)}</textarea>
+      </td>
+      ${durTd}
+      <td style="text-align:center"><button class="ddel" onclick="delDrill(${d.id})">✕</button></td>`;
+    tr.addEventListener('dragstart', e=>{ dragSrcDrill=idx; tr.classList.add('dragging'); e.dataTransfer.effectAllowed='move'; });
+    tr.addEventListener('dragend', ()=>tr.classList.remove('dragging'));
+    tr.addEventListener('dragover', e=>{ e.preventDefault(); tr.classList.add('drag-over'); });
+    tr.addEventListener('dragleave', ()=>tr.classList.remove('drag-over'));
+    tr.addEventListener('drop', e=>{
+      e.preventDefault(); tr.classList.remove('drag-over');
+      if (dragSrcDrill===null||dragSrcDrill===idx) return;
+      const [m]=drills.splice(dragSrcDrill,1); drills.splice(idx,0,m);
+      dragSrcDrill=null; renderDrills(); showToast('Reordered — times updated');
+    });
+    tbody.appendChild(tr);
+  });
+  updateChips();
+}
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function updName(id,v){ const d=drills.find(x=>x.id===id); if(d) d.name=v.trim(); }
+function updNotes(id,v){ const d=drills.find(x=>x.id===id); if(d) d.notes=v; }
+function updDur(id,v){ const d=drills.find(x=>x.id===id); const n=Math.max(1,parseInt(v)||1); if(d&&d.dur!==n){d.dur=n;renderDrills();} }
+function delDrill(id){ drills=drills.filter(x=>x.id!==id); renderDrills(); showToast('Drill removed'); }
+
+// Add from library
+function addDrillFromLib(lid) {
+  const entry = drillLibrary.find(x=>x.lid===lid);
+  if (!entry) return;
+  drills.push({ id:nextId++, dur: entry.dur, name: entry.name, notes:'' });
+  renderDrills();
+  showToast(`"${entry.name}" added`);
+}
+
+// ── DRILL LIBRARY ─────────────────────────────────────────────────────
+function toggleLibrary() {
+  libOpen = !libOpen;
+  document.getElementById('drillLib').classList.toggle('open', libOpen);
+  document.getElementById('addBtnArrow').textContent = libOpen ? '▲' : '▼';
+  if (libOpen) { renderLibrary(); document.getElementById('libSearch').focus(); }
+}
+
+function renderLibrary() {
+  const q = (document.getElementById('libSearch').value || '').toLowerCase();
+  const list = document.getElementById('libList');
+  const sorted = [...drillLibrary].sort((a,b)=>a.name.localeCompare(b.name));
+  const filtered = q ? sorted.filter(d=>d.name.toLowerCase().includes(q)) : sorted;
+  if (!filtered.length) { list.innerHTML = '<div class="lib-empty">No drills found</div>'; return; }
+  list.innerHTML = '';
+  filtered.forEach(d => {
+    const row = document.createElement('div');
+    row.className = 'lib-item';
+    row.innerHTML = `
+      <span class="lib-item-name">${esc(d.name)}</span>
+      <span class="lib-item-dur">${d.dur} min</span>
+      <span class="lib-item-add">＋</span>
+      <button class="lib-item-del" onclick="event.stopPropagation(); delFromLib(${d.lid})" title="Remove from library">✕</button>`;
+    row.addEventListener('click', ()=>{ addDrillFromLib(d.lid); });
+    list.appendChild(row);
+  });
+}
+
+function delFromLib(lid) {
+  drillLibrary = drillLibrary.filter(x=>x.lid!==lid);
+  renderLibrary(); showToast('Removed from library');
+}
+
+// Close library when clicking outside
+document.addEventListener('click', e=>{
+  if (libOpen && !document.getElementById('addDrillWrap').contains(e.target)) {
+    libOpen=false;
+    document.getElementById('drillLib').classList.remove('open');
+    document.getElementById('addBtnArrow').textContent='▼';
+  }
+});
+
+// New drill modal
+function openNewDrillModal() {
+  document.getElementById('newDrillModal').classList.remove('hidden');
+  document.getElementById('ndName').focus();
+}
+function closeNewDrillModal() { document.getElementById('newDrillModal').classList.add('hidden'); }
+function saveNewDrillToLib() {
+  const name = document.getElementById('ndName').value.trim();
+  const dur  = parseInt(document.getElementById('ndDur').value) || 10;
+  if (!name) return;
+  drillLibrary.push({ lid:nextLid++, name, dur });
+  closeNewDrillModal();
+  document.getElementById('ndName').value='';
+  document.getElementById('ndDur').value='';
+  renderLibrary();
+  showToast(`"${name}" added to library`);
+}
+document.getElementById('newDrillModal').addEventListener('click', e=>{ if(e.target.id==='newDrillModal') closeNewDrillModal(); });
+
+// ── DEPTH ─────────────────────────────────────────────────────────────
+function renderDepth() {
+  const el = document.getElementById('depthChart');
+  el.innerHTML = '';
+  Object.entries(depthData).forEach(([group,data])=>{
+    const key = group.replace(/[^a-z0-9]/gi,'_');
+    const div = document.createElement('div'); div.className='dg';
+    let html=`<div class="dgt bg-${data.cls}">${group}</div><ul class="pl" id="pl-${key}">`;
+    data.players.forEach((p,i)=>{
+      const bc=i===0?'b1':i<=2?'b2':'b3';
+      html+=`<li class="pc" draggable="true" data-group="${group}" data-idx="${i}">
+        <span class="pr">${i+1}</span>
+        <span class="pnf" contenteditable="true" spellcheck="false"
+          onblur="updPlayer('${group}',${i},this.innerText)"
+          title="Click to edit">${esc(p)}</span>
+        <span class="pb ${bc}">#${i+1}</span>
+        <button class="pdel" onclick="delPlayer('${group}',${i})">✕</button>
+      </li>`;
+    });
+    html+=`</ul><div class="ap-row">
+      <input class="ap-in" placeholder="Add player…" id="pi-${key}" onkeydown="if(event.key==='Enter')addPlayer('${group}')">
+      <button class="ap-btn" onclick="addPlayer('${group}')">+ Add</button>
+    </div>`;
+    div.innerHTML=html; el.appendChild(div);
+  });
+  document.querySelectorAll('.pc').forEach(chip=>{
+    chip.querySelector('.pnf').addEventListener('mousedown', e=>e.stopPropagation());
+    chip.addEventListener('dragstart',()=>{ dragSrcPlayer={group:chip.dataset.group,idx:+chip.dataset.idx}; chip.classList.add('dragging'); });
+    chip.addEventListener('dragend',()=>chip.classList.remove('dragging'));
+    chip.addEventListener('dragover',e=>{ e.preventDefault(); chip.classList.add('drag-over'); });
+    chip.addEventListener('dragleave',()=>chip.classList.remove('drag-over'));
+    chip.addEventListener('drop',e=>{
+      e.preventDefault(); chip.classList.remove('drag-over');
+      if(!dragSrcPlayer) return;
+      const tG=chip.dataset.group,tI=+chip.dataset.idx,{group:sG,idx:sI}=dragSrcPlayer;
+      const [p]=depthData[sG].players.splice(sI,1); depthData[tG].players.splice(tI,0,p);
+      dragSrcPlayer=null; renderDepth(); showToast('Depth updated');
+    });
+  });
+}
+function updPlayer(g,i,v){ const c=v.trim(); if(c) depthData[g].players[i]=c; }
+function addPlayer(g){
+  const k=g.replace(/[^a-z0-9]/gi,'_'), inp=document.getElementById('pi-'+k);
+  if(!inp?.value.trim()) return;
+  depthData[g].players.push(inp.value.trim()); renderDepth(); showToast('Player added');
+}
+function delPlayer(g,i){ depthData[g].players.splice(i,1); renderDepth(); showToast('Player removed'); }
+
+// ── TOAST ─────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+  document.body.appendChild(t); setTimeout(()=>t.remove(),2400);
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────
+renderDrills();
+renderDepth();
+</script>
+</body>
+</html>
