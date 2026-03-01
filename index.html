@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Whitman LAX — Practice Plan</title>
-<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.montgomeryschoolsmd.org/schools-css/whitmanhs/main.css">
 <!-- Backend CSS -->
 <link rel="stylesheet" href="backend/base.css">
@@ -29,7 +29,12 @@
   <div class="s-bar"></div>
   <div class="s-quote">"To Begin, Begin"</div>
   <div class="s-meta">Compete · Shake the Rust · 2.28.2026</div>
-  <button class="s-cta" onclick="enterApp()">Open Practice Plan</button>
+  <div class="s-pw-wrap">
+    <input type="password" id="s-pw" class="s-pw-in" placeholder="Password"
+      onkeydown="if(event.key==='Enter')checkPassword()" autofocus>
+    <div class="s-pw-err" id="s-pw-err"></div>
+  </div>
+  <button class="s-cta" onclick="checkPassword()">Open Practice Plan</button>
   <div class="s-inj">⚠ Injury Report<br>Danny (ankle) · Cooper (mono)</div>
   <div class="s-datebl">SAT 2/28/2026 · 10:00 AM – 12:30 PM</div>
 </div>

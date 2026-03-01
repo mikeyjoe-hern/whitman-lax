@@ -87,7 +87,7 @@
   .dnotes { font-size:6.5pt !important; color:#888 !important; }
   /* Show duration as text via data attribute, hide the input wrapper */
   .dur-wrap { display:none !important; }
-  .durc::after { content:attr(data-dur); font-family:'Oswald',sans-serif; font-size:7pt; color:#555; }
+  .durc::after { content:attr(data-dur); font-family:'Oxygen',sans-serif; font-size:7pt; color:#555; }
 
   /* Start time row hidden — times already shown in table */
   .st-row { display:none !important; }

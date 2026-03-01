@@ -6,7 +6,7 @@
 .mbox h2 { font-size:1.6em; margin:0 0 16px; color:#272727; font-weight:400; }
 .mf { margin-bottom:11px; }
 .ml { font-size:9px; letter-spacing:.12em; color:#03a5e3; text-transform:uppercase; margin-bottom:3px; font-weight:600; }
-.mi { width:100%; border:1px solid #ecece7; background:#f7f7f5; color:#272727; padding:8px 11px; font-family:'Oswald',sans-serif; font-size:13px; font-weight:300; outline:none; }
+.mi { width:100%; border:1px solid #ecece7; background:#f7f7f5; color:#272727; padding:8px 11px; font-family:'Oxygen',sans-serif; font-size:13px; font-weight:300; outline:none; }
 .mi:focus { border-color:#03a5e3; background:#edf7ff; }
 .mhint { font-size:10px; color:#aaa; margin-top:3px; font-style:italic; }
 .ma { display:flex; gap:8px; justify-content:flex-end; margin-top:16px; }
