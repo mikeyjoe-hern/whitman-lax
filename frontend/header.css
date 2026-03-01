@@ -1,0 +1,8 @@
+/* ── HEADER ── */
+.app-header { background:#272727; border-top:6px solid #03a5e3; border-bottom:5px solid #03a5e3; padding:12px 24px; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; flex-wrap:wrap; gap:8px; }
+.hbt { color:#03a5e3; font-family:'Oswald',sans-serif; font-size:1.7em; font-weight:600; text-transform:uppercase; letter-spacing:.04em; margin:0; }
+.hbt span { font-weight:300; color:#fff; font-size:.52em; }
+.header-actions { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.inj-pill { background:rgba(166,30,10,.15); border:1px solid #a61e0a; color:#a61e0a; padding:5px 10px; font-size:10px; letter-spacing:.04em; text-transform:uppercase; display:flex; align-items:center; gap:5px; }
+.inj-dot { width:6px; height:6px; border-radius:50%; background:#a61e0a; animation:blink 1.4s infinite; }
+@keyframes blink { 0%,100%{opacity:1;} 50%{opacity:.2;} }
