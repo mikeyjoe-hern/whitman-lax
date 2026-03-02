@@ -1,5 +1,5 @@
 // ── SAVE STATE ────────────────────────────────────────────────────────
-const SAVE_TOKEN = '__SAVE_TOKEN__';
+const SAVE_TOKEN = '__SAVE_TOKEN_A__' + '__SAVE_TOKEN_B__';
 const REPO = 'mikeyjoe-hern/whitman-lax';
 const STATE_FILE = 'backend/saved-state.js';
 
@@ -23,7 +23,7 @@ function collectState() {
 }
 
 async function saveState() {
-  if (!SAVE_TOKEN) {
+  if (!SAVE_TOKEN || SAVE_TOKEN.includes('__')) {
     showToast('Save not configured — add SAVE_TOKEN secret'); return;
   }
   showToast('Saving…');
