@@ -23,7 +23,7 @@ function collectState() {
 }
 
 async function saveState() {
-  if (!SAVE_TOKEN || SAVE_TOKEN === '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') {
+  if (!SAVE_TOKEN) {
     showToast('Save not configured — add SAVE_TOKEN secret'); return;
   }
   showToast('Saving…');
