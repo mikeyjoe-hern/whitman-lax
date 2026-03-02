@@ -25,16 +25,37 @@ function renderDepth() {
   });
   document.querySelectorAll('.pc').forEach(chip=>{
     chip.querySelector('.pnf').addEventListener('mousedown', e=>e.stopPropagation());
-    chip.addEventListener('dragstart',()=>{ dragSrcPlayer={group:chip.dataset.group,idx:+chip.dataset.idx}; chip.classList.add('dragging'); });
-    chip.addEventListener('dragend',()=>chip.classList.remove('dragging'));
-    chip.addEventListener('dragover',e=>{ e.preventDefault(); chip.classList.add('drag-over'); });
-    chip.addEventListener('dragleave',()=>chip.classList.remove('drag-over'));
+    chip.addEventListener('dragstart',()=>{
+      dragSrcPlayer={group:chip.dataset.group,idx:+chip.dataset.idx};
+      chip.classList.add('dragging');
+    });
+    chip.addEventListener('dragend',()=>{
+      chip.classList.remove('dragging');
+      document.querySelectorAll('.pc').forEach(c=>c.classList.remove('insert-before','insert-after'));
+    });
+    chip.addEventListener('dragover',e=>{
+      e.preventDefault();
+      document.querySelectorAll('.pc').forEach(c=>c.classList.remove('insert-before','insert-after'));
+      const rect=chip.getBoundingClientRect();
+      chip.classList.add(e.clientY < rect.top+rect.height/2 ? 'insert-before' : 'insert-after');
+    });
+    chip.addEventListener('dragleave',()=>chip.classList.remove('insert-before','insert-after'));
     chip.addEventListener('drop',e=>{
-      e.preventDefault(); chip.classList.remove('drag-over');
+      e.preventDefault();
+      chip.classList.remove('insert-before','insert-after');
       if(!dragSrcPlayer) return;
-      const tG=chip.dataset.group,tI=+chip.dataset.idx,{group:sG,idx:sI}=dragSrcPlayer;
-      const [p]=depthData[sG].players.splice(sI,1); depthData[tG].players.splice(tI,0,p);
-      dragSrcPlayer=null; renderDepth(); showToast('Depth updated');
+      const rect=chip.getBoundingClientRect();
+      const insertBefore=e.clientY < rect.top+rect.height/2;
+      const tG=chip.dataset.group;
+      let tI=+chip.dataset.idx;
+      if(!insertBefore) tI+=1;
+      const {group:sG,idx:sI}=dragSrcPlayer;
+      dragSrcPlayer=null;
+      const [p]=depthData[sG].players.splice(sI,1);
+      if(sG===tG && sI<tI) tI-=1;
+      tI=Math.max(0,Math.min(tI,depthData[tG].players.length));
+      depthData[tG].players.splice(tI,0,p);
+      renderDepth(); showToast('Depth updated');
     });
   });
 }

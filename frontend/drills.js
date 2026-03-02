@@ -19,15 +19,38 @@ function renderDrills(d) {
       </td>
       ${durTd}
       <td style="text-align:center"><button class="ddel" onclick="delDrill(${d},${dr.id})">✕</button></td>`;
-    tr.addEventListener('dragstart', e=>{ days[d].dragSrcDrill=idx; tr.classList.add('dragging'); e.dataTransfer.effectAllowed='move'; });
-    tr.addEventListener('dragend', ()=>tr.classList.remove('dragging'));
-    tr.addEventListener('dragover', e=>{ e.preventDefault(); tr.classList.add('drag-over'); });
-    tr.addEventListener('dragleave', ()=>tr.classList.remove('drag-over'));
+    tr.addEventListener('dragstart', e=>{
+      days[d].dragSrcDrill=idx;
+      tr.classList.add('dragging');
+      e.dataTransfer.effectAllowed='move';
+    });
+    tr.addEventListener('dragend', ()=>{
+      tr.classList.remove('dragging');
+      document.querySelectorAll(`#drillsList-${d} .drow`).forEach(r=>r.classList.remove('insert-before','insert-after'));
+    });
+    tr.addEventListener('dragover', e=>{
+      e.preventDefault();
+      document.querySelectorAll(`#drillsList-${d} .drow`).forEach(r=>r.classList.remove('insert-before','insert-after'));
+      const rect=tr.getBoundingClientRect();
+      tr.classList.add(e.clientY < rect.top+rect.height/2 ? 'insert-before' : 'insert-after');
+    });
+    tr.addEventListener('dragleave', ()=>tr.classList.remove('insert-before','insert-after'));
     tr.addEventListener('drop', e=>{
-      e.preventDefault(); tr.classList.remove('drag-over');
-      if (days[d].dragSrcDrill===null||days[d].dragSrcDrill===idx) return;
-      const [m]=days[d].drills.splice(days[d].dragSrcDrill,1); days[d].drills.splice(idx,0,m);
-      days[d].dragSrcDrill=null; renderDrills(d); showToast('Reordered — times updated');
+      e.preventDefault();
+      tr.classList.remove('insert-before','insert-after');
+      if(days[d].dragSrcDrill===null) return;
+      const rect=tr.getBoundingClientRect();
+      const insertBefore=e.clientY < rect.top+rect.height/2;
+      let tI=idx;
+      if(!insertBefore) tI+=1;
+      const sI=days[d].dragSrcDrill;
+      days[d].dragSrcDrill=null;
+      if(sI===tI||sI===tI-1) return;
+      const [m]=days[d].drills.splice(sI,1);
+      if(sI<tI) tI-=1;
+      tI=Math.max(0,Math.min(tI,days[d].drills.length));
+      days[d].drills.splice(tI,0,m);
+      renderDrills(d); showToast('Reordered — times updated');
     });
     tbody.appendChild(tr);
   });

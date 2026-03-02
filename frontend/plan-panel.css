@@ -47,7 +47,8 @@
 .drow:nth-child(even) { background:#f7f7f5; }
 .drow:hover { background:#edf7ff; }
 .drow.dragging { opacity:.4; box-shadow:0 4px 16px rgba(0,0,0,.15); }
-.drow.drag-over { outline:2px solid #03a5e3; background:#e4f4fc; }
+.drow.insert-before { box-shadow: 0 -2px 0 0 #03a5e3; }
+.drow.insert-after  { box-shadow: 0 2px 0 0 #03a5e3; }
 .drow td { padding:7px 10px; vertical-align:middle; }
 .dh { color:#ccc; font-size:13px; cursor:grab; width:20px; padding:7px 4px 7px 10px !important; }
 .dtc { font-size:11px; color:#03a5e3; font-weight:400; white-space:nowrap; min-width:110px; font-family:'Oxygen',sans-serif; letter-spacing:.03em; }
@@ -65,13 +66,10 @@
 .ddel:hover { color:#a61e0a; }
 
 /* ADD DRILL AREA */
-.add-drill-wrap { position:relative; margin-top:8px; }
-.add-drill-btn { display:flex; align-items:center; gap:7px; background:transparent; border:2px dashed #ecece7; color:#aaa; padding:9px 16px; font-family:'Oxygen',sans-serif; font-size:12px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer; width:100%; transition:all .14s; }
+.add-drill-btn { display:flex; align-items:center; gap:7px; background:transparent; border:2px dashed #ecece7; color:#aaa; padding:9px 16px; font-family:'Oxygen',sans-serif; font-size:12px; letter-spacing:.1em; text-transform:uppercase; cursor:pointer; width:100%; margin-top:8px; transition:all .14s; }
 .add-drill-btn:hover { border-color:#03a5e3; color:#03a5e3; background:#edf7ff; }
 
-/* DRILL LIBRARY DROPDOWN */
-.drill-lib { display:none; position:absolute; top:100%; left:0; right:0; background:#fff; border:1px solid #03a5e3; border-top:none; z-index:200; max-height:340px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,.15); }
-.drill-lib.open { display:flex; flex-direction:column; }
+/* DRILL LIBRARY (shared modal styles) */
 .lib-header { display:flex; align-items:center; gap:8px; padding:8px 12px; background:#272727; flex-shrink:0; }
 .lib-search { flex:1; background:#3a3f45; border:none; outline:none; color:#fff; font-family:'Oxygen',sans-serif; font-size:12px; padding:5px 8px; font-weight:300; letter-spacing:.04em; }
 .lib-search::placeholder { color:#888; }

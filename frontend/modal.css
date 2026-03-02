@@ -10,3 +10,11 @@
 .mi:focus { border-color:#03a5e3; background:#edf7ff; }
 .mhint { font-size:10px; color:#aaa; margin-top:3px; font-style:italic; }
 .ma { display:flex; gap:8px; justify-content:flex-end; margin-top:16px; }
+
+/* ── DRILL LIBRARY MODAL ── */
+.mbox-lib { min-width:440px; max-width:560px; width:90vw; padding:0; display:flex; flex-direction:column; max-height:80vh; }
+.mbox-lib-header { display:flex; align-items:center; justify-content:space-between; padding:16px 20px 12px; }
+.mbox-lib-header h2 { margin:0; font-size:1.3em; color:#272727; font-weight:400; }
+.lib-modal-close { background:transparent; border:none; font-size:18px; color:#aaa; cursor:pointer; padding:0; line-height:1; transition:color .12s; }
+.lib-modal-close:hover { color:#a61e0a; }
+.mbox-lib .lib-list { flex:1; overflow-y:auto; max-height:50vh; }

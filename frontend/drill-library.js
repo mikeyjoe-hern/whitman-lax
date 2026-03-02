@@ -1,26 +1,19 @@
 // ── DRILL LIBRARY ─────────────────────────────────────────────────────
-function toggleLibrary(d) {
-  const isOpen = document.getElementById(`drillLib-${d}`).classList.contains('open');
-  // Close all panels first
-  [0,1,2].forEach(i => {
-    document.getElementById(`drillLib-${i}`).classList.remove('open');
-    document.getElementById(`addBtnArrow-${i}`).textContent = '▼';
-  });
-  if (!isOpen) {
-    libOpen = true;
-    libForDay = d;
-    document.getElementById(`drillLib-${d}`).classList.add('open');
-    document.getElementById(`addBtnArrow-${d}`).textContent = '▲';
-    renderLibrary(d);
-    document.getElementById(`libSearch-${d}`).focus();
-  } else {
-    libOpen = false;
-  }
+function openDrillLibModal(d) {
+  libForDay = d;
+  document.getElementById('drillLibModal').classList.remove('hidden');
+  document.getElementById('libSearchModal').value = '';
+  renderLibraryModal();
+  document.getElementById('libSearchModal').focus();
 }
 
-function renderLibrary(d) {
-  const q = (document.getElementById(`libSearch-${d}`).value || '').toLowerCase();
-  const list = document.getElementById(`libList-${d}`);
+function closeDrillLibModal() {
+  document.getElementById('drillLibModal').classList.add('hidden');
+}
+
+function renderLibraryModal() {
+  const q = (document.getElementById('libSearchModal').value || '').toLowerCase();
+  const list = document.getElementById('libListModal');
   const sorted = [...drillLibrary].sort((a,b)=>a.name.localeCompare(b.name));
   const filtered = q ? sorted.filter(dr=>dr.name.toLowerCase().includes(q)) : sorted;
   if (!filtered.length) { list.innerHTML = '<div class="lib-empty">No drills found</div>'; return; }
@@ -40,20 +33,12 @@ function renderLibrary(d) {
 
 function delFromLib(lid) {
   drillLibrary = drillLibrary.filter(x=>x.lid!==lid);
-  renderLibrary(libForDay); showToast('Removed from library');
+  renderLibraryModal(); showToast('Removed from library');
 }
 
-// Close library when clicking outside
-document.addEventListener('click', e=>{
-  if (!libOpen) return;
-  const inAnyWrap = [0,1,2].some(i => document.getElementById(`addDrillWrap-${i}`).contains(e.target));
-  if (!inAnyWrap) {
-    libOpen = false;
-    [0,1,2].forEach(i => {
-      document.getElementById(`drillLib-${i}`).classList.remove('open');
-      document.getElementById(`addBtnArrow-${i}`).textContent = '▼';
-    });
-  }
+// Close modal on backdrop click
+document.getElementById('drillLibModal').addEventListener('click', e=>{
+  if (e.target.id === 'drillLibModal') closeDrillLibModal();
 });
 
 // New drill modal
@@ -70,7 +55,7 @@ function saveNewDrillToLib() {
   closeNewDrillModal();
   document.getElementById('ndName').value='';
   document.getElementById('ndDur').value='';
-  renderLibrary(libForDay);
+  renderLibraryModal();
   showToast(`"${name}" added to library`);
 }
 document.getElementById('newDrillModal').addEventListener('click', e=>{ if(e.target.id==='newDrillModal') closeNewDrillModal(); });
