@@ -1,11 +1,13 @@
 // ── DATE PICKER ───────────────────────────────────────────────────────
-document.getElementById('datePicker').addEventListener('change', function() {
-  const v = this.value; // "2026-02-28"
-  if (!v) return;
-  const [y, mo, d] = v.split('-').map(Number);
-  const dt = new Date(y, mo-1, d);
-  document.getElementById('dateDisplay').textContent = dt.toLocaleDateString('en-US', {
-    weekday:'long', year:'numeric', month:'long', day:'numeric'
+[0, 1, 2].forEach(d => {
+  document.getElementById(`datePicker-${d}`).addEventListener('change', function() {
+    const v = this.value;
+    if (!v) return;
+    const [y, mo, day] = v.split('-').map(Number);
+    const dt = new Date(y, mo-1, day);
+    document.getElementById(`dateDisplay-${d}`).textContent = dt.toLocaleDateString('en-US', {
+      weekday:'long', year:'numeric', month:'long', day:'numeric'
+    });
+    if (d === 0) document.getElementById('footerDate').textContent = `${mo}/${day}/${y}`;
   });
-  document.getElementById('footerDate').textContent = `${mo}/${d}/${y}`;
 });

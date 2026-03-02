@@ -1,6 +1,7 @@
 /* ── DEPTH CHART PANEL ── */
-.depth-panel { background:#fff; border-left:1px solid #ecece7; padding:14px 14px; overflow-y:auto; }
-.dg { margin-bottom:13px; }
+.depth-panel { background:#fff; border-top:3px solid #03a5e3; padding:14px 20px; overflow-y:visible; }
+#depthChart { display:flex; flex-wrap:wrap; gap:12px; }
+.dg { flex:1; min-width:140px; }
 .dgt { font-family:'Oxygen',sans-serif; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:#fff; padding:4px 9px; margin-bottom:4px; }
 .bg-att { background:#a61e0a; } .bg-mid { background:#03a5e3; } .bg-def { background:#272727; } .bg-gol { background:#3a3f45; } .bg-fo { background:#555; }
 .pl { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:2px; }

@@ -5,8 +5,10 @@
 .btn-dark { background:#3a3f45; color:#fff; border:1px solid #555; }
 .btn-dark:hover { background:#010101; }
 
-/* ── BODY GRID ── */
-.app-body { display:grid; grid-template-columns:1fr 280px; gap:0; flex:1; }
+/* ── BODY LAYOUT ── */
+.app-body { display:flex; flex-direction:column; flex:1; }
+.days-row { display:grid; grid-template-columns:1fr 1fr 1fr; }
+.plan-panel:not(:last-child) { border-right:2px solid #ecece7; }
 
 /* ── SECTION HEADING ── */
 .sec-head { font-family:'Oxygen',sans-serif; font-size:1.3em; font-weight:400; text-transform:uppercase; color:#272727; border-bottom:3px solid #03a5e3; padding-bottom:4px; margin:0 0 10px 0; letter-spacing:.04em; }

@@ -1,3 +1,3 @@
 // ── INIT ──────────────────────────────────────────────────────────────
-renderDrills();
+[0, 1, 2].forEach(d => renderDrills(d));
 renderDepth();

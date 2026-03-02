@@ -1,16 +1,24 @@
 // ── DATA ──────────────────────────────────────────────────────────────
-let drills = [
-  { id:1,  dur:30, name:'Wall Ball Testing',        notes:'Partners — 2 groups' },
-  { id:2,  dur:10, name:'Warm Up',                  notes:'Sticks to the Outside' },
-  { id:3,  dur:10, name:'Meatloaf',                 notes:'3 Stations: GB Trail, 2v1 GB, Gauntlet' },
-  { id:4,  dur:10, name:'GB Fundies',               notes:'O: Fundy Shooting (Turn & Shoot, Swat Fly) · D: Hern' },
-  { id:5,  dur:12, name:'O/D Split',                notes:'O & D split sessions' },
-  { id:6,  dur:15, name:'3v3 Corner GBs to Goal',   notes:'Competitive — switch sides halfway through' },
-  { id:7,  dur:10, name:'2v2 +1 Circle GBs',        notes:'Competitive' },
-  { id:8,  dur:10, name:'1v1 Diamond',              notes:'Ohio to pairs' },
-  { id:9,  dur:10, name:'2v2',                      notes:'From Sides' },
-  { id:10, dur:15, name:'Numbers Drill',            notes:'' },
-  { id:11, dur:15, name:'Buildup Conditioning',     notes:'Quarter, Half, Full, Half, Quarter' },
+function _defaultDrills() {
+  return [
+    { id:1,  dur:30, name:'Wall Ball Testing',        notes:'Partners — 2 groups' },
+    { id:2,  dur:10, name:'Warm Up',                  notes:'Sticks to the Outside' },
+    { id:3,  dur:10, name:'Meatloaf',                 notes:'3 Stations: GB Trail, 2v1 GB, Gauntlet' },
+    { id:4,  dur:10, name:'GB Fundies',               notes:'O: Fundy Shooting (Turn & Shoot, Swat Fly) · D: Hern' },
+    { id:5,  dur:12, name:'O/D Split',                notes:'O & D split sessions' },
+    { id:6,  dur:15, name:'3v3 Corner GBs to Goal',   notes:'Competitive — switch sides halfway through' },
+    { id:7,  dur:10, name:'2v2 +1 Circle GBs',        notes:'Competitive' },
+    { id:8,  dur:10, name:'1v1 Diamond',              notes:'Ohio to pairs' },
+    { id:9,  dur:10, name:'2v2',                      notes:'From Sides' },
+    { id:10, dur:15, name:'Numbers Drill',            notes:'' },
+    { id:11, dur:15, name:'Buildup Conditioning',     notes:'Quarter, Half, Full, Half, Quarter' },
+  ];
+}
+
+let days = [
+  { drills: _defaultDrills(), nextId: 100, dragSrcDrill: null, startAmPm: 'AM' },
+  { drills: [],               nextId: 200, dragSrcDrill: null, startAmPm: 'AM' },
+  { drills: [],               nextId: 300, dragSrcDrill: null, startAmPm: 'AM' },
 ];
 
 // Drill library (master list, alphabetical)
@@ -49,9 +57,7 @@ let depthData = {
   'FACE-OFF':      { cls:'fo',  players:['Knox','Jake'] },
 };
 
-let nextId = 100;
 let nextLid = 50;
-let dragSrcDrill = null;
 let dragSrcPlayer = null;
-let startAmPm = 'AM';
 let libOpen = false;
+let libForDay = 0;

@@ -50,78 +50,185 @@
   </header>
 
   <div class="app-body">
-    <!-- PLAN -->
-    <div class="plan-panel">
+    <div class="days-row">
 
-      <!-- DATE BAR -->
-      <div class="date-bar">
-        <span class="date-bar-label">Date</span>
-        <span class="date-bar-value" id="dateDisplay">Saturday, February 28, 2026</span>
-        <input type="date" id="datePicker" class="date-native" value="2026-02-28">
-      </div>
-
-      <!-- COACH NOTES -->
-      <div class="notes-box">
-        <div class="nl">Coach Notes</div>
-        <div id="coachNotes" class="notes-f" contenteditable="true" spellcheck="false">Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One</div>
-        <hr class="notes-div">
-        <div class="nl nl-red">Overall Note</div>
-        <div id="overallNote" class="overall-f" contenteditable="true" spellcheck="false">Hard Hat Lesson One — Compete &amp; Shake the Rust</div>
-      </div>
-
-      <!-- INFO CHIPS -->
-      <div class="info-bar">
-        <div class="chip chip-blue">
-          <span class="chip-lbl">Focus:&nbsp;</span>
-          <span class="chip-e" contenteditable="true" id="focusText" spellcheck="false">Compete</span>
+      <!-- ── DAY 0 ── -->
+      <div class="plan-panel">
+        <div class="date-bar">
+          <span class="date-bar-label">Date</span>
+          <span class="date-bar-value" id="dateDisplay-0">Sunday, March 1, 2026</span>
+          <input type="date" id="datePicker-0" class="date-native" value="2026-03-01">
         </div>
-        <div class="chip chip-dark" id="totalChip"></div>
-      </div>
-
-      <div class="pquote">"To Begin, Begin"</div>
-
-      <!-- START TIME -->
-      <div class="st-row">
-        <span class="st-lbl">Starts</span>
-        <input class="st-in" id="stIn" value="10:00" onchange="renderDrills()" onblur="renderDrills()">
-        <div class="ampm-wrap">
-          <button class="ampm-btn on" id="btnAM" onclick="setAmPm('AM')">AM</button>
-          <button class="ampm-btn" id="btnPM" onclick="setAmPm('PM')">PM</button>
+        <div class="notes-box">
+          <div class="nl">Coach Notes</div>
+          <div id="coachNotes-0" class="notes-f" contenteditable="true" spellcheck="false">Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One</div>
+          <hr class="notes-div">
+          <div class="nl nl-red">Overall Note</div>
+          <div id="overallNote-0" class="overall-f" contenteditable="true" spellcheck="false">Hard Hat Lesson One — Compete &amp; Shake the Rust</div>
         </div>
-        <span class="ttd" id="ttd"></span>
-      </div>
-
-      <div class="sec-head">Drill Schedule</div>
-
-      <table class="dtable">
-        <thead><tr>
-          <th style="width:20px;"></th>
-          <th style="width:118px;">Time</th>
-          <th>Drill / Notes</th>
-          <th style="width:72px;">Mins</th>
-          <th style="width:28px;"></th>
-        </tr></thead>
-        <tbody id="drillsList"></tbody>
-      </table>
-
-      <!-- ADD DRILL + LIBRARY -->
-      <div class="add-drill-wrap" id="addDrillWrap">
-        <button class="add-drill-btn" id="addDrillBtn" onclick="toggleLibrary()">
-          <span id="addBtnText">+ Add Drill</span>
-          <span id="addBtnArrow" style="margin-left:auto; font-size:10px;">▼</span>
-        </button>
-        <div class="drill-lib" id="drillLib">
-          <div class="lib-header">
-            <input class="lib-search" id="libSearch" placeholder="Search drills…" oninput="renderLibrary()">
-            <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+        <div class="info-bar">
+          <div class="chip chip-blue">
+            <span class="chip-lbl">Focus:&nbsp;</span>
+            <span class="chip-e" contenteditable="true" id="focusText-0" spellcheck="false">Compete</span>
           </div>
-          <div class="lib-list" id="libList"></div>
-          <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
+          <div class="chip chip-dark" id="totalChip-0"></div>
+        </div>
+        <div class="pquote">"To Begin, Begin"</div>
+        <div class="st-row">
+          <span class="st-lbl">Starts</span>
+          <input class="st-in" id="stIn-0" value="10:00" onchange="renderDrills(0)" onblur="renderDrills(0)">
+          <div class="ampm-wrap">
+            <button class="ampm-btn on" id="btnAM-0" onclick="setAmPm('AM',0)">AM</button>
+            <button class="ampm-btn" id="btnPM-0" onclick="setAmPm('PM',0)">PM</button>
+          </div>
+          <span class="ttd" id="ttd-0"></span>
+        </div>
+        <div class="sec-head">Drill Schedule</div>
+        <table class="dtable">
+          <thead><tr>
+            <th style="width:20px;"></th>
+            <th style="width:118px;">Time</th>
+            <th>Drill / Notes</th>
+            <th style="width:72px;">Mins</th>
+            <th style="width:28px;"></th>
+          </tr></thead>
+          <tbody id="drillsList-0"></tbody>
+        </table>
+        <div class="add-drill-wrap" id="addDrillWrap-0">
+          <button class="add-drill-btn" id="addDrillBtn-0" onclick="toggleLibrary(0)">
+            <span id="addBtnText-0">+ Add Drill</span>
+            <span id="addBtnArrow-0" style="margin-left:auto; font-size:10px;">▼</span>
+          </button>
+          <div class="drill-lib" id="drillLib-0">
+            <div class="lib-header">
+              <input class="lib-search" id="libSearch-0" placeholder="Search drills…" oninput="renderLibrary(0)">
+              <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+            </div>
+            <div class="lib-list" id="libList-0"></div>
+            <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- DEPTH -->
+      <!-- ── DAY 1 ── -->
+      <div class="plan-panel">
+        <div class="date-bar">
+          <span class="date-bar-label">Date</span>
+          <span class="date-bar-value" id="dateDisplay-1">Monday, March 2, 2026</span>
+          <input type="date" id="datePicker-1" class="date-native" value="2026-03-02">
+        </div>
+        <div class="notes-box">
+          <div class="nl">Coach Notes</div>
+          <div id="coachNotes-1" class="notes-f" contenteditable="true" spellcheck="false"></div>
+          <hr class="notes-div">
+          <div class="nl nl-red">Overall Note</div>
+          <div id="overallNote-1" class="overall-f" contenteditable="true" spellcheck="false"></div>
+        </div>
+        <div class="info-bar">
+          <div class="chip chip-blue">
+            <span class="chip-lbl">Focus:&nbsp;</span>
+            <span class="chip-e" contenteditable="true" id="focusText-1" spellcheck="false"></span>
+          </div>
+          <div class="chip chip-dark" id="totalChip-1"></div>
+        </div>
+        <div class="pquote">"To Begin, Begin"</div>
+        <div class="st-row">
+          <span class="st-lbl">Starts</span>
+          <input class="st-in" id="stIn-1" value="10:00" onchange="renderDrills(1)" onblur="renderDrills(1)">
+          <div class="ampm-wrap">
+            <button class="ampm-btn on" id="btnAM-1" onclick="setAmPm('AM',1)">AM</button>
+            <button class="ampm-btn" id="btnPM-1" onclick="setAmPm('PM',1)">PM</button>
+          </div>
+          <span class="ttd" id="ttd-1"></span>
+        </div>
+        <div class="sec-head">Drill Schedule</div>
+        <table class="dtable">
+          <thead><tr>
+            <th style="width:20px;"></th>
+            <th style="width:118px;">Time</th>
+            <th>Drill / Notes</th>
+            <th style="width:72px;">Mins</th>
+            <th style="width:28px;"></th>
+          </tr></thead>
+          <tbody id="drillsList-1"></tbody>
+        </table>
+        <div class="add-drill-wrap" id="addDrillWrap-1">
+          <button class="add-drill-btn" id="addDrillBtn-1" onclick="toggleLibrary(1)">
+            <span id="addBtnText-1">+ Add Drill</span>
+            <span id="addBtnArrow-1" style="margin-left:auto; font-size:10px;">▼</span>
+          </button>
+          <div class="drill-lib" id="drillLib-1">
+            <div class="lib-header">
+              <input class="lib-search" id="libSearch-1" placeholder="Search drills…" oninput="renderLibrary(1)">
+              <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+            </div>
+            <div class="lib-list" id="libList-1"></div>
+            <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ── DAY 2 ── -->
+      <div class="plan-panel">
+        <div class="date-bar">
+          <span class="date-bar-label">Date</span>
+          <span class="date-bar-value" id="dateDisplay-2">Wednesday, March 4, 2026</span>
+          <input type="date" id="datePicker-2" class="date-native" value="2026-03-04">
+        </div>
+        <div class="notes-box">
+          <div class="nl">Coach Notes</div>
+          <div id="coachNotes-2" class="notes-f" contenteditable="true" spellcheck="false"></div>
+          <hr class="notes-div">
+          <div class="nl nl-red">Overall Note</div>
+          <div id="overallNote-2" class="overall-f" contenteditable="true" spellcheck="false"></div>
+        </div>
+        <div class="info-bar">
+          <div class="chip chip-blue">
+            <span class="chip-lbl">Focus:&nbsp;</span>
+            <span class="chip-e" contenteditable="true" id="focusText-2" spellcheck="false"></span>
+          </div>
+          <div class="chip chip-dark" id="totalChip-2"></div>
+        </div>
+        <div class="pquote">"To Begin, Begin"</div>
+        <div class="st-row">
+          <span class="st-lbl">Starts</span>
+          <input class="st-in" id="stIn-2" value="10:00" onchange="renderDrills(2)" onblur="renderDrills(2)">
+          <div class="ampm-wrap">
+            <button class="ampm-btn on" id="btnAM-2" onclick="setAmPm('AM',2)">AM</button>
+            <button class="ampm-btn" id="btnPM-2" onclick="setAmPm('PM',2)">PM</button>
+          </div>
+          <span class="ttd" id="ttd-2"></span>
+        </div>
+        <div class="sec-head">Drill Schedule</div>
+        <table class="dtable">
+          <thead><tr>
+            <th style="width:20px;"></th>
+            <th style="width:118px;">Time</th>
+            <th>Drill / Notes</th>
+            <th style="width:72px;">Mins</th>
+            <th style="width:28px;"></th>
+          </tr></thead>
+          <tbody id="drillsList-2"></tbody>
+        </table>
+        <div class="add-drill-wrap" id="addDrillWrap-2">
+          <button class="add-drill-btn" id="addDrillBtn-2" onclick="toggleLibrary(2)">
+            <span id="addBtnText-2">+ Add Drill</span>
+            <span id="addBtnArrow-2" style="margin-left:auto; font-size:10px;">▼</span>
+          </button>
+          <div class="drill-lib" id="drillLib-2">
+            <div class="lib-header">
+              <input class="lib-search" id="libSearch-2" placeholder="Search drills…" oninput="renderLibrary(2)">
+              <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+            </div>
+            <div class="lib-list" id="libList-2"></div>
+            <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- end .days-row -->
+
+    <!-- DEPTH CHART (full-width bottom strip) -->
     <div class="depth-panel">
       <div class="sec-head" style="font-size:1.1em;">Depth Chart</div>
       <div id="depthChart"></div>
@@ -130,7 +237,7 @@
 
   <footer class="app-footer">
     <div>Walt Whitman High School · <span>Lacrosse</span></div>
-    <div>Practice <span id="footerDate">2/28/2026</span></div>
+    <div>Practice <span id="footerDate">3/1/2026</span></div>
   </footer>
 </div>
 
