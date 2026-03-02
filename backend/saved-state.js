@@ -48,7 +48,6 @@ window.SAVED_STATE = {
       "cls": "att",
       "players": [
         "Tommy Gardiner",
-        "Danny Merlis",
         "Colten Thompson",
         "Jordan Yoon",
         "Buck Nowell",
@@ -60,43 +59,41 @@ window.SAVED_STATE = {
     "MIDFIELD": {
       "cls": "mid",
       "players": [
-        "Sean",
-        "Arkin",
-        "Dylan?",
-        "Jude",
-        "Bo?",
-        "Ziggy Powell",
-        "Magnus",
+        "Sean Sanders",
+        "Arkin Isip",
+        "Jude McPhearson",
+        "Bo Werth",
+        "Ziggy Powell-Moran",
+        "Magnus Jensen",
         "Zach Worthen"
       ]
     },
     "DEFENSE — CD": {
       "cls": "def",
       "players": [
-        "Durke",
-        "Lukas",
-        "Charm",
+        "Durke Anderson",
+        "Lukas Schlotterer",
+        "Christian Armstrong",
         "Elliot Fernandez",
-        "Henry",
-        "Cooper"
+        "Henry Herdman"
       ]
     },
     "DEFENSE — DM": {
       "cls": "def",
       "players": [
-        "Franny",
-        "Conor G",
-        "Georges",
-        "Rafe?",
-        "Zaki?"
+        "Franny Marra",
+        "Conor Galvin",
+        "Georges Posner",
+        "Rafe Gonzalez",
+        "Zaki Saberi"
       ]
     },
     "DEFENSE — LSM": {
       "cls": "def",
       "players": [
-        "T-Sull",
+        "Tommy Sullivan",
         "Jack Cummings",
-        "Aden (SSDM?)"
+        "Aden Parker"
       ]
     },
     "GOALIE": {
@@ -108,15 +105,15 @@ window.SAVED_STATE = {
     "FACE-OFF": {
       "cls": "fo",
       "players": [
-        "Knox",
-        "Jake"
+        "Knox Brogan",
+        "Jake Thorner"
       ]
     },
     "INJURED": {
       "cls": "inj",
       "players": [
-        "Danny (ankle)",
-        "Cooper (mono)"
+        "Danny Merlis",
+        "Cooper Nowell"
       ]
     }
   },
