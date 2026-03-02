@@ -3,10 +3,17 @@
 window.SAVED_STATE = {
   "days": [
     {
-      "drills": [],
-      "nextId": 100,
+      "drills": [
+        {
+          "id": 100,
+          "dur": 10,
+          "name": "Warm Up",
+          "notes": ""
+        }
+      ],
+      "nextId": 101,
       "startAmPm": "PM",
-      "startTime": "10:00",
+      "startTime": "5:00",
       "dateValue": "2026-03-02",
       "dateDisplay": "Monday, March 2, 2026",
       "coachNotes": "Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One",
