@@ -47,13 +47,14 @@ window.SAVED_STATE = {
     "ATTACK": {
       "cls": "att",
       "players": [
-        "Tommy G",
-        "Danny",
-        "Colten",
-        "Jordan",
-        "Buck",
-        "Angus?",
-        "Byrd/Lowe?"
+        "Tommy Gardiner",
+        "Danny Merlis",
+        "Colten Thompson",
+        "Jordan Yoon",
+        "Buck Nowell",
+        "Angus Conley-Filippello",
+        "Dylan Byrd",
+        "Carter Lowe"
       ]
     },
     "MIDFIELD": {
