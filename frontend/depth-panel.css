@@ -3,7 +3,7 @@
 #depthChart { display:flex; flex-wrap:wrap; gap:12px; }
 .dg { flex:1; min-width:140px; }
 .dgt { font-family:'Oxygen',sans-serif; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; color:#fff; padding:4px 9px; margin-bottom:4px; }
-.bg-att { background:#a61e0a; } .bg-mid { background:#03a5e3; } .bg-def { background:#272727; } .bg-gol { background:#3a3f45; } .bg-fo { background:#555; }
+.bg-att { background:#a61e0a; } .bg-mid { background:#03a5e3; } .bg-def { background:#272727; } .bg-gol { background:#3a3f45; } .bg-fo { background:#555; } .bg-inj { background:#a61e0a; }
 .pl { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:2px; }
 .pc { display:flex; align-items:center; background:#f7f7f5; border:1px solid #ecece7; padding:4px 8px; font-family:'Oxygen',sans-serif; font-size:12px; font-weight:300; cursor:grab; user-select:none; transition:all .1s; }
 .pc:hover { background:#edf7ff; border-color:#03a5e3; }

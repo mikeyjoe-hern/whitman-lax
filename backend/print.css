@@ -7,7 +7,7 @@
   /* Hide all interactive UI */
   #splash, .header-actions, .dh, .ddel, .dur-in,
   .add-drill-wrap, .ap-row, .pdel, .app-footer,
-  .date-native, .ampm-wrap, .ttd, button { display:none !important; }
+  .date-native, .ampm-wrap, .ttd, .day-print-btn, button { display:none !important; }
 
   html, body {
     height:auto; overflow:visible; background:#fff !important;
@@ -114,4 +114,13 @@
   }
   .pb { font-size:6pt !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
   .pr { font-size:7pt !important; }
+
+  /* ── SINGLE-DAY PRINT ── */
+  html[data-print-day] { zoom: 0.85; }
+  html[data-print-day] .plan-panel { display:none !important; }
+  html[data-print-day="0"] .days-row .plan-panel:nth-child(1) { display:block !important; }
+  html[data-print-day="1"] .days-row .plan-panel:nth-child(2) { display:block !important; }
+  html[data-print-day="2"] .days-row .plan-panel:nth-child(3) { display:block !important; }
+  html[data-print-day] .days-row { grid-template-columns:1fr !important; }
+  html[data-print-day] .depth-panel { display:none !important; }
 }

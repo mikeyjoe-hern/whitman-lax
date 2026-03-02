@@ -3,6 +3,12 @@ function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+function printDay(d) {
+  document.documentElement.dataset.printDay = String(d);
+  window.print();
+  delete document.documentElement.dataset.printDay;
+}
+
 function showToast(msg) {
   const t = document.createElement('div');
   t.className = 'toast';
