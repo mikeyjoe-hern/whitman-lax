@@ -55,6 +55,7 @@ let depthData = {
   'DEFENSE — LSM': { cls:'def', players:['T-Sull','Jack Cummings','Aden (SSDM?)'] },
   'GOALIE':        { cls:'gol', players:['Beckett'] },
   'FACE-OFF':      { cls:'fo',  players:['Knox','Jake'] },
+  'INJURED':       { cls:'inj', players:['Danny (ankle)','Cooper (mono)'] },
 };
 
 let nextLid = 50;
