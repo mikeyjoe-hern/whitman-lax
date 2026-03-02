@@ -23,7 +23,7 @@ function collectState() {
 }
 
 async function saveState() {
-  if (!SAVE_TOKEN || SAVE_TOKEN === '__SAVE_TOKEN__') {
+  if (!SAVE_TOKEN) {
     showToast('Save not configured — add SAVE_TOKEN secret'); return;
   }
   showToast('Saving…');
