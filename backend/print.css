@@ -18,8 +18,8 @@
   #app.visible { animation:none; }
   .plan-panel, .depth-panel { overflow:visible !important; height:auto !important; max-height:none !important; }
 
-  /* Use CSS transform to scale the full layout to fit */
-  html { zoom: 0.72; }
+  /* Use CSS transform to scale the full layout to fit — smaller for 3-col layout */
+  html { zoom: 0.52; }
 
   /* Header */
   .app-header {
@@ -36,15 +36,17 @@
     -webkit-print-color-adjust:exact; print-color-adjust:exact;
   }
 
-  /* Two-column body layout */
-  .app-body {
+  /* Three-column body layout */
+  .app-body { display:flex !important; flex-direction:column !important; }
+  .days-row {
     display:grid !important;
-    grid-template-columns:1fr 200pt !important;
-    gap:12pt !important;
+    grid-template-columns:1fr 1fr 1fr !important;
+    gap:0 !important;
     align-items:start !important;
   }
-  .plan-panel { padding:0 !important; border-right:1pt solid #ddd !important; padding-right:10pt !important; }
-  .depth-panel { padding:0 !important; padding-left:10pt !important; background:#fff !important; border-left:none !important; }
+  .plan-panel { padding:0 !important; border-right:1pt solid #ddd !important; padding-right:8pt !important; padding-left:4pt !important; }
+  .plan-panel:first-child { padding-left:0 !important; }
+  .depth-panel { padding:6pt 0 0 !important; background:#fff !important; border-top:1.5pt solid #03a5e3 !important; -webkit-print-color-adjust:exact; print-color-adjust:exact; }
 
   /* Date bar */
   .date-bar {
@@ -92,15 +94,15 @@
   /* Start time row hidden — times already shown in table */
   .st-row { display:none !important; }
 
-  /* ── DEPTH CHART — compact 2-col grid ── */
+  /* ── DEPTH CHART — 4-col grid across full width ── */
   .depth-panel .sec-head { font-size:9pt !important; margin-bottom:6pt !important; }
   #depthChart {
     display:grid !important;
-    grid-template-columns:1fr 1fr !important;
-    gap:6pt 8pt !important;
+    grid-template-columns:repeat(4, 1fr) !important;
+    gap:4pt 8pt !important;
     align-items:start !important;
   }
-  .dg { margin-bottom:0 !important; break-inside:avoid; }
+  .dg { break-inside:avoid; }
   .dgt {
     font-size:7pt !important; padding:2pt 6pt !important; margin-bottom:2pt !important;
     -webkit-print-color-adjust:exact; print-color-adjust:exact;
