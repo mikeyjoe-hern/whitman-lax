@@ -7,8 +7,8 @@ window.SAVED_STATE = {
       "nextId": 100,
       "startAmPm": "PM",
       "startTime": "10:00",
-      "dateValue": "2026-03-01",
-      "dateDisplay": "Sunday, March 1, 2026",
+      "dateValue": "2026-03-02",
+      "dateDisplay": "Monday, March 2, 2026",
       "coachNotes": "Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One",
       "overallNote": "HARD HAT LESSON ONE — COMPETE & SHAKE THE RUST",
       "focusText": "COMPETE"
@@ -18,8 +18,8 @@ window.SAVED_STATE = {
       "nextId": 200,
       "startAmPm": "PM",
       "startTime": "10:00",
-      "dateValue": "2026-03-02",
-      "dateDisplay": "Monday, March 2, 2026",
+      "dateValue": "2026-03-03",
+      "dateDisplay": "Tuesday, March 3, 2026",
       "coachNotes": "",
       "overallNote": "",
       "focusText": ""
