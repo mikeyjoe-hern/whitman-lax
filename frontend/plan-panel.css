@@ -3,8 +3,8 @@
 
 /* DATE BAR */
 .date-bar { display:flex; align-items:center; gap:12px; margin-bottom:12px; padding:9px 14px; background:#fff; border:2px solid #a61e0a; }
-.day-print-btn { background:transparent; border:1px dashed #a61e0a; color:#a61e0a; padding:3px 7px; font-size:11px; cursor:pointer; letter-spacing:.05em; transition:all .12s; }
-.day-print-btn:hover { background:#a61e0a; color:#fff; }
+.day-print-btn { background:#a61e0a; border:none; color:#fff; padding:4px 10px; font-family:'Oxygen',sans-serif; font-size:10px; font-weight:700; letter-spacing:.12em; text-transform:uppercase; cursor:pointer; transition:background .12s; flex-shrink:0; }
+.day-print-btn:hover { background:#c4291a; }
 .date-bar-label { font-size:9px; letter-spacing:.18em; text-transform:uppercase; color:#a61e0a; font-weight:700; white-space:nowrap; }
 .date-bar-value { font-family:'Oxygen',sans-serif; font-size:1.45em; font-weight:700; color:#a61e0a; letter-spacing:.03em; text-transform:uppercase; flex:1; }
 .date-native {

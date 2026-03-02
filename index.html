@@ -43,8 +43,7 @@
   <header class="app-header">
     <div class="hbt">Whitman <span>LAX Practice Plan</span></div>
     <div class="header-actions">
-      <div class="inj-pill"><div class="inj-dot"></div>Danny (ankle) · Cooper (mono)</div>
-      <button class="btn btn-blue" onclick="window.print()">🖨 Print / PDF</button>
+      <button class="btn btn-blue" onclick="saveState()">💾 Save</button>
     </div>
   </header>
 
@@ -56,7 +55,7 @@
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-0">Sunday, March 1, 2026</span>
-          <button class="day-print-btn" onclick="printDay(0)" title="Print Day 1">🖨</button>
+          <button class="day-print-btn" onclick="printDay(0)" title="Print Day 1">PRINT</button>
           <input type="date" id="datePicker-0" class="date-native" value="2026-03-01">
         </div>
         <div class="notes-box">
@@ -115,7 +114,7 @@
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-1">Monday, March 2, 2026</span>
-          <button class="day-print-btn" onclick="printDay(1)" title="Print Day 2">🖨</button>
+          <button class="day-print-btn" onclick="printDay(1)" title="Print Day 2">PRINT</button>
           <input type="date" id="datePicker-1" class="date-native" value="2026-03-02">
         </div>
         <div class="notes-box">
@@ -174,7 +173,7 @@
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-2">Wednesday, March 4, 2026</span>
-          <button class="day-print-btn" onclick="printDay(2)" title="Print Day 3">🖨</button>
+          <button class="day-print-btn" onclick="printDay(2)" title="Print Day 3">PRINT</button>
           <input type="date" id="datePicker-2" class="date-native" value="2026-03-04">
         </div>
         <div class="notes-box">
@@ -264,6 +263,7 @@
 
 <!-- Backend JS (must load first) -->
 <script src="backend/data.js"></script>
+<script src="backend/saved-state.js"></script>
 <script src="backend/utils.js"></script>
 <script src="backend/time-utils.js"></script>
 <!-- Frontend JS -->
@@ -272,6 +272,7 @@
 <script src="frontend/drills.js"></script>
 <script src="frontend/drill-library.js"></script>
 <script src="frontend/depth-chart.js"></script>
+<script src="frontend/save.js"></script>
 <!-- Init (must be last) -->
 <script src="frontend/init.js"></script>
 </body>
