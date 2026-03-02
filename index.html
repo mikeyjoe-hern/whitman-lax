@@ -93,20 +93,7 @@
           </tr></thead>
           <tbody id="drillsList-0"></tbody>
         </table>
-        <div class="add-drill-wrap" id="addDrillWrap-0">
-          <button class="add-drill-btn" id="addDrillBtn-0" onclick="toggleLibrary(0)">
-            <span id="addBtnText-0">+ Add Drill</span>
-            <span id="addBtnArrow-0" style="margin-left:auto; font-size:10px;">▼</span>
-          </button>
-          <div class="drill-lib" id="drillLib-0">
-            <div class="lib-header">
-              <input class="lib-search" id="libSearch-0" placeholder="Search drills…" oninput="renderLibrary(0)">
-              <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
-            </div>
-            <div class="lib-list" id="libList-0"></div>
-            <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
-          </div>
-        </div>
+        <button class="add-drill-btn" onclick="openDrillLibModal(0)">+ Add Drill</button>
       </div>
 
       <!-- ── DAY 1 ── -->
@@ -152,20 +139,7 @@
           </tr></thead>
           <tbody id="drillsList-1"></tbody>
         </table>
-        <div class="add-drill-wrap" id="addDrillWrap-1">
-          <button class="add-drill-btn" id="addDrillBtn-1" onclick="toggleLibrary(1)">
-            <span id="addBtnText-1">+ Add Drill</span>
-            <span id="addBtnArrow-1" style="margin-left:auto; font-size:10px;">▼</span>
-          </button>
-          <div class="drill-lib" id="drillLib-1">
-            <div class="lib-header">
-              <input class="lib-search" id="libSearch-1" placeholder="Search drills…" oninput="renderLibrary(1)">
-              <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
-            </div>
-            <div class="lib-list" id="libList-1"></div>
-            <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
-          </div>
-        </div>
+        <button class="add-drill-btn" onclick="openDrillLibModal(1)">+ Add Drill</button>
       </div>
 
       <!-- ── DAY 2 ── -->
@@ -211,20 +185,7 @@
           </tr></thead>
           <tbody id="drillsList-2"></tbody>
         </table>
-        <div class="add-drill-wrap" id="addDrillWrap-2">
-          <button class="add-drill-btn" id="addDrillBtn-2" onclick="toggleLibrary(2)">
-            <span id="addBtnText-2">+ Add Drill</span>
-            <span id="addBtnArrow-2" style="margin-left:auto; font-size:10px;">▼</span>
-          </button>
-          <div class="drill-lib" id="drillLib-2">
-            <div class="lib-header">
-              <input class="lib-search" id="libSearch-2" placeholder="Search drills…" oninput="renderLibrary(2)">
-              <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
-            </div>
-            <div class="lib-list" id="libList-2"></div>
-            <div class="lib-footer">Click any drill to add to schedule &nbsp;·&nbsp; Drag to reorder</div>
-          </div>
-        </div>
+        <button class="add-drill-btn" onclick="openDrillLibModal(2)">+ Add Drill</button>
       </div>
 
     </div><!-- end .days-row -->
@@ -240,6 +201,22 @@
     <div>Walt Whitman High School · <span>Lacrosse</span></div>
     <div>Practice <span id="footerDate">3/1/2026</span></div>
   </footer>
+</div>
+
+<!-- DRILL LIBRARY MODAL -->
+<div class="mo hidden" id="drillLibModal">
+  <div class="mbox mbox-lib">
+    <div class="mbox-lib-header">
+      <h2>Add Drill to Schedule</h2>
+      <button class="lib-modal-close" onclick="closeDrillLibModal()">✕</button>
+    </div>
+    <div class="lib-header">
+      <input class="lib-search" id="libSearchModal" placeholder="Search drills…" oninput="renderLibraryModal()">
+      <button class="lib-add-new" onclick="openNewDrillModal()">+ New Drill</button>
+    </div>
+    <div class="lib-list" id="libListModal"></div>
+    <div class="lib-footer">Click any drill to add to schedule</div>
+  </div>
 </div>
 
 <!-- ADD DRILL MODAL (for new library entries) -->
