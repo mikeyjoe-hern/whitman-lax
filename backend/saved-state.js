@@ -76,7 +76,7 @@ window.SAVED_STATE = {
         "Durke",
         "Lukas",
         "Charm",
-        "Elliot",
+        "Elliot Fernandez",
         "Henry",
         "Cooper"
       ]
