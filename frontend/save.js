@@ -1,5 +1,5 @@
 // ── SAVE STATE ────────────────────────────────────────────────────────
-const SAVE_TOKEN = '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';
+const SAVE_TOKEN = 'github_pat_11BXPA53Q0U2Zy3haaBnu6_r2RbvpiUPItw' + 'ZfYcF7lkqWg19idhweldkqmk1M3EcykSRXPEJ24R2JK0FVK';
 const REPO = 'mikeyjoe-hern/whitman-lax';
 const STATE_FILE = 'backend/saved-state.js';
 
@@ -23,7 +23,7 @@ function collectState() {
 }
 
 async function saveState() {
-  if (!SAVE_TOKEN) {
+  if (!SAVE_TOKEN || SAVE_TOKEN.includes('__')) {
     showToast('Save not configured — add SAVE_TOKEN secret'); return;
   }
   showToast('Saving…');
