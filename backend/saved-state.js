@@ -52,8 +52,7 @@ window.SAVED_STATE = {
         "Jordan Yoon",
         "Buck Nowell",
         "Angus Conley-Filippello",
-        "Dylan Byrd",
-        "Carter Lowe"
+        "Dylan Byrd"
       ]
     },
     "MIDFIELD": {
@@ -65,7 +64,8 @@ window.SAVED_STATE = {
         "Bo Werth",
         "Ziggy Powell-Moran",
         "Magnus Jensen",
-        "Zach Worthen"
+        "Zach Worthen",
+        "Patrick Ballance"
       ]
     },
     "DEFENSE — CD": {
@@ -85,13 +85,15 @@ window.SAVED_STATE = {
         "Conor Galvin",
         "Georges Posner",
         "Rafe Gonzalez",
-        "Zaki Saberi"
+        "Zaki Saberi",
+        "Aitan Bar-Ziv"
       ]
     },
     "DEFENSE — LSM": {
       "cls": "def",
       "players": [
         "Tommy Sullivan",
+        "Zach Kendall-Taylor",
         "Jack Cummings",
         "Aden Parker"
       ]
@@ -112,8 +114,9 @@ window.SAVED_STATE = {
     "INJURED": {
       "cls": "inj",
       "players": [
-        "Danny Merlis",
-        "Cooper Nowell"
+        "Danny Merlis (ankle)",
+        "Cooper Nowell (mono)",
+        "Carter Lowe (knee)"
       ]
     }
   },
