@@ -244,6 +244,10 @@ window.SAVED_STATE = {
         {
           "name": "Aden Parker",
           "injured": false
+        },
+        {
+          "name": "Cooper Nowell (mono)",
+          "injured": true
         }
       ]
     },
