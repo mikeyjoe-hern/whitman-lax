@@ -116,17 +116,17 @@ async function downloadDay(d) {
   y += 4;
   doc.setFont('helvetica', 'bold').setFontSize(9).setTextColor(0);
   doc.text('Total: ' + total + ' min', pageW - margin, y, { align: 'right' });
-  y += 28;
+  y += 16;
 
   // ── Depth Chart ───────────────────────────────────────────────────────
   if (y + 50 > pageH - margin) { doc.addPage(); y = margin; }
 
-  doc.setDrawColor(166, 30, 10).setLineWidth(1.5);
+  doc.setDrawColor(3, 165, 227).setLineWidth(1.5);
   doc.line(margin, y, pageW - margin, y);
-  y += 18;
+  y += 12;
   doc.setFont('helvetica', 'bold').setFontSize(13).setTextColor(0);
   doc.text('Depth Chart', margin, y);
-  y += 18;
+  y += 14;
 
   const halfW = (colW - 16) / 2;
   let col = 0;
@@ -136,7 +136,7 @@ async function downloadDay(d) {
     const group = entry[0];
     const data  = entry[1];
     const players = data.players || [];
-    const blockH = 16 + players.length * 12 + 10;
+    const blockH = 16 + players.length * 10 + 4;
     const xOff = margin + col * (halfW + 16);
 
     if (colYs[col] + blockH > pageH - margin) {
@@ -155,11 +155,11 @@ async function downloadDay(d) {
 
     doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(0);
     players.forEach(function(p, pi) {
-      gy += 12;
+      gy += 10;
       doc.text((pi + 1) + '.  ' + (p.name || p), xOff + 8, gy);
     });
 
-    colYs[col] = gy + 14;
+    colYs[col] = gy + 4;
     col = col === 0 ? 1 : 0;
   });
 
