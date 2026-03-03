@@ -9,13 +9,25 @@ window.SAVED_STATE = {
           "dur": 10,
           "name": "Warm Up",
           "notes": ""
+        },
+        {
+          "id": 101,
+          "dur": 10,
+          "name": "2v2",
+          "notes": ""
+        },
+        {
+          "id": 102,
+          "dur": 10,
+          "name": "2v2 +1 Circle GBs",
+          "notes": ""
         }
       ],
-      "nextId": 101,
+      "nextId": 103,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-02",
-      "dateDisplay": "Monday, March 2, 2026",
+      "dateValue": "2026-03-03",
+      "dateDisplay": "Tuesday, March 3, 2026",
       "coachNotes": "Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One",
       "overallNote": "HARD HAT LESSON ONE — COMPETE & SHAKE THE RUST",
       "focusText": "COMPETE"
@@ -25,8 +37,8 @@ window.SAVED_STATE = {
       "nextId": 200,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-03",
-      "dateDisplay": "Tuesday, March 3, 2026",
+      "dateValue": "2026-03-04",
+      "dateDisplay": "Wednesday, March 4, 2026",
       "coachNotes": "",
       "overallNote": "",
       "focusText": ""
@@ -36,8 +48,8 @@ window.SAVED_STATE = {
       "nextId": 300,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-04",
-      "dateDisplay": "Wednesday, March 4, 2026",
+      "dateValue": "2026-03-05",
+      "dateDisplay": "Thursday, March 5, 2026",
       "coachNotes": "",
       "overallNote": "",
       "focusText": ""
@@ -49,8 +61,8 @@ window.SAVED_STATE = {
       "players": [
         "Tommy Gardiner",
         "Colten Thompson",
-        "Jordan Yoon",
         "Buck Nowell",
+        "Jordan Yoon",
         "Angus Conley-Filippello",
         "Dylan Byrd"
       ]
