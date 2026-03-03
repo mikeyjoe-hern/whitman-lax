@@ -1,6 +1,4 @@
 // ── DRILL LIBRARY ─────────────────────────────────────────────────────
-const DRILL_TYPES = ['Groundballs','Transition/Odd Numbers','Stickwork','O Skills','D Skills','Man to Man','Ride/Clear','Goalie','Faceoff'];
-
 function openDrillLibModal(d) {
   libForDay = d;
   document.getElementById('drillLibModal').classList.remove('hidden');
@@ -13,49 +11,24 @@ function closeDrillLibModal() {
   document.getElementById('drillLibModal').classList.add('hidden');
 }
 
-function _makeLibRow(dr) {
-  const row = document.createElement('div');
-  row.className = 'lib-item';
-  row.innerHTML = `
-    <span class="lib-item-name">${esc(dr.name)}</span>
-    <span class="lib-item-dur">${dr.dur} min</span>
-    <span class="lib-item-add">＋</span>
-    <button class="lib-item-del" onclick="event.stopPropagation(); delFromLib(${dr.lid})" title="Remove from library">✕</button>`;
-  row.addEventListener('click', ()=>{ addDrillFromLib(dr.lid); });
-  return row;
-}
-
 function renderLibraryModal() {
   const q = (document.getElementById('libSearchModal').value || '').toLowerCase();
   const list = document.getElementById('libListModal');
+  const sorted = [...drillLibrary].sort((a,b)=>a.name.localeCompare(b.name));
+  const filtered = q ? sorted.filter(dr=>dr.name.toLowerCase().includes(q)) : sorted;
+  if (!filtered.length) { list.innerHTML = '<div class="lib-empty">No drills found</div>'; return; }
   list.innerHTML = '';
-  let anyResults = false;
-
-  DRILL_TYPES.forEach(type => {
-    const typeDrills = drillLibrary.filter(dr => dr.type === type);
-    const filtered = q ? typeDrills.filter(dr => dr.name.toLowerCase().includes(q)) : typeDrills;
-    if (!filtered.length) return;
-    anyResults = true;
-    const header = document.createElement('div');
-    header.className = 'lib-section-header';
-    header.textContent = type;
-    list.appendChild(header);
-    filtered.sort((a,b)=>a.name.localeCompare(b.name)).forEach(dr => list.appendChild(_makeLibRow(dr)));
+  filtered.forEach(dr => {
+    const row = document.createElement('div');
+    row.className = 'lib-item';
+    row.innerHTML = `
+      <span class="lib-item-name">${esc(dr.name)}</span>
+      <span class="lib-item-dur">${dr.dur} min</span>
+      <span class="lib-item-add">＋</span>
+      <button class="lib-item-del" onclick="event.stopPropagation(); delFromLib(${dr.lid})" title="Remove from library">✕</button>`;
+    row.addEventListener('click', ()=>{ addDrillFromLib(dr.lid); });
+    list.appendChild(row);
   });
-
-  // Drills with no recognized type (user-added)
-  const untyped = drillLibrary.filter(dr => !dr.type || !DRILL_TYPES.includes(dr.type));
-  const filteredUntyped = q ? untyped.filter(dr => dr.name.toLowerCase().includes(q)) : untyped;
-  if (filteredUntyped.length) {
-    anyResults = true;
-    const header = document.createElement('div');
-    header.className = 'lib-section-header';
-    header.textContent = 'Other';
-    list.appendChild(header);
-    filteredUntyped.sort((a,b)=>a.name.localeCompare(b.name)).forEach(dr => list.appendChild(_makeLibRow(dr)));
-  }
-
-  if (!anyResults) list.innerHTML = '<div class="lib-empty">No drills found</div>';
 }
 
 function delFromLib(lid) {
@@ -77,9 +50,8 @@ function closeNewDrillModal() { document.getElementById('newDrillModal').classLi
 function saveNewDrillToLib() {
   const name = document.getElementById('ndName').value.trim();
   const dur  = parseInt(document.getElementById('ndDur').value) || 10;
-  const type = document.getElementById('ndType').value;
   if (!name) return;
-  drillLibrary.push({ lid:nextLid++, name, dur, type });
+  drillLibrary.push({ lid:nextLid++, name, dur });
   closeNewDrillModal();
   document.getElementById('ndName').value='';
   document.getElementById('ndDur').value='';
