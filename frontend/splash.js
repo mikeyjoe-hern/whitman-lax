@@ -1,6 +1,37 @@
 // ── SPLASH SCREEN ────────────────────────────────────────────────────
 const CORRECT_HASH = 'dd2770310682a899a006c6b08fda57f00229b73a31444bf9e46e13c7439458b2';
 
+const QUOTES = [
+  'To Begin, Begin.',
+  'Outwork everyone.',
+  'Win the day.',
+  'Be where your feet are.',
+  'Earn it.',
+  'Compete on every rep.',
+  'Details matter.',
+  'Leave it all on the field.',
+  'Better today than yesterday.',
+  'Champions are made in practice.',
+  'One play at a time.',
+  'Focus is a skill.',
+  'Do the work.',
+  'Trust the process.',
+  'Attitude determines altitude.',
+  'Show up fully.',
+  'Hard work beats talent.',
+  'Win the small battles.',
+  'Stay locked in.',
+  'Be the standard.',
+];
+
+(function initSplash() {
+  const quote = QUOTES[Math.floor(Math.random() * QUOTES.length)];
+  document.getElementById('s-quote').textContent = '\u201c' + quote + '\u201d';
+  const d = new Date();
+  const dateStr = (d.getMonth() + 1) + '.' + d.getDate() + '.' + d.getFullYear();
+  document.getElementById('s-meta').textContent = 'Compete \u00b7 Shake the Rust \u00b7 ' + dateStr;
+})();
+
 async function checkPassword() {
   const val = document.getElementById('s-pw').value;
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(val));
