@@ -9,7 +9,7 @@ function printDay(d) {
   delete document.documentElement.dataset.printDay;
 }
 
-function downloadDay(d) {
+async function downloadDay(d) {
   const { jsPDF } = window.jspdf;
   const doc = new jsPDF({ unit: 'pt', format: 'letter' });
 
@@ -18,6 +18,18 @@ function downloadDay(d) {
   const pageH = doc.internal.pageSize.getHeight();
   const colW = pageW - margin * 2;
   let y = margin;
+
+  // ── Logo (top-right) ──────────────────────────────────────────────────
+  const logoW = 60; const logoH = 40;
+  await new Promise(function(resolve) {
+    const img = new Image();
+    img.onload = function() {
+      try { doc.addImage(img, 'PNG', pageW - margin - logoW, margin - 8, logoW, logoH); } catch(e) {}
+      resolve();
+    };
+    img.onerror = resolve;
+    img.src = 'assets/logo.png';
+  });
 
   // ── Header ────────────────────────────────────────────────────────────
   const dateLabel = document.getElementById('dateDisplay-' + d).textContent;
