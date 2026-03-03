@@ -11,32 +11,68 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 101,
-          "dur": 10,
-          "name": "2v2",
+          "id": 104,
+          "dur": 8,
+          "name": "Line Drills",
           "notes": ""
         },
         {
-          "id": 102,
-          "dur": 10,
-          "name": "2v2 +1 Circle GBs",
+          "id": 105,
+          "dur": 7,
+          "name": "Breakouts",
           "notes": ""
         },
         {
-          "id": 103,
+          "id": 112,
           "dur": 10,
-          "name": "4v3 Box GBs",
+          "name": "Corner GBs",
+          "notes": ""
+        },
+        {
+          "id": 106,
+          "dur": 10,
+          "name": "Box Build Up / Ball Start w/ Goal",
+          "notes": ""
+        },
+        {
+          "id": 107,
+          "dur": 10,
+          "name": "Wing GBs to Break",
+          "notes": ""
+        },
+        {
+          "id": 108,
+          "dur": 10,
+          "name": "Pressure Passing",
+          "notes": ""
+        },
+        {
+          "id": 109,
+          "dur": 10,
+          "name": "Y Drill - Transfer at X",
+          "notes": ""
+        },
+        {
+          "id": 111,
+          "dur": 10,
+          "name": "Split",
+          "notes": ""
+        },
+        {
+          "id": 110,
+          "dur": 10,
+          "name": "6v6",
           "notes": ""
         }
       ],
-      "nextId": 104,
+      "nextId": 113,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-03",
       "dateDisplay": "Tuesday, March 3, 2026",
-      "coachNotes": "Practice Monday — Meet at field. Jenny will be inside before practice. Hard Hat Lesson One",
-      "overallNote": "HARD HAT LESSON ONE — COMPETE & SHAKE THE RUST",
-      "focusText": "COMPETE"
+      "coachNotes": "Compete, begin to learn. Hard Hat Lesson Two",
+      "overallNote": "HARD HAT LESSON TWO (TG) — BE QUIET AND RESPECTFUL GOING INSIDE",
+      "focusText": "LEARN"
     },
     {
       "drills": [],
@@ -70,7 +106,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Colten Thompson",
+          "name": "Danny Merlis (ankle)",
+          "injured": true
+        },
+        {
+          "name": "Colten Thompson (sick)",
+          "injured": true
+        },
+        {
+          "name": "Dylan Byrd",
           "injured": false
         },
         {
@@ -83,10 +127,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Angus Conley-Filippello",
-          "injured": false
-        },
-        {
-          "name": "Dylan Byrd",
           "injured": false
         }
       ]
@@ -107,10 +147,6 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Danny Merlis (ankle)",
-          "injured": true
-        },
-        {
           "name": "Jude McPhearson",
           "injured": false
         },
@@ -119,12 +155,12 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Ziggy Powell-Moran",
-          "injured": false
+          "name": "Ziggy Powell-Moran (shoulder)",
+          "injured": true
         },
         {
-          "name": "Zach Worthen",
-          "injured": false
+          "name": "Zach Worthen (back)",
+          "injured": true
         },
         {
           "name": "Patrick Ballance",
@@ -165,6 +201,10 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Magnus Jensen (covid)",
+          "injured": true
+        },
+        {
           "name": "Zaki Saberi",
           "injured": false
         },
@@ -178,6 +218,10 @@ window.SAVED_STATE = {
         },
         {
           "name": "Rafe Gonzalez",
+          "injured": false
+        },
+        {
+          "name": "Jack Cummings",
           "injured": false
         },
         {
@@ -195,10 +239,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Zach Kendall-Taylor",
-          "injured": false
-        },
-        {
-          "name": "Jack Cummings",
           "injured": false
         },
         {
@@ -854,7 +894,31 @@ window.SAVED_STATE = {
       "name": "Hand Slap",
       "dur": 10,
       "type": "Faceoff"
+    },
+    {
+      "lid": 201,
+      "name": "Wing GBs to Break",
+      "dur": 10,
+      "type": "Stickwork"
+    },
+    {
+      "lid": 202,
+      "name": "Split",
+      "dur": 10,
+      "type": "Other"
+    },
+    {
+      "lid": 203,
+      "name": "6v6",
+      "dur": 10,
+      "type": "Other"
+    },
+    {
+      "lid": 204,
+      "name": "Corner GBs",
+      "dur": 10,
+      "type": "Groundballs"
     }
   ],
-  "nextLid": 200
+  "nextLid": 205
 };
