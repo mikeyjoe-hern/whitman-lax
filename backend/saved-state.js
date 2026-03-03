@@ -81,7 +81,6 @@ window.SAVED_STATE = {
         "Jude McPhearson",
         "Bo Werth",
         "Ziggy Powell-Moran",
-        "Magnus Jensen",
         "Zach Worthen",
         "Patrick Ballance"
       ]
@@ -100,10 +99,10 @@ window.SAVED_STATE = {
       "cls": "def",
       "players": [
         "Franny Marra",
+        "Zaki Saberi",
         "Conor Galvin",
         "Georges Posner",
         "Rafe Gonzalez",
-        "Zaki Saberi",
         "Aitan Bar-Ziv"
       ]
     },
@@ -134,7 +133,8 @@ window.SAVED_STATE = {
       "players": [
         "Danny Merlis (ankle)",
         "Cooper Nowell (mono)",
-        "Carter Lowe (knee)"
+        "Carter Lowe (knee)",
+        "Magnus Jensen (Covid)"
       ]
     }
   },
