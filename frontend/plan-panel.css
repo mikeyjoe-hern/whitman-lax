@@ -1,5 +1,5 @@
 /* ── PLAN PANEL ── */
-.plan-panel { padding:16px 22px; border-right:1px solid #ecece7; overflow-y:auto; }
+.plan-panel { padding:16px 22px; border-right:1px solid #ecece7; overflow-y:auto; min-width:0; }
 
 /* DATE BAR */
 .date-bar { display:flex; align-items:center; gap:12px; margin-bottom:12px; padding:9px 14px; background:#fff; border:2px solid #a61e0a; }

@@ -6,8 +6,8 @@
 .btn-dark:hover { background:#010101; }
 
 /* ── BODY LAYOUT ── */
-.app-body { display:flex; flex-direction:column; flex:1; }
-.days-row { display:grid; grid-template-columns:1fr 1fr 1fr; }
+.app-body { display:flex; flex-direction:column; flex:1; width:100%; }
+.days-row { display:grid; grid-template-columns:1fr 1fr 1fr; width:100%; min-width:0; }
 .plan-panel:not(:last-child) { border-right:2px solid #ecece7; }
 
 /* ── SECTION HEADING ── */
