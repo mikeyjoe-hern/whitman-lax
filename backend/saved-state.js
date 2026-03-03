@@ -217,15 +217,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Aitan Bar-Ziv",
+          "injured": false
+        },
+        {
           "name": "Rafe Gonzalez",
           "injured": false
         },
         {
           "name": "Jack Cummings",
-          "injured": false
-        },
-        {
-          "name": "Aitan Bar-Ziv",
           "injured": false
         }
       ]
