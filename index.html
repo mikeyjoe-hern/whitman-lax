@@ -27,8 +27,8 @@
   <div class="s-school">Walt Whitman High School · Lacrosse</div>
   <div class="s-title">PRACTICE<br><span class="ac">PLAN</span></div>
   <div class="s-bar"></div>
-  <div class="s-quote">"To Begin, Begin"</div>
-  <div class="s-meta">Compete · Shake the Rust · 2.28.2026</div>
+  <div class="s-quote" id="s-quote">"To Begin, Begin"</div>
+  <div class="s-meta" id="s-meta">Compete · Shake the Rust</div>
   <div class="s-pw-wrap">
     <input type="password" id="s-pw" class="s-pw-in" placeholder="Password"
       onkeydown="if(event.key==='Enter')checkPassword()" autofocus>
@@ -55,7 +55,7 @@
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-0">Sunday, March 1, 2026</span>
-          <button class="day-print-btn" onclick="printDay(0)" title="Print Day 1">PRINT</button>
+          <button class="day-print-btn" onclick="downloadDay(0)" title="Download Day 1 PDF">DOWNLOAD</button>
           <input type="date" id="datePicker-0" class="date-native" value="2026-03-01">
         </div>
         <div class="notes-box">
@@ -101,7 +101,7 @@
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-1">Monday, March 2, 2026</span>
-          <button class="day-print-btn" onclick="printDay(1)" title="Print Day 2">PRINT</button>
+          <button class="day-print-btn" onclick="downloadDay(1)" title="Download Day 2 PDF">DOWNLOAD</button>
           <input type="date" id="datePicker-1" class="date-native" value="2026-03-02">
         </div>
         <div class="notes-box">
@@ -147,7 +147,7 @@
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-2">Wednesday, March 4, 2026</span>
-          <button class="day-print-btn" onclick="printDay(2)" title="Print Day 3">PRINT</button>
+          <button class="day-print-btn" onclick="downloadDay(2)" title="Download Day 3 PDF">DOWNLOAD</button>
           <input type="date" id="datePicker-2" class="date-native" value="2026-03-04">
         </div>
         <div class="notes-box">
@@ -253,6 +253,8 @@
   </div>
 </div>
 
+<!-- PDF generation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <!-- Backend JS (must load first) -->
 <script src="backend/data.js"></script>
 <script src="backend/saved-state.js"></script>
