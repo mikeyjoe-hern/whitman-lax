@@ -26,10 +26,12 @@ function renderDepth() {
   document.querySelectorAll('.pc').forEach(chip=>{
     chip.querySelector('.pnf').addEventListener('mousedown', e=>e.stopPropagation());
     chip.addEventListener('dragstart',()=>{
+      isDragging = true;
       dragSrcPlayer={group:chip.dataset.group,idx:+chip.dataset.idx};
       chip.classList.add('dragging');
     });
     chip.addEventListener('dragend',()=>{
+      isDragging = false;
       chip.classList.remove('dragging');
       document.querySelectorAll('.pc').forEach(c=>c.classList.remove('insert-before','insert-after'));
     });
@@ -59,7 +61,7 @@ function renderDepth() {
     });
   });
 }
-function updPlayer(g,i,v){ const c=v.trim(); if(c) depthData[g].players[i]=c; }
+function updPlayer(g,i,v){ if(isDragging) return; const c=v.trim(); if(c) depthData[g].players[i]=c; }
 function addPlayer(g){
   const k=g.replace(/[^a-z0-9]/gi,'_'), inp=document.getElementById('pi-'+k);
   if(!inp?.value.trim()) return;
