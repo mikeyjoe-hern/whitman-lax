@@ -18,6 +18,11 @@ function applySavedState(s) {
     document.getElementById(`btnPM-${d}`).classList.toggle('on', sd.startAmPm === 'PM');
   });
   Object.assign(depthData, s.depthData);
+  // Migrate old string-based players to {name, injured} objects; remove legacy INJURED group
+  Object.values(depthData).forEach(data => {
+    data.players = data.players.map(p => typeof p === 'string' ? { name: p, injured: false } : p);
+  });
+  delete depthData['INJURED'];
   drillLibrary = s.drillLibrary;
   nextLid = s.nextLid;
 }

@@ -8,12 +8,16 @@ function renderDepth() {
     let html=`<div class="dgt bg-${data.cls}">${group}</div><ul class="pl" id="pl-${key}">`;
     data.players.forEach((p,i)=>{
       const bc=i===0?'b1':i<=2?'b2':'b3';
-      html+=`<li class="pc" draggable="true" data-group="${group}" data-idx="${i}">
+      html+=`<li class="pc${p.injured?' injured':''}" draggable="true" data-group="${group}" data-idx="${i}">
+        <span class="pdh" title="Drag to reorder">⠿</span>
         <span class="pr">${i+1}</span>
         <span class="pnf" contenteditable="true" spellcheck="false"
           onblur="updPlayer('${group}',${i},this.innerText)"
-          title="Click to edit">${esc(p)}</span>
+          title="Click to edit">${esc(p.name)}</span>
         <span class="pb ${bc}">#${i+1}</span>
+        <button class="pinj${p.injured?' pinj-on':''}"
+          onclick="toggleInjury('${group}',${i})"
+          title="${p.injured?'Mark healthy':'Mark injured'}">&#9679;</button>
         <button class="pdel" onclick="delPlayer('${group}',${i})">✕</button>
       </li>`;
     });
@@ -25,10 +29,12 @@ function renderDepth() {
   });
   document.querySelectorAll('.pc').forEach(chip=>{
     chip.querySelector('.pnf').addEventListener('mousedown', e=>e.stopPropagation());
-    chip.addEventListener('dragstart',()=>{
+    chip.querySelector('.pinj').addEventListener('mousedown', e=>e.stopPropagation());
+    chip.addEventListener('dragstart',e=>{
       isDragging = true;
       dragSrcPlayer={group:chip.dataset.group,idx:+chip.dataset.idx};
       chip.classList.add('dragging');
+      e.dataTransfer.effectAllowed='move';
     });
     chip.addEventListener('dragend',()=>{
       isDragging = false;
@@ -61,10 +67,11 @@ function renderDepth() {
     });
   });
 }
-function updPlayer(g,i,v){ if(isDragging) return; const c=v.trim(); if(c) depthData[g].players[i]=c; }
+function updPlayer(g,i,v){ if(isDragging) return; const c=v.trim(); if(c) depthData[g].players[i].name=c; }
 function addPlayer(g){
   const k=g.replace(/[^a-z0-9]/gi,'_'), inp=document.getElementById('pi-'+k);
   if(!inp?.value.trim()) return;
-  depthData[g].players.push(inp.value.trim()); renderDepth(); showToast('Player added');
+  depthData[g].players.push({name:inp.value.trim(),injured:false}); renderDepth(); showToast('Player added');
 }
 function delPlayer(g,i){ depthData[g].players.splice(i,1); renderDepth(); showToast('Player removed'); }
+function toggleInjury(g,i){ depthData[g].players[i].injured=!depthData[g].players[i].injured; renderDepth(); }
