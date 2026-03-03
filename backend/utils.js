@@ -119,7 +119,7 @@ function downloadDay(d) {
     doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(0);
     players.forEach(function(p, pi) {
       gy += 12;
-      doc.text((pi + 1) + '.  ' + p, xOff + 8, gy);
+      doc.text((pi + 1) + '.  ' + (p.name || p), xOff + 8, gy);
     });
 
     colYs[col] = gy + 14;

@@ -139,14 +139,13 @@ let drillLibrary = [
 ];
 
 let depthData = {
-  'ATTACK':        { cls:'att', players:['Tommy G','Danny','Colten','Jordan','Buck','Angus?','Byrd/Lowe?'] },
-  'MIDFIELD':      { cls:'mid', players:['Sean','Arkin','Dylan?','Jude','Bo?','Ziggy Powell','Magnus','Zach Worthen'] },
-  'DEFENSE — CD':  { cls:'def', players:['Durke','Lukas','Charm','Elliot','Henry','Cooper'] },
-  'DEFENSE — DM':  { cls:'def', players:['Franny','Conor G','Georges','Rafe?','Zaki?'] },
-  'DEFENSE — LSM': { cls:'def', players:['T-Sull','Jack Cummings','Aden (SSDM?)'] },
-  'GOALIE':        { cls:'gol', players:['Beckett'] },
-  'FACE-OFF':      { cls:'fo',  players:['Knox','Jake'] },
-  'INJURED':       { cls:'inj', players:['Danny (ankle)','Cooper (mono)'] },
+  'ATTACK':        { cls:'att', players:[{name:'Tommy G',injured:false},{name:'Danny',injured:false},{name:'Colten',injured:false},{name:'Jordan',injured:false},{name:'Buck',injured:false},{name:'Angus?',injured:false},{name:'Byrd/Lowe?',injured:false}] },
+  'MIDFIELD':      { cls:'mid', players:[{name:'Sean',injured:false},{name:'Arkin',injured:false},{name:'Dylan?',injured:false},{name:'Jude',injured:false},{name:'Bo?',injured:false},{name:'Ziggy Powell',injured:false},{name:'Magnus',injured:false},{name:'Zach Worthen',injured:false}] },
+  'DEFENSE — CD':  { cls:'def', players:[{name:'Durke',injured:false},{name:'Lukas',injured:false},{name:'Charm',injured:false},{name:'Elliot',injured:false},{name:'Henry',injured:false},{name:'Cooper',injured:false}] },
+  'DEFENSE — DM':  { cls:'def', players:[{name:'Franny',injured:false},{name:'Conor G',injured:false},{name:'Georges',injured:false},{name:'Rafe?',injured:false},{name:'Zaki?',injured:false}] },
+  'DEFENSE — LSM': { cls:'def', players:[{name:'T-Sull',injured:false},{name:'Jack Cummings',injured:false},{name:'Aden (SSDM?)',injured:false}] },
+  'GOALIE':        { cls:'gol', players:[{name:'Beckett',injured:false}] },
+  'FACE-OFF':      { cls:'fo',  players:[{name:'Knox',injured:false},{name:'Jake',injured:false}] },
 };
 
 let nextLid = 200;
