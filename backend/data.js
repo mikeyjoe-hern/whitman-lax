@@ -151,5 +151,6 @@ let depthData = {
 
 let nextLid = 200;
 let dragSrcPlayer = null;
+let isDragging = false;
 let libOpen = false;
 let libForDay = 0;
