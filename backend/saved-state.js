@@ -65,76 +65,168 @@ window.SAVED_STATE = {
     "ATTACK": {
       "cls": "att",
       "players": [
-        "Tommy Gardiner",
-        "Colten Thompson",
-        "Buck Nowell",
-        "Jordan Yoon",
-        "Angus Conley-Filippello",
-        "Dylan Byrd"
+        {
+          "name": "Tommy Gardiner",
+          "injured": false
+        },
+        {
+          "name": "Colten Thompson",
+          "injured": false
+        },
+        {
+          "name": "Buck Nowell",
+          "injured": false
+        },
+        {
+          "name": "Jordan Yoon",
+          "injured": false
+        },
+        {
+          "name": "Angus Conley-Filippello",
+          "injured": false
+        },
+        {
+          "name": "Dylan Byrd",
+          "injured": false
+        }
       ]
     },
     "MIDFIELD": {
       "cls": "mid",
       "players": [
-        "Sean Sanders",
-        "Arkin Isip",
-        "Jude McPhearson",
-        "Bo Werth",
-        "Ziggy Powell-Moran",
-        "Zach Worthen",
-        "Patrick Ballance"
+        {
+          "name": "Sean Sanders",
+          "injured": false
+        },
+        {
+          "name": "Carter Lowe (knee)",
+          "injured": true
+        },
+        {
+          "name": "Arkin Isip",
+          "injured": false
+        },
+        {
+          "name": "Danny Merlis (ankle)",
+          "injured": true
+        },
+        {
+          "name": "Jude McPhearson",
+          "injured": false
+        },
+        {
+          "name": "Bo Werth",
+          "injured": false
+        },
+        {
+          "name": "Ziggy Powell-Moran",
+          "injured": false
+        },
+        {
+          "name": "Zach Worthen",
+          "injured": false
+        },
+        {
+          "name": "Patrick Ballance",
+          "injured": false
+        }
       ]
     },
     "DEFENSE — CD": {
       "cls": "def",
       "players": [
-        "Durke Anderson",
-        "Lukas Schlotterer",
-        "Christian Armstrong",
-        "Elliot Fernandez",
-        "Henry Herdman"
+        {
+          "name": "Durke Anderson",
+          "injured": false
+        },
+        {
+          "name": "Lukas Schlotterer",
+          "injured": false
+        },
+        {
+          "name": "Christian Armstrong",
+          "injured": false
+        },
+        {
+          "name": "Elliot Fernandez",
+          "injured": false
+        },
+        {
+          "name": "Henry Herdman",
+          "injured": false
+        }
       ]
     },
     "DEFENSE — DM": {
       "cls": "def",
       "players": [
-        "Franny Marra",
-        "Zaki Saberi",
-        "Conor Galvin",
-        "Georges Posner",
-        "Rafe Gonzalez",
-        "Aitan Bar-Ziv"
+        {
+          "name": "Franny Marra",
+          "injured": false
+        },
+        {
+          "name": "Zaki Saberi",
+          "injured": false
+        },
+        {
+          "name": "Conor Galvin",
+          "injured": false
+        },
+        {
+          "name": "Georges Posner",
+          "injured": false
+        },
+        {
+          "name": "Rafe Gonzalez",
+          "injured": false
+        },
+        {
+          "name": "Aitan Bar-Ziv",
+          "injured": false
+        }
       ]
     },
     "DEFENSE — LSM": {
       "cls": "def",
       "players": [
-        "Tommy Sullivan",
-        "Zach Kendall-Taylor",
-        "Jack Cummings",
-        "Aden Parker"
+        {
+          "name": "Tommy Sullivan",
+          "injured": false
+        },
+        {
+          "name": "Zach Kendall-Taylor",
+          "injured": false
+        },
+        {
+          "name": "Jack Cummings",
+          "injured": false
+        },
+        {
+          "name": "Aden Parker",
+          "injured": false
+        }
       ]
     },
     "GOALIE": {
       "cls": "gol",
       "players": [
-        "Beckett"
+        {
+          "name": "Beckett",
+          "injured": false
+        }
       ]
     },
     "FACE-OFF": {
       "cls": "fo",
       "players": [
-        "Knox Brogan",
-        "Jake Thorner"
-      ]
-    },
-    "INJURED": {
-      "cls": "inj",
-      "players": [
-        "Danny Merlis (ankle)",
-        "Cooper Nowell (mono)",
-        "Carter Lowe (knee)",
-        "Magnus Jensen (Covid)"
+        {
+          "name": "Knox Brogan",
+          "injured": false
+        },
+        {
+          "name": "Jake Thorner",
+          "injured": false
+        }
       ]
     }
   },
