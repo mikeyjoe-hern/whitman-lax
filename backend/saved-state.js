@@ -14,55 +14,55 @@ window.SAVED_STATE = {
           "id": 104,
           "dur": 8,
           "name": "Line Drills",
-          "notes": ""
+          "notes": "Outside, Inside, Roll"
         },
         {
           "id": 105,
           "dur": 7,
           "name": "Breakouts",
-          "notes": ""
+          "notes": "Clear Spots"
         },
         {
           "id": 112,
           "dur": 10,
           "name": "Corner GBs",
-          "notes": ""
+          "notes": "Competitive"
         },
         {
           "id": 106,
           "dur": 10,
-          "name": "Box Build Up / Ball Start w/ Goal",
-          "notes": ""
+          "name": "Box Build Up",
+          "notes": "Get above Restrainer"
         },
         {
           "id": 107,
-          "dur": 10,
+          "dur": 15,
           "name": "Wing GBs to Break",
-          "notes": ""
+          "notes": "Solo Pick up 4v3, 2v1, pick up 5v4"
         },
         {
           "id": 108,
           "dur": 10,
           "name": "Pressure Passing",
-          "notes": ""
+          "notes": "4 passes then can go to goal"
         },
         {
           "id": 109,
           "dur": 10,
           "name": "Y Drill - Transfer at X",
-          "notes": ""
+          "notes": "Coach at X"
         },
         {
           "id": 111,
-          "dur": 10,
+          "dur": 15,
           "name": "Split",
-          "notes": ""
+          "notes": "O-motion, alley, sweep, wing\nD-Hern"
         },
         {
           "id": 110,
-          "dur": 10,
+          "dur": 20,
           "name": "6v6",
-          "notes": ""
+          "notes": "Competitive"
         }
       ],
       "nextId": 113,
