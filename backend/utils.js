@@ -40,10 +40,35 @@ async function downloadDay(d) {
   doc.text(dateLabel, margin, y);
   y += 18;
   doc.setTextColor(0);
-  doc.setDrawColor(166, 30, 10);
+  doc.setDrawColor(3, 165, 227);
   doc.setLineWidth(1.5);
   doc.line(margin, y, pageW - margin, y);
   y += 20;
+
+  // ── Coach Notes + Overall Note ────────────────────────────────────────
+  var coachNotes   = document.getElementById('coachNotes-'   + d).innerText.trim();
+  var overallNote  = document.getElementById('overallNote-'  + d).innerText.trim();
+  if (coachNotes || overallNote) {
+    if (coachNotes) {
+      doc.setFont('helvetica', 'bold').setFontSize(7.5).setTextColor(140);
+      doc.text('COACH NOTES', margin, y);
+      y += 10;
+      var cnLines = doc.splitTextToSize(coachNotes, colW);
+      doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(0);
+      doc.text(cnLines, margin, y);
+      y += cnLines.length * 11 + 6;
+    }
+    if (overallNote) {
+      doc.setFont('helvetica', 'bold').setFontSize(7.5).setTextColor(140);
+      doc.text('OVERALL NOTE', margin, y);
+      y += 10;
+      var onLines = doc.splitTextToSize(overallNote, colW);
+      doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(0);
+      doc.text(onLines, margin, y);
+      y += onLines.length * 11 + 6;
+    }
+    y += 6;
+  }
 
   // ── Drill Schedule ────────────────────────────────────────────────────
   doc.setFont('helvetica', 'bold').setFontSize(13).setTextColor(0);
