@@ -132,11 +132,41 @@ async function downloadDay(d) {
   let col = 0;
   const colYs = [y, y];
 
+  // ── Dynamic scaling: fit depth chart to available vertical + horizontal space ──
+  const BASE_PLAYER_H = 10, BASE_HEADER_H = 8, BASE_GAP = 4;
+  const simYs = [0, 0]; let simCol = 0;
+  Object.values(depthData).forEach(function(data) {
+    const n = (data.players || []).length;
+    simYs[simCol] += BASE_HEADER_H + n * BASE_PLAYER_H + BASE_GAP;
+    simCol = simCol === 0 ? 1 : 0;
+  });
+  const simMaxH = Math.max(simYs[0], simYs[1]);
+  const availH = pageH - y - margin;
+  const vScale = simMaxH > availH ? availH / simMaxH : 1;
+
+  const maxNameW = halfW - 16;
+  doc.setFont('helvetica', 'normal').setFontSize(9);
+  let hScale = 1;
+  Object.values(depthData).forEach(function(data) {
+    (data.players || []).forEach(function(p, pi) {
+      const str = (pi + 1) + '.  ' + (p.name || p);
+      const w = doc.getStringUnitWidth(str) * 9;
+      if (w > maxNameW) hScale = Math.min(hScale, maxNameW / w);
+    });
+  });
+
+  const scale     = Math.min(vScale, hScale);
+  const playerH   = Math.max(8,   Math.round(BASE_PLAYER_H * scale));
+  const headerGap = Math.max(2,   Math.round(BASE_HEADER_H * scale));
+  const groupGap  = Math.max(2,   Math.round(BASE_GAP      * scale));
+  const dcFontSz  = Math.max(6.5, 9   * scale);
+  const hdrFontSz = Math.max(6,   8.5 * scale);
+
   Object.entries(depthData).forEach(function(entry) {
     const group = entry[0];
     const data  = entry[1];
     const players = data.players || [];
-    const blockH = 16 + players.length * 10 + 4;
+    const blockH = 16 + players.length * playerH + groupGap;
     const xOff = margin + col * (halfW + 16);
 
     if (colYs[col] + blockH > pageH - margin) {
@@ -149,17 +179,17 @@ async function downloadDay(d) {
 
     doc.setFillColor(50, 54, 60);
     doc.rect(xOff, gy - 10, halfW, 15, 'F');
-    doc.setFont('helvetica', 'bold').setFontSize(8.5).setTextColor(255);
+    doc.setFont('helvetica', 'bold').setFontSize(hdrFontSz).setTextColor(255);
     doc.text(group, xOff + 5, gy);
-    gy += 8;
+    gy += headerGap;
 
-    doc.setFont('helvetica', 'normal').setFontSize(9).setTextColor(0);
+    doc.setFont('helvetica', 'normal').setFontSize(dcFontSz).setTextColor(0);
     players.forEach(function(p, pi) {
-      gy += 10;
+      gy += playerH;
       doc.text((pi + 1) + '.  ' + (p.name || p), xOff + 8, gy);
     });
 
-    colYs[col] = gy + 4;
+    colYs[col] = gy + groupGap;
     col = col === 0 ? 1 : 0;
   });
 
