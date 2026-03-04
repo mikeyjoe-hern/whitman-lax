@@ -27,9 +27,6 @@ const QUOTES = [
 (function initSplash() {
   const quote = QUOTES[Math.floor(Math.random() * QUOTES.length)];
   document.getElementById('s-quote').textContent = '\u201c' + quote + '\u201d';
-  const d = new Date();
-  const dateStr = (d.getMonth() + 1) + '.' + d.getDate() + '.' + d.getFullYear();
-  document.getElementById('s-meta').textContent = 'Compete \u00b7 Shake the Rust \u00b7 ' + dateStr;
 })();
 
 async function checkPassword() {

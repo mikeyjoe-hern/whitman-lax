@@ -15,6 +15,7 @@ function collectState() {
       coachNotes: document.getElementById(`coachNotes-${d}`).innerText.trim(),
       overallNote: document.getElementById(`overallNote-${d}`).innerText.trim(),
       focusText: document.getElementById(`focusText-${d}`).innerText.trim(),
+      pquote: document.getElementById(`pquote-${d}`).innerText.trim(),
     })),
     depthData,
     drillLibrary,
