@@ -123,7 +123,7 @@ window.SAVED_STATE = {
           "id": 212,
           "dur": 15,
           "name": "Split",
-          "notes": "O- Run through alley, x, sweep; put in tango, green"
+          "notes": "O- Run through alley, x, sweep; put in tango, green D- 3 spot lines, reco, bump, coma"
         },
         {
           "id": 213,
@@ -143,8 +143,15 @@ window.SAVED_STATE = {
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
     {
-      "drills": [],
-      "nextId": 300,
+      "drills": [
+        {
+          "id": 300,
+          "dur": 10,
+          "name": "Rabbit Drill",
+          "notes": "Need to run through sub game"
+        }
+      ],
+      "nextId": 301,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-05",
