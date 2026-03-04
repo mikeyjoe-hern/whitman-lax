@@ -76,15 +76,70 @@ window.SAVED_STATE = {
       "pquote": "\"To Begin, Begin\""
     },
     {
-      "drills": [],
-      "nextId": 203,
+      "drills": [
+        {
+          "id": 203,
+          "dur": 10,
+          "name": "Warm Up",
+          "notes": ""
+        },
+        {
+          "id": 207,
+          "dur": 8,
+          "name": "Breakouts",
+          "notes": "Under 18- 5 reps"
+        },
+        {
+          "id": 206,
+          "dur": 8,
+          "name": "O/D Split Stick",
+          "notes": "O- Diamond D- Hern Choice"
+        },
+        {
+          "id": 204,
+          "dur": 9,
+          "name": "GB Stations",
+          "notes": "Trail, Gauntlet, 2v1"
+        },
+        {
+          "id": 208,
+          "dur": 10,
+          "name": "1v1v1",
+          "notes": "Competitive GBs"
+        },
+        {
+          "id": 210,
+          "dur": 10,
+          "name": "1v1v1 from X",
+          "notes": ""
+        },
+        {
+          "id": 211,
+          "dur": 15,
+          "name": "4v3 Progress to 6v6",
+          "notes": "Teach Transition O/D"
+        },
+        {
+          "id": 212,
+          "dur": 15,
+          "name": "Split",
+          "notes": ""
+        },
+        {
+          "id": 213,
+          "dur": 25,
+          "name": "6v6",
+          "notes": ""
+        }
+      ],
+      "nextId": 214,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-04",
       "dateDisplay": "Wednesday, March 4, 2026",
-      "coachNotes": "",
-      "overallNote": "",
-      "focusText": "",
+      "coachNotes": "Learning/Competition, Hard Hat Day 3 (Durke)",
+      "overallNote": "REMINDER FOR SCRIMMAGE, PRACTICE ATTENDANCE, INJURY EXPECTATIONS, GRADES",
+      "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
     {
@@ -109,10 +164,6 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Danny Merlis (ankle)",
-          "injured": true
-        },
-        {
           "name": "Colten Thompson",
           "injured": false
         },
@@ -121,16 +172,16 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Buck Nowell",
-          "injured": false
-        },
-        {
           "name": "Jordan Yoon",
           "injured": false
         },
         {
-          "name": "Angus Conley-Filippello",
+          "name": "Buck Nowell",
           "injured": false
+        },
+        {
+          "name": "Danny Merlis (ankle)",
+          "injured": true
         }
       ]
     },
@@ -140,10 +191,6 @@ window.SAVED_STATE = {
         {
           "name": "Sean Sanders",
           "injured": false
-        },
-        {
-          "name": "Carter Lowe (knee)",
-          "injured": true
         },
         {
           "name": "Arkin Isip",
@@ -158,16 +205,24 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Patrick Ballance",
+          "injured": false
+        },
+        {
+          "name": "Angus",
+          "injured": false
+        },
+        {
+          "name": "Carter Lowe (knee)",
+          "injured": true
+        },
+        {
           "name": "Ziggy Powell-Moran (shoulder)",
           "injured": true
         },
         {
           "name": "Zach Worthen (back)",
           "injured": true
-        },
-        {
-          "name": "Patrick Ballance",
-          "injured": false
         }
       ]
     },
@@ -208,8 +263,12 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Magnus Jensen (covid)",
-          "injured": true
+          "name": "Jake Thorner",
+          "injured": false
+        },
+        {
+          "name": "Aitan Bar-Ziv",
+          "injured": false
         },
         {
           "name": "Conor Galvin",
@@ -217,10 +276,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Georges Posner",
-          "injured": false
-        },
-        {
-          "name": "Aitan Bar-Ziv",
           "injured": false
         },
         {
@@ -233,6 +288,14 @@ window.SAVED_STATE = {
         },
         {
           "name": "John-John",
+          "injured": false
+        },
+        {
+          "name": "Magnus Jensen (covid)",
+          "injured": true
+        },
+        {
+          "name": "Rodgrigo",
           "injured": false
         }
       ]
@@ -929,7 +992,25 @@ window.SAVED_STATE = {
       "name": "Corner GBs",
       "dur": 10,
       "type": "Groundballs"
+    },
+    {
+      "lid": 205,
+      "name": "Warm Up",
+      "dur": 10,
+      "type": "Other"
+    },
+    {
+      "lid": 206,
+      "name": "GB Stations",
+      "dur": 10,
+      "type": "Groundballs"
+    },
+    {
+      "lid": 207,
+      "name": "O/D Split Stick",
+      "dur": 10,
+      "type": "Stickwork"
     }
   ],
-  "nextLid": 205
+  "nextLid": 208
 };
