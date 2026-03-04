@@ -72,7 +72,8 @@ window.SAVED_STATE = {
       "dateDisplay": "Tuesday, March 3, 2026",
       "coachNotes": "Compete, begin to learn. Hard Hat Lesson Two",
       "overallNote": "HARD HAT LESSON TWO (TG) — BE QUIET AND RESPECTFUL GOING INSIDE",
-      "focusText": "LEARN"
+      "focusText": "LEARN",
+      "pquote": "\"To Begin, Begin\""
     },
     {
       "drills": [],
@@ -83,7 +84,8 @@ window.SAVED_STATE = {
       "dateDisplay": "Wednesday, March 4, 2026",
       "coachNotes": "",
       "overallNote": "",
-      "focusText": ""
+      "focusText": "",
+      "pquote": "\"To Begin, Begin\""
     },
     {
       "drills": [],
@@ -94,7 +96,8 @@ window.SAVED_STATE = {
       "dateDisplay": "Thursday, March 5, 2026",
       "coachNotes": "",
       "overallNote": "",
-      "focusText": ""
+      "focusText": "",
+      "pquote": "\"To Begin, Begin\""
     }
   ],
   "depthData": {
@@ -110,8 +113,8 @@ window.SAVED_STATE = {
           "injured": true
         },
         {
-          "name": "Colten Thompson (sick)",
-          "injured": true
+          "name": "Colten Thompson",
+          "injured": false
         },
         {
           "name": "Dylan Byrd",
@@ -209,10 +212,6 @@ window.SAVED_STATE = {
           "injured": true
         },
         {
-          "name": "Zaki Saberi",
-          "injured": false
-        },
-        {
           "name": "Conor Galvin",
           "injured": false
         },
@@ -225,11 +224,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Zaki Saberi",
+          "injured": false
+        },
+        {
           "name": "Rafe Gonzalez",
           "injured": false
         },
         {
-          "name": "Jack Cummings",
+          "name": "John-John",
           "injured": false
         }
       ]
@@ -247,6 +250,10 @@ window.SAVED_STATE = {
         },
         {
           "name": "Aden Parker",
+          "injured": false
+        },
+        {
+          "name": "Jack Cummings",
           "injured": false
         }
       ]
