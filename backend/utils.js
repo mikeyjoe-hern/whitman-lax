@@ -133,7 +133,7 @@ async function downloadDay(d) {
   const colYs = [y, y];
 
   // ── Dynamic scaling: fit depth chart to available vertical + horizontal space ──
-  const BASE_PLAYER_H = 10, BASE_HEADER_H = 8, BASE_GAP = 4;
+  const BASE_PLAYER_H = 10, BASE_HEADER_H = 8, BASE_GAP = 14;
   const simYs = [0, 0]; let simCol = 0;
   Object.values(depthData).forEach(function(data) {
     const n = (data.players || []).length;
@@ -158,7 +158,7 @@ async function downloadDay(d) {
   const scale     = Math.min(vScale, hScale);
   const playerH   = Math.max(8,   Math.round(BASE_PLAYER_H * scale));
   const headerGap = Math.max(2,   Math.round(BASE_HEADER_H * scale));
-  const groupGap  = Math.max(2,   Math.round(BASE_GAP      * scale));
+  const groupGap  = Math.max(12,  Math.round(BASE_GAP      * scale));
   const dcFontSz  = Math.max(6.5, 9   * scale);
   const hdrFontSz = Math.max(6,   8.5 * scale);
 
