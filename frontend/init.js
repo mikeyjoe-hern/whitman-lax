@@ -3,6 +3,11 @@ if (window.SAVED_STATE) applySavedState(window.SAVED_STATE);
 [0, 1, 2].forEach(d => renderDrills(d));
 renderDepth();
 
+function switchDayTab(d) {
+  document.querySelectorAll('.plan-panel').forEach((p, i) => p.classList.toggle('active', i === d));
+  document.querySelectorAll('.day-tab-btn').forEach((b, i) => b.classList.toggle('on', i === d));
+}
+
 function applySavedState(s) {
   s.days.forEach((sd, d) => {
     days[d].drills   = sd.drills;

@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="frontend/modal.css">
 <link rel="stylesheet" href="frontend/toast.css">
 <link rel="stylesheet" href="frontend/footer.css">
+<link rel="stylesheet" href="frontend/responsive.css">
 </head>
 <body>
 
@@ -48,10 +49,15 @@
   </header>
 
   <div class="app-body">
+    <div class="day-tabs">
+      <button class="day-tab-btn on" onclick="switchDayTab(0)">Day 1</button>
+      <button class="day-tab-btn"    onclick="switchDayTab(1)">Day 2</button>
+      <button class="day-tab-btn"    onclick="switchDayTab(2)">Day 3</button>
+    </div>
     <div class="days-row">
 
       <!-- ── DAY 0 ── -->
-      <div class="plan-panel">
+      <div class="plan-panel active">
         <div class="date-bar">
           <span class="date-bar-label">Date</span>
           <span class="date-bar-value" id="dateDisplay-0">Sunday, March 1, 2026</span>
@@ -83,7 +89,7 @@
           <span class="ttd" id="ttd-0"></span>
         </div>
         <div class="sec-head">Drill Schedule</div>
-        <table class="dtable">
+        <div class="dtable-wrap"><table class="dtable">
           <thead><tr>
             <th style="width:20px;"></th>
             <th style="width:118px;">Time</th>
@@ -92,7 +98,7 @@
             <th style="width:28px;"></th>
           </tr></thead>
           <tbody id="drillsList-0"></tbody>
-        </table>
+        </table></div>
         <button class="add-drill-btn" onclick="openDrillLibModal(0)">+ Add Drill</button>
       </div>
 
@@ -129,7 +135,7 @@
           <span class="ttd" id="ttd-1"></span>
         </div>
         <div class="sec-head">Drill Schedule</div>
-        <table class="dtable">
+        <div class="dtable-wrap"><table class="dtable">
           <thead><tr>
             <th style="width:20px;"></th>
             <th style="width:118px;">Time</th>
@@ -138,7 +144,7 @@
             <th style="width:28px;"></th>
           </tr></thead>
           <tbody id="drillsList-1"></tbody>
-        </table>
+        </table></div>
         <button class="add-drill-btn" onclick="openDrillLibModal(1)">+ Add Drill</button>
       </div>
 
@@ -175,7 +181,7 @@
           <span class="ttd" id="ttd-2"></span>
         </div>
         <div class="sec-head">Drill Schedule</div>
-        <table class="dtable">
+        <div class="dtable-wrap"><table class="dtable">
           <thead><tr>
             <th style="width:20px;"></th>
             <th style="width:118px;">Time</th>
@@ -184,7 +190,7 @@
             <th style="width:28px;"></th>
           </tr></thead>
           <tbody id="drillsList-2"></tbody>
-        </table>
+        </table></div>
         <button class="add-drill-btn" onclick="openDrillLibModal(2)">+ Add Drill</button>
       </div>
 
