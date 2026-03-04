@@ -93,7 +93,7 @@ window.SAVED_STATE = {
           "id": 206,
           "dur": 8,
           "name": "O/D Split Stick",
-          "notes": "O- Diamond D- Hern Choice"
+          "notes": "O- Diamond D- Shovels"
         },
         {
           "id": 204,
