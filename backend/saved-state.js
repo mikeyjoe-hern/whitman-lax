@@ -123,13 +123,13 @@ window.SAVED_STATE = {
           "id": 212,
           "dur": 15,
           "name": "Split",
-          "notes": ""
+          "notes": "O- Run through alley, x, sweep; put in tango, green"
         },
         {
           "id": 213,
           "dur": 25,
           "name": "6v6",
-          "notes": ""
+          "notes": "through clear, emphasize clear spots"
         }
       ],
       "nextId": 214,
