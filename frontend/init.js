@@ -14,6 +14,7 @@ function applySavedState(s) {
     document.getElementById(`coachNotes-${d}`).innerText = sd.coachNotes;
     document.getElementById(`overallNote-${d}`).innerText = sd.overallNote;
     document.getElementById(`focusText-${d}`).innerText  = sd.focusText;
+    if (sd.pquote !== undefined) document.getElementById(`pquote-${d}`).innerText = sd.pquote;
     document.getElementById(`btnAM-${d}`).classList.toggle('on', sd.startAmPm === 'AM');
     document.getElementById(`btnPM-${d}`).classList.toggle('on', sd.startAmPm === 'PM');
   });
