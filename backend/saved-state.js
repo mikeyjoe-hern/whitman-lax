@@ -93,7 +93,7 @@ window.SAVED_STATE = {
           "id": 206,
           "dur": 8,
           "name": "O/D Split Stick",
-          "notes": "O- Diamond D- Shovels"
+          "notes": "O- Diamond D- Hern Choice"
         },
         {
           "id": 204,
@@ -123,7 +123,7 @@ window.SAVED_STATE = {
           "id": 212,
           "dur": 15,
           "name": "Split",
-          "notes": "O- Run through alley, x, sweep; put in tango, green D- 3 spot lines, reco, bump, coma"
+          "notes": "O- Run through alley, x, sweep; put in tango, green"
         },
         {
           "id": 213,
@@ -143,15 +143,8 @@ window.SAVED_STATE = {
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
     {
-      "drills": [
-        {
-          "id": 300,
-          "dur": 10,
-          "name": "Rabbit Drill",
-          "notes": "Need to run through sub game"
-        }
-      ],
-      "nextId": 301,
+      "drills": [],
+      "nextId": 300,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-05",
@@ -216,8 +209,8 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Angus",
-          "injured": false
+          "name": "Angus (hip)",
+          "injured": true
         },
         {
           "name": "Carter Lowe (knee)",
