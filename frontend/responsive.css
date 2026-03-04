@@ -11,7 +11,7 @@
     background: #272727;
     border-bottom: 2px solid #03a5e3;
     position: sticky;
-    top: 56px;   /* sits just below the sticky app header */
+    top: 62px;   /* sits just below the sticky app header (6px border-top + 8px pad + ~33px text + 8px pad + 5px border-bottom) */
     z-index: 90;
   }
   .day-tab-btn {
@@ -34,8 +34,9 @@
   /* ── Drill table: horizontal scroll ── */
   .dtable-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
 
-  /* ── Depth chart: smaller min-width so groups wrap more naturally ── */
-  .dg { min-width: 110px; }
+  /* ── Depth chart: stack groups full-width ── */
+  #depthChart { flex-direction: column; gap: 8px; }
+  .dg { min-width: 0; width: 100%; flex: none; }
   .depth-panel { padding: 12px 14px; }
 
   /* ── Modals: fill screen width ── */
