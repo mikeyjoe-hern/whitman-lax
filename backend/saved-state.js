@@ -85,7 +85,7 @@ window.SAVED_STATE = {
       "coachNotes": "",
       "overallNote": "",
       "focusText": "",
-      "pquote": "\"To Begin, Begin\""
+      "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
     {
       "drills": [],
@@ -97,7 +97,7 @@ window.SAVED_STATE = {
       "coachNotes": "",
       "overallNote": "",
       "focusText": "",
-      "pquote": "\"To Begin, Begin\""
+      "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
   ],
   "depthData": {
