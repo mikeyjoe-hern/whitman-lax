@@ -178,7 +178,7 @@ async function downloadDay(d) {
     let gy = colYs[col];
 
     doc.setFillColor(50, 54, 60);
-    doc.rect(xOff, gy - 10, halfW, 15, 'F');
+    doc.rect(xOff, gy - 4, halfW, 15, 'F');
     doc.setFont('helvetica', 'bold').setFontSize(hdrFontSz).setTextColor(255);
     doc.text(group, xOff + 5, gy);
     gy += headerGap;
