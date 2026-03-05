@@ -302,7 +302,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Rodgrigo",
+          "name": "Rodrigo",
           "injured": false
         }
       ]
