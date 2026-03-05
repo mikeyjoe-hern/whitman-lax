@@ -217,7 +217,7 @@ window.SAVED_STATE = {
       "dateValue": "2026-03-05",
       "dateDisplay": "Thursday, March 5, 2026",
       "coachNotes": "Compete/Game Like Situtation, Hard Hat Day 4 (Lukas)",
-      "overallNote": "GRADES, PRACTICE TMO, RUN TEST MONDAY",
+      "overallNote": "GRADES, RUN TEST MONDAY, TO DO TMO- LIVE FACEOFFS, RIDE/CLEAR",
       "focusText": "PREP",
       "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
