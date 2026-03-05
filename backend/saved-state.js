@@ -288,7 +288,7 @@ window.SAVED_STATE = {
           "injured": true
         },
         {
-          "name": "Angus (hip)",
+          "name": "Angus Conley-Filippello (hip)",
           "injured": true
         }
       ]
@@ -313,7 +313,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Henry Herdman",
+          "name": "Jack Cummings",
           "injured": false
         },
         {
@@ -332,10 +332,6 @@ window.SAVED_STATE = {
         {
           "name": "Jake Thorner",
           "injured": false
-        },
-        {
-          "name": "Magnus Jensen (covid)",
-          "injured": true
         },
         {
           "name": "Aitan Bar-Ziv",
@@ -364,6 +360,10 @@ window.SAVED_STATE = {
         {
           "name": "Rodrigo",
           "injured": false
+        },
+        {
+          "name": "Magnus Jensen (covid)",
+          "injured": true
         }
       ]
     },
@@ -379,11 +379,11 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Aden Parker",
+          "name": "Henry Herdman",
           "injured": false
         },
         {
-          "name": "Jack Cummings",
+          "name": "Aden Parker",
           "injured": false
         }
       ]
@@ -402,10 +402,6 @@ window.SAVED_STATE = {
       "players": [
         {
           "name": "Knox Brogan",
-          "injured": false
-        },
-        {
-          "name": "Jake Thorner",
           "injured": false
         }
       ]
