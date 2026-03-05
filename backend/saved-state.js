@@ -276,10 +276,6 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Angus (hip)",
-          "injured": true
-        },
-        {
           "name": "Carter Lowe (knee)",
           "injured": true
         },
@@ -289,6 +285,10 @@ window.SAVED_STATE = {
         },
         {
           "name": "Zach Worthen (back)",
+          "injured": true
+        },
+        {
+          "name": "Angus (hip)",
           "injured": true
         }
       ]
