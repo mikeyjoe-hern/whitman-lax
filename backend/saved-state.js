@@ -145,20 +145,80 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
+          "id": 307,
+          "dur": 10,
+          "name": "Warm Up",
+          "notes": ""
+        },
+        {
+          "id": 302,
+          "dur": 10,
+          "name": "Meatloaf",
+          "notes": ""
+        },
+        {
+          "id": 309,
+          "dur": 10,
+          "name": "Split Stick",
+          "notes": "O- Step Downs (Alley, X, Shot)\nD-Hern Choice"
+        },
+        {
+          "id": 311,
+          "dur": 10,
+          "name": "Spinning Approaches",
+          "notes": "4 d in, 4 o in diamond, O is doing diamond passing drill while D gets in and then approaches pass"
+        },
+        {
+          "id": 306,
+          "dur": 10,
+          "name": "Apache",
+          "notes": ""
+        },
+        {
+          "id": 310,
+          "dur": 10,
+          "name": "Build Up 1,2,3,4",
+          "notes": ""
+        },
+        {
+          "id": 305,
+          "dur": 12,
+          "name": "Numbers",
+          "notes": ""
+        },
+        {
           "id": 300,
           "dur": 10,
           "name": "Rabbit Drill",
           "notes": "Need to run through sub game"
+        },
+        {
+          "id": 303,
+          "dur": 12,
+          "name": "Split",
+          "notes": "O-Reinforce Motion/Man Up\nD- Man Down"
+        },
+        {
+          "id": 304,
+          "dur": 15,
+          "name": "6v6",
+          "notes": ""
+        },
+        {
+          "id": 308,
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
         }
       ],
-      "nextId": 301,
+      "nextId": 312,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-05",
       "dateDisplay": "Thursday, March 5, 2026",
-      "coachNotes": "",
-      "overallNote": "",
-      "focusText": "",
+      "coachNotes": "Compete/Game Like Situtation, Hard Hat Day 4 (Lukas)",
+      "overallNote": "GRADES, PRACTICE TMO, RUN TEST MONDAY",
+      "focusText": "PREP",
       "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
   ],
@@ -1017,7 +1077,25 @@ window.SAVED_STATE = {
       "name": "O/D Split Stick",
       "dur": 10,
       "type": "Stickwork"
+    },
+    {
+      "lid": 208,
+      "name": "Faceoffs",
+      "dur": 10,
+      "type": "Other"
+    },
+    {
+      "lid": 209,
+      "name": "Man Up/Down",
+      "dur": 10,
+      "type": "Other"
+    },
+    {
+      "lid": 210,
+      "name": "Spinning Approaches",
+      "dur": 10,
+      "type": "Other"
     }
   ],
-  "nextLid": 208
+  "nextLid": 211
 };
