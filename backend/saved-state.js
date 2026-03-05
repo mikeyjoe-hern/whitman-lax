@@ -160,7 +160,7 @@ window.SAVED_STATE = {
           "id": 309,
           "dur": 10,
           "name": "Split Stick",
-          "notes": "O- Step Downs (Alley, X, Shot)\nD-Hern Choice"
+          "notes": "O- Step Downs (Alley, X, Shot)\nD-Hern Choice\nVita- w/ Beckett"
         },
         {
           "id": 311,
@@ -243,8 +243,8 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Buck Nowell",
-          "injured": false
+          "name": "Buck Nowell (quad)",
+          "injured": true
         },
         {
           "name": "Danny Merlis (ankle)",
@@ -276,8 +276,8 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Angus",
-          "injured": false
+          "name": "Angus (hip)",
+          "injured": true
         },
         {
           "name": "Carter Lowe (knee)",
