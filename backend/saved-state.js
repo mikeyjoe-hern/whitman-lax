@@ -20,7 +20,7 @@ window.SAVED_STATE = {
           "id": 105,
           "dur": 8,
           "name": "Pre-Game Split",
-          "notes": "O-Shooting\nD-Herns Thing\nFO-/G with Vita"
+          "notes": "O-Shooting D-hard corners, gb shovels, pokes\nD-Herns Thing\nFO-/G with Vita"
         },
         {
           "id": 112,
@@ -44,7 +44,7 @@ window.SAVED_STATE = {
           "id": 108,
           "dur": 10,
           "name": "FO",
-          "notes": "everyone else with Hern 1v1 tight"
+          "notes": "everyone else with Hern 1v1 tight, ride the rail"
         },
         {
           "id": 109,
@@ -56,13 +56,13 @@ window.SAVED_STATE = {
           "id": 111,
           "dur": 8,
           "name": "6v6",
-          "notes": "O-motion, alley, sweep, wing\nD-Hern"
+          "notes": "O-motion, alley, sweep, wing D-black\nD-Hern"
         },
         {
           "id": 110,
           "dur": 10,
           "name": "Man Up/Down",
-          "notes": ""
+          "notes": "D-fifty, rep with zach and jake"
         }
       ],
       "nextId": 113,
