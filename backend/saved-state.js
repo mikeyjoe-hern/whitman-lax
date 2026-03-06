@@ -13,67 +13,67 @@ window.SAVED_STATE = {
         {
           "id": 104,
           "dur": 8,
-          "name": "Line Drills",
-          "notes": "Outside, Inside, Roll"
+          "name": "Pre-Game Line Drills",
+          "notes": ""
         },
         {
           "id": 105,
-          "dur": 7,
-          "name": "Breakouts",
-          "notes": "Clear Spots"
+          "dur": 8,
+          "name": "Pre-Game Split",
+          "notes": "O-Shooting\nD-Herns Thing\nFO-/G with Vita"
         },
         {
           "id": 112,
-          "dur": 10,
-          "name": "Corner GBs",
-          "notes": "Competitive"
+          "dur": 8,
+          "name": "4v3 Pregame",
+          "notes": ""
         },
         {
           "id": 106,
           "dur": 10,
-          "name": "Box Build Up",
-          "notes": "Get above Restrainer"
+          "name": "GB Fundies",
+          "notes": "Trail, SHL, 2v1"
         },
         {
           "id": 107,
-          "dur": 15,
-          "name": "Wing GBs to Break",
-          "notes": "Solo Pick up 4v3, 2v1, pick up 5v4"
+          "dur": 10,
+          "name": "Corner GBs",
+          "notes": "Competitive "
         },
         {
           "id": 108,
           "dur": 10,
-          "name": "Pressure Passing",
-          "notes": "4 passes then can go to goal"
+          "name": "FO",
+          "notes": "everyone else with Hern 1v1 tight"
         },
         {
           "id": 109,
-          "dur": 10,
-          "name": "Y Drill - Transfer at X",
-          "notes": "Coach at X"
+          "dur": 12,
+          "name": "Ride/Clear",
+          "notes": "Diamond Clear, 21 Ride"
         },
         {
           "id": 111,
-          "dur": 15,
-          "name": "Split",
+          "dur": 8,
+          "name": "6v6",
           "notes": "O-motion, alley, sweep, wing\nD-Hern"
         },
         {
           "id": 110,
-          "dur": 20,
-          "name": "6v6",
-          "notes": "Competitive"
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
         }
       ],
       "nextId": 113,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-03",
-      "dateDisplay": "Tuesday, March 3, 2026",
-      "coachNotes": "Compete, begin to learn. Hard Hat Lesson Two",
-      "overallNote": "HARD HAT LESSON TWO (TG) — BE QUIET AND RESPECTFUL GOING INSIDE",
-      "focusText": "LEARN",
-      "pquote": "\"To Begin, Begin\""
+      "dateValue": "2026-03-06",
+      "dateDisplay": "Friday, March 6, 2026",
+      "coachNotes": "Pre-Game Prep. Hard Hat Lesson 5 (Conor)",
+      "overallNote": "SCRIMMAGE ARRIVAL 9:15- BALL BUCKET, BRING OWN WATER",
+      "focusText": "PREPARE",
+      "pquote": ""
     },
     {
       "drills": [
