@@ -152,7 +152,7 @@ window.SAVED_STATE = {
       "coachNotes": "Learning/Competition, Hard Hat Day 7 (Sean)",
       "overallNote": "RUN TEST- INJURED PLAYERS WILL RUN BEFORE RETURN TO PLAY",
       "focusText": "LEARN/COMPETE",
-      "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
+      "pquote": "\"Hard work without talent is a shame, but talent without hard work is a tragedy\" - Robert Hall"
     },
     {
       "drills": [
@@ -231,7 +231,7 @@ window.SAVED_STATE = {
       "coachNotes": "Compete/Game Like Situtation, Hard Hat Day 4 (Lukas)",
       "overallNote": "GRADES, RUN TEST MONDAY, TO DO TMO- LIVE FACEOFFS, RIDE/CLEAR, HELMET HANDOUT TMO",
       "focusText": "PREP",
-      "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
+      "pquote": "\"I'm a greater believer in luck, and I find the harder I work the more I have of it\" - Thomas Jefferson"
     }
   ],
   "depthData": {
