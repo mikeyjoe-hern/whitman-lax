@@ -102,6 +102,12 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
+          "id": 218,
+          "dur": 10,
+          "name": "Pressure Passing",
+          "notes": ""
+        },
+        {
           "id": 214,
           "dur": 10,
           "name": "Vike Ride Alley/Plug",
@@ -111,16 +117,34 @@ window.SAVED_STATE = {
           "id": 215,
           "dur": 10,
           "name": "Field Reversal Vike Ride",
+          "notes": "match up off shot"
+        },
+        {
+          "id": 217,
+          "dur": 10,
+          "name": "4v3 Progress to 6v6",
           "notes": ""
         },
         {
+          "id": 216,
+          "dur": 10,
+          "name": "Split",
+          "notes": "O- Motion Review/Pairs"
+        },
+        {
           "id": 213,
-          "dur": 20,
+          "dur": 10,
           "name": "6v6",
           "notes": "through clear, emphasize clear spots"
+        },
+        {
+          "id": 219,
+          "dur": 5,
+          "name": "Stretch",
+          "notes": ""
         }
       ],
-      "nextId": 216,
+      "nextId": 220,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-09",
@@ -1079,7 +1103,13 @@ window.SAVED_STATE = {
       "name": "Spinning Approaches",
       "dur": 10,
       "type": "Other"
+    },
+    {
+      "lid": 211,
+      "name": "Stretch",
+      "dur": 5,
+      "type": "Other"
     }
   ],
-  "nextLid": 211
+  "nextLid": 212
 };
