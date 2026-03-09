@@ -243,16 +243,16 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Colten Thompson",
+          "name": "Jordan Yoon",
           "injured": false
+        },
+        {
+          "name": "Colten Thompson",
+          "injured": true
         },
         {
           "name": "Dylan Byrd",
-          "injured": false
-        },
-        {
-          "name": "Jordan Yoon",
-          "injured": false
+          "injured": true
         },
         {
           "name": "Buck Nowell (quad)",
@@ -375,7 +375,7 @@ window.SAVED_STATE = {
         },
         {
           "name": "Magnus Jensen (covid)",
-          "injured": true
+          "injured": false
         }
       ]
     },
