@@ -85,60 +85,48 @@ window.SAVED_STATE = {
         },
         {
           "id": 207,
-          "dur": 8,
-          "name": "Breakouts",
-          "notes": "Under 18- 5 reps"
+          "dur": 20,
+          "name": "Run Test",
+          "notes": "2 groups"
         },
         {
           "id": 206,
-          "dur": 8,
+          "dur": 10,
           "name": "O/D Split Stick",
-          "notes": "O- Diamond D- Shovels"
+          "notes": "O-Spoke  D- Hern"
         },
         {
           "id": 204,
-          "dur": 9,
-          "name": "GB Stations",
-          "notes": "Trail, Gauntlet, 2v1"
-        },
-        {
-          "id": 208,
           "dur": 10,
-          "name": "1v1v1",
-          "notes": "Competitive GBs"
-        },
-        {
-          "id": 210,
-          "dur": 10,
-          "name": "1v1v1 from X",
+          "name": "Jailbreak GBs",
           "notes": ""
         },
         {
-          "id": 211,
-          "dur": 15,
-          "name": "4v3 Progress to 6v6",
-          "notes": "Teach Transition O/D"
+          "id": 214,
+          "dur": 10,
+          "name": "Vike Ride Alley/Plug",
+          "notes": ""
         },
         {
-          "id": 212,
-          "dur": 15,
-          "name": "Split",
-          "notes": "O- Run through alley, x, sweep; put in tango, green D- 3 spot lines, reco, bump, coma"
+          "id": 215,
+          "dur": 10,
+          "name": "Field Reversal Vike Ride",
+          "notes": ""
         },
         {
           "id": 213,
-          "dur": 25,
+          "dur": 20,
           "name": "6v6",
           "notes": "through clear, emphasize clear spots"
         }
       ],
-      "nextId": 214,
+      "nextId": 216,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-09",
       "dateDisplay": "Monday, March 9, 2026",
-      "coachNotes": "Learning/Competition, Hard Hat Day 3 (Durke)",
-      "overallNote": "REMINDER FOR SCRIMMAGE, PRACTICE ATTENDANCE, INJURY EXPECTATIONS, GRADES",
+      "coachNotes": "Learning/Competition, Hard Hat Day 7 (Sean)",
+      "overallNote": "RUN TEST- INJURED PLAYERS WILL RUN BEFORE RETURN TO PLAY",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
