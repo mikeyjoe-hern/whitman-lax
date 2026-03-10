@@ -150,9 +150,9 @@ window.SAVED_STATE = {
       "dateValue": "2026-03-09",
       "dateDisplay": "Monday, March 9, 2026",
       "coachNotes": "Learning/Competition, Hard Hat Day 7 (Sean)",
-      "overallNote": "RUN TEST- INJURED PLAYERS WILL RUN BEFORE RETURN TO PLAY",
+      "overallNote": "RUN TEST- INJURED PLAYERS WILL RUN BEFORE RETURN TO PLAY, ON TOP FIELD TOMORROW",
       "focusText": "LEARN/COMPETE",
-      "pquote": "\"Hard work without talent is a shame, but talent without hard work is a tragedy\" - Robert Hall"
+      "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
     {
       "drills": [
@@ -165,61 +165,43 @@ window.SAVED_STATE = {
         {
           "id": 302,
           "dur": 10,
-          "name": "Meatloaf",
-          "notes": ""
+          "name": "Star Drills",
+          "notes": "2 stars"
         },
         {
           "id": 309,
           "dur": 10,
-          "name": "Split Stick",
-          "notes": "O- Step Downs (Alley, X, Shot)\nD-Hern Choice\nVita- w/ Beckett"
+          "name": "Split",
+          "notes": "O- over the top shooting D-Hern Choice\nVita- w/ Beckett"
         },
         {
           "id": 311,
           "dur": 10,
-          "name": "Spinning Approaches",
-          "notes": "4 d in, 4 o in diamond, O is doing diamond passing drill while D gets in and then approaches pass"
+          "name": "GB Fundies",
+          "notes": "gauntlet, trail, B2B"
         },
         {
           "id": 306,
           "dur": 10,
           "name": "Apache",
-          "notes": ""
+          "notes": "d- double"
         },
         {
           "id": 310,
           "dur": 10,
-          "name": "Build Up 1,2,3,4",
+          "name": "2v2 sides",
           "notes": ""
         },
         {
           "id": 305,
-          "dur": 12,
+          "dur": 10,
           "name": "Numbers",
           "notes": ""
         },
         {
-          "id": 300,
-          "dur": 10,
-          "name": "Rabbit Drill",
-          "notes": "Need to run through sub game"
-        },
-        {
-          "id": 303,
-          "dur": 12,
-          "name": "Split",
-          "notes": "O-Reinforce Motion/Man Up\nD- Man Down"
-        },
-        {
           "id": 304,
-          "dur": 15,
-          "name": "6v6",
-          "notes": ""
-        },
-        {
-          "id": 308,
-          "dur": 10,
-          "name": "Man Up/Down",
+          "dur": 20,
+          "name": "6v6/Man Up",
           "notes": ""
         }
       ],
@@ -228,10 +210,10 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-03-10",
       "dateDisplay": "Tuesday, March 10, 2026",
-      "coachNotes": "Compete/Game Like Situtation, Hard Hat Day 4 (Lukas)",
-      "overallNote": "GRADES, RUN TEST MONDAY, TO DO TMO- LIVE FACEOFFS, RIDE/CLEAR, HELMET HANDOUT TMO",
+      "coachNotes": "Compete/Game Like Situtation, Hard Hat Day 8 (Unkown)",
+      "overallNote": "ON TOP FIELD",
       "focusText": "PREP",
-      "pquote": "\"I'm a greater believer in luck, and I find the harder I work the more I have of it\" - Thomas Jefferson"
+      "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
   ],
   "depthData": {
@@ -247,15 +229,19 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Dylan Byrd",
+          "injured": false
+        },
+        {
           "name": "Colten Thompson",
           "injured": true
         },
         {
-          "name": "Dylan Byrd",
+          "name": "Buck Nowell (quad)",
           "injured": true
         },
         {
-          "name": "Buck Nowell (quad)",
+          "name": "Ziggy Powell-Moran (shoulder)",
           "injured": true
         },
         {
@@ -289,10 +275,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Carter Lowe (knee)",
-          "injured": true
-        },
-        {
-          "name": "Ziggy Powell-Moran (shoulder)",
           "injured": true
         },
         {
