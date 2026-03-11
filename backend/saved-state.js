@@ -11,67 +11,67 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 104,
+          "id": 113,
           "dur": 8,
-          "name": "Pre-Game Line Drills",
+          "name": "Meatloaf",
           "notes": ""
         },
         {
-          "id": 105,
+          "id": 114,
           "dur": 8,
-          "name": "Pre-Game Split",
-          "notes": "O-Shooting D-hard corners, gb shovels, pokes\nD-Herns Thing\nFO-/G with Vita"
-        },
-        {
-          "id": 112,
-          "dur": 8,
-          "name": "4v3 Pregame",
+          "name": "Breakouts",
           "notes": ""
         },
         {
-          "id": 106,
+          "id": 115,
           "dur": 10,
-          "name": "GB Fundies",
-          "notes": "Trail, SHL, 2v1"
+          "name": "Circle GBs",
+          "notes": "Competitive- Gassers"
         },
         {
-          "id": 107,
+          "id": 116,
           "dur": 10,
-          "name": "Corner GBs",
-          "notes": "Competitive "
+          "name": "Y Drill - Transfer at X",
+          "notes": "WANT OFFENSE KICKING IT THROUGH X at Least Once"
         },
         {
-          "id": 108,
+          "id": 118,
           "dur": 10,
-          "name": "FO",
-          "notes": "everyone else with Hern 1v1 tight, ride the rail"
+          "name": "3v2 Sides",
+          "notes": ""
         },
         {
-          "id": 109,
-          "dur": 12,
-          "name": "Ride/Clear",
-          "notes": "Diamond Clear, 21 Ride"
+          "id": 119,
+          "dur": 10,
+          "name": "2v1 From Wing for 4v3 or 5v4",
+          "notes": ""
         },
         {
-          "id": 111,
-          "dur": 8,
+          "id": 120,
+          "dur": 14,
+          "name": "VIke Ride Review/In action",
+          "notes": ""
+        },
+        {
+          "id": 121,
+          "dur": 10,
+          "name": "Split",
+          "notes": "Have O Seniors Review all offenses w/ guys"
+        },
+        {
+          "id": 122,
+          "dur": 20,
           "name": "6v6",
-          "notes": "O-motion, alley, sweep, wing D-black\nD-Hern"
-        },
-        {
-          "id": 110,
-          "dur": 10,
-          "name": "Man Up/Down",
-          "notes": "D-fifty, rep with zach and jake"
+          "notes": "Through ride/clear"
         }
       ],
-      "nextId": 113,
+      "nextId": 123,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-06",
-      "dateDisplay": "Friday, March 6, 2026",
-      "coachNotes": "Pre-Game Prep. Hard Hat Lesson 5 (Conor)",
-      "overallNote": "SCRIMMAGE ARRIVAL 9:15- BALL BUCKET, BRING OWN WATER",
+      "dateValue": "2026-03-11",
+      "dateDisplay": "Wednesday, March 11, 2026",
+      "coachNotes": "Pre-Game Prep. Hard Hat Lesson 9 (Elliot)",
+      "overallNote": "TURF, RIDE/CLEAR, HAVE SENIORS LEAD OFFENSE",
       "focusText": "PREPARE",
       "pquote": ""
     },
@@ -147,8 +147,8 @@ window.SAVED_STATE = {
       "nextId": 220,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-09",
-      "dateDisplay": "Monday, March 9, 2026",
+      "dateValue": "2026-03-12",
+      "dateDisplay": "Thursday, March 12, 2026",
       "coachNotes": "Learning/Competition, Hard Hat Day 7 (Sean)",
       "overallNote": "RUN TEST- INJURED PLAYERS WILL RUN BEFORE RETURN TO PLAY, ON TOP FIELD TOMORROW",
       "focusText": "LEARN/COMPETE",
@@ -208,8 +208,8 @@ window.SAVED_STATE = {
       "nextId": 312,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-10",
-      "dateDisplay": "Tuesday, March 10, 2026",
+      "dateValue": "2026-03-13",
+      "dateDisplay": "Friday, March 13, 2026",
       "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
       "overallNote": "ON TOP FIELD",
       "focusText": "PREP",
@@ -1091,7 +1091,13 @@ window.SAVED_STATE = {
       "name": "Stretch",
       "dur": 5,
       "type": "Other"
+    },
+    {
+      "lid": 212,
+      "name": "VIke Ride Review/In action",
+      "dur": 10,
+      "type": "Ride/Clear"
     }
   ],
-  "nextLid": 212
+  "nextLid": 213
 };
