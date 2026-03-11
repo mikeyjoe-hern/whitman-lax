@@ -12,13 +12,13 @@ window.SAVED_STATE = {
         },
         {
           "id": 113,
-          "dur": 8,
+          "dur": 10,
           "name": "Meatloaf",
           "notes": ""
         },
         {
           "id": 114,
-          "dur": 8,
+          "dur": 10,
           "name": "Breakouts",
           "notes": ""
         },
@@ -48,7 +48,7 @@ window.SAVED_STATE = {
         },
         {
           "id": 120,
-          "dur": 14,
+          "dur": 20,
           "name": "VIke Ride Review/In action",
           "notes": ""
         },
@@ -60,7 +60,7 @@ window.SAVED_STATE = {
         },
         {
           "id": 122,
-          "dur": 20,
+          "dur": 15,
           "name": "6v6",
           "notes": "Through ride/clear"
         }
