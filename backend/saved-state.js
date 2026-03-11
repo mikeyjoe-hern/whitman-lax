@@ -11,12 +11,6 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 113,
-          "dur": 10,
-          "name": "Meatloaf",
-          "notes": ""
-        },
-        {
           "id": 114,
           "dur": 10,
           "name": "Breakouts",
@@ -48,7 +42,7 @@ window.SAVED_STATE = {
         },
         {
           "id": 120,
-          "dur": 20,
+          "dur": 30,
           "name": "VIke Ride Review/In action",
           "notes": ""
         },
