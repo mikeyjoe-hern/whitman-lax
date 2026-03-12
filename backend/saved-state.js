@@ -320,7 +320,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Magnus Jensen (covid)",
+          "name": "Magnus Jensen",
           "injured": false
         },
         {
