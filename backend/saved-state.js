@@ -137,8 +137,8 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-03-12",
       "dateDisplay": "Thursday, March 12, 2026",
-      "coachNotes": "Learning/Competition, Hard Hat Day 7 (Sean)",
-      "overallNote": "RUN TEST- INJURED PLAYERS WILL RUN BEFORE RETURN TO PLAY, ON TOP FIELD TOMORROW",
+      "coachNotes": "Scrimmage Tomorrow @ Whitman Game Like",
+      "overallNote": "NO EXCUSES FOR OFFENSE ANYMORE",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
@@ -213,11 +213,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Jordan Yoon",
+          "name": "Danny Merlis (ankle)",
           "injured": false
         },
         {
           "name": "Dylan Byrd",
+          "injured": false
+        },
+        {
+          "name": "Jordan Yoon",
           "injured": false
         },
         {
@@ -230,10 +234,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Ziggy Powell-Moran (shoulder)",
-          "injured": true
-        },
-        {
-          "name": "Danny Merlis (ankle)",
           "injured": true
         }
       ]
@@ -320,6 +320,10 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Magnus Jensen (covid)",
+          "injured": false
+        },
+        {
           "name": "Conor Galvin",
           "injured": false
         },
@@ -341,10 +345,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Rodrigo",
-          "injured": false
-        },
-        {
-          "name": "Magnus Jensen (covid)",
           "injured": false
         }
       ]
