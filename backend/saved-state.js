@@ -78,67 +78,61 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 207,
-          "dur": 20,
-          "name": "Run Test",
-          "notes": "2 groups"
-        },
-        {
           "id": 206,
           "dur": 10,
-          "name": "O/D Split Stick",
-          "notes": "O-Spoke  D- Hern"
+          "name": "Full Field Passing",
+          "notes": ""
         },
         {
           "id": 204,
           "dur": 10,
-          "name": "Jailbreak GBs",
+          "name": "Corner GBs",
+          "notes": "Competitive"
+        },
+        {
+          "id": 225,
+          "dur": 10,
+          "name": "Faceoffs",
+          "notes": "Others- 4v3s or something else"
+        },
+        {
+          "id": 220,
+          "dur": 10,
+          "name": "Clear Focus",
+          "notes": "vs. scrape, vs. matchup"
+        },
+        {
+          "id": 221,
+          "dur": 14,
+          "name": "Vike Ride",
+          "notes": "vs. 34 down"
+        },
+        {
+          "id": 223,
+          "dur": 10,
+          "name": "4v4 Plus One at X",
           "notes": ""
         },
         {
-          "id": 218,
-          "dur": 10,
-          "name": "Pressure Passing",
-          "notes": ""
-        },
-        {
-          "id": 214,
-          "dur": 10,
-          "name": "Vike Ride Alley/Plug",
-          "notes": ""
-        },
-        {
-          "id": 215,
-          "dur": 10,
-          "name": "Field Reversal Vike Ride",
-          "notes": "match up off shot"
-        },
-        {
-          "id": 217,
-          "dur": 10,
-          "name": "4v3 Progress to 6v6",
-          "notes": ""
-        },
-        {
-          "id": 216,
-          "dur": 10,
+          "id": 224,
+          "dur": 12,
           "name": "Split",
-          "notes": "O- Motion Review/Pairs"
+          "notes": ""
         },
         {
           "id": 213,
-          "dur": 10,
+          "dur": 12,
           "name": "6v6",
           "notes": "through clear, emphasize clear spots"
         },
         {
           "id": 219,
-          "dur": 5,
-          "name": "Stretch",
+          "dur": 10,
+          "name": "Man Up/Down",
           "notes": ""
         }
       ],
-      "nextId": 220,
+      "nextId": 226,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-12",
@@ -1091,7 +1085,19 @@ window.SAVED_STATE = {
       "name": "VIke Ride Review/In action",
       "dur": 10,
       "type": "Ride/Clear"
+    },
+    {
+      "lid": 213,
+      "name": "Clear Focus",
+      "dur": 10,
+      "type": "Ride/Clear"
+    },
+    {
+      "lid": 214,
+      "name": "Vike Ride",
+      "dur": 10,
+      "type": "Ride/Clear"
     }
   ],
-  "nextLid": 213
+  "nextLid": 215
 };
