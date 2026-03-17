@@ -6,67 +6,61 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 100,
-          "dur": 10,
-          "name": "Warm Up",
+          "dur": 45,
+          "name": "Film/Talk",
           "notes": ""
         },
         {
           "id": 114,
           "dur": 10,
-          "name": "Breakouts",
+          "name": "Transition",
           "notes": ""
         },
         {
           "id": 115,
-          "dur": 10,
-          "name": "Circle GBs",
-          "notes": "Competitive- Gassers"
+          "dur": 8,
+          "name": "Warmup",
+          "notes": ""
         },
         {
           "id": 116,
-          "dur": 10,
-          "name": "Y Drill - Transfer at X",
-          "notes": "WANT OFFENSE KICKING IT THROUGH X at Least Once"
+          "dur": 8,
+          "name": "Hamster Drill",
+          "notes": "4 people per line"
         },
         {
           "id": 118,
+          "dur": 8,
+          "name": "Split Stick",
+          "notes": "0-Diamond Passing"
+        },
+        {
+          "id": 123,
           "dur": 10,
-          "name": "3v2 Sides",
+          "name": "Circle GBs",
           "notes": ""
         },
         {
           "id": 119,
           "dur": 10,
-          "name": "2v1 From Wing for 4v3 or 5v4",
+          "name": "Pressure Passing",
           "notes": ""
         },
         {
           "id": 120,
-          "dur": 30,
-          "name": "VIke Ride Review/In action",
+          "dur": 20,
+          "name": "Situtational 6v6",
           "notes": ""
-        },
-        {
-          "id": 121,
-          "dur": 10,
-          "name": "Split",
-          "notes": "Have O Seniors Review all offenses w/ guys"
-        },
-        {
-          "id": 122,
-          "dur": 15,
-          "name": "6v6",
-          "notes": "Through ride/clear"
         }
       ],
-      "nextId": 123,
+      "nextId": 124,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-11",
-      "dateDisplay": "Wednesday, March 11, 2026",
-      "coachNotes": "Pre-Game Prep. Hard Hat Lesson 9 (Elliot)",
-      "overallNote": "TURF, RIDE/CLEAR, HAVE SENIORS LEAD OFFENSE",
-      "focusText": "PREPARE",
+      "dateValue": "2026-03-17",
+      "dateDisplay": "Tuesday, March 17, 2026",
+      "coachNotes": "Hard Hat- Rafe? Film first 45 then 1hr practice",
+      "overallNote": "UP TOP- CRISP; LOTS OF VIKE RIDE TOMORROW/THURSDAY, GRADES!!",
+      "focusText": "RECALIBRATE",
       "pquote": ""
     },
     {
