@@ -141,8 +141,8 @@ window.SAVED_STATE = {
       "nextId": 226,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-12",
-      "dateDisplay": "Thursday, March 12, 2026",
+      "dateValue": "2026-03-18",
+      "dateDisplay": "Wednesday, March 18, 2026",
       "coachNotes": "Scrimmage Tomorrow @ Whitman Game Like",
       "overallNote": "NO EXCUSES FOR OFFENSE ANYMORE",
       "focusText": "LEARN/COMPETE",
@@ -202,8 +202,8 @@ window.SAVED_STATE = {
       "nextId": 312,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-13",
-      "dateDisplay": "Friday, March 13, 2026",
+      "dateValue": "2026-03-19",
+      "dateDisplay": "Thursday, March 19, 2026",
       "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
       "overallNote": "ON TOP FIELD",
       "focusText": "PREP",
@@ -309,7 +309,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Cooper Nowell (mono)",
+          "name": "Cooper Nowell",
           "injured": false
         }
       ]
