@@ -6,13 +6,13 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 100,
-          "dur": 45,
+          "dur": 25,
           "name": "Film/Talk",
           "notes": ""
         },
         {
           "id": 114,
-          "dur": 10,
+          "dur": 5,
           "name": "Transition",
           "notes": ""
         },
@@ -41,6 +41,12 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
+          "id": 124,
+          "dur": 10,
+          "name": "Vike Ride",
+          "notes": "SIMPLY WORKING ON MATCHING UP- do it from apache type drill- 3 close d Identified; attack needs to help cover"
+        },
+        {
           "id": 119,
           "dur": 10,
           "name": "Pressure Passing",
@@ -53,13 +59,13 @@ window.SAVED_STATE = {
           "notes": ""
         }
       ],
-      "nextId": 124,
+      "nextId": 125,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-17",
       "dateDisplay": "Tuesday, March 17, 2026",
       "coachNotes": "Hard Hat- Rafe? Film first 45 then 1hr practice",
-      "overallNote": "UP TOP- CRISP; LOTS OF VIKE RIDE TOMORROW/THURSDAY, GRADES!!",
+      "overallNote": "- CRISP; LOTS OF VIKE RIDE TOMORROW/THURSDAY, GRADES!!",
       "focusText": "RECALIBRATE",
       "pquote": ""
     },
@@ -219,11 +225,11 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Colten Thompson",
-          "injured": true
+          "name": "Buck Nowell (quad)",
+          "injured": false
         },
         {
-          "name": "Buck Nowell (quad)",
+          "name": "Colten Thompson",
           "injured": true
         },
         {
@@ -244,6 +250,10 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Carter Lowe (knee)",
+          "injured": false
+        },
+        {
           "name": "Jude McPhearson",
           "injured": false
         },
@@ -254,10 +264,6 @@ window.SAVED_STATE = {
         {
           "name": "Patrick Ballance",
           "injured": false
-        },
-        {
-          "name": "Carter Lowe (knee)",
-          "injured": true
         },
         {
           "name": "Zach Worthen (back)",
@@ -285,6 +291,10 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Henry Herdman",
+          "injured": false
+        },
+        {
           "name": "Elliot Fernandez",
           "injured": false
         },
@@ -294,7 +304,7 @@ window.SAVED_STATE = {
         },
         {
           "name": "Cooper Nowell (mono)",
-          "injured": true
+          "injured": false
         }
       ]
     },
@@ -310,15 +320,11 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Aitan Bar-Ziv",
-          "injured": false
-        },
-        {
           "name": "Magnus Jensen",
           "injured": false
         },
         {
-          "name": "Conor Galvin",
+          "name": "Aitan Bar-Ziv",
           "injured": false
         },
         {
@@ -338,7 +344,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Rodrigo",
+          "name": "Conor Galvin",
           "injured": false
         }
       ]
@@ -352,10 +358,6 @@ window.SAVED_STATE = {
         },
         {
           "name": "Zach Kendall-Taylor",
-          "injured": false
-        },
-        {
-          "name": "Henry Herdman",
           "injured": false
         },
         {
