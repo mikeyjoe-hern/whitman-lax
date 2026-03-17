@@ -8,7 +8,7 @@ window.SAVED_STATE = {
           "id": 100,
           "dur": 25,
           "name": "Film/Talk",
-          "notes": ""
+          "notes": "Have all stuff on- hard cap at 25 mins"
         },
         {
           "id": 114,
@@ -42,14 +42,20 @@ window.SAVED_STATE = {
         },
         {
           "id": 124,
-          "dur": 10,
+          "dur": 16,
           "name": "Vike Ride",
-          "notes": "SIMPLY WORKING ON MATCHING UP- do it from apache type drill- 3 close d Identified; attack needs to help cover"
+          "notes": "START JUST MATCHING UP OUT OF APACHE- then graduate to live ride"
         },
         {
           "id": 119,
           "dur": 10,
           "name": "Pressure Passing",
+          "notes": ""
+        },
+        {
+          "id": 125,
+          "dur": 10,
+          "name": "Split",
           "notes": ""
         },
         {
@@ -59,7 +65,7 @@ window.SAVED_STATE = {
           "notes": ""
         }
       ],
-      "nextId": 125,
+      "nextId": 126,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-17",
