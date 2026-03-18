@@ -86,26 +86,26 @@ window.SAVED_STATE = {
         {
           "id": 206,
           "dur": 10,
-          "name": "Full Field Passing",
+          "name": "Star Passing",
           "notes": ""
         },
         {
           "id": 204,
           "dur": 10,
-          "name": "Corner GBs",
-          "notes": "Competitive"
-        },
-        {
-          "id": 225,
-          "dur": 10,
-          "name": "Faceoffs",
-          "notes": "Others- 4v3s or something else"
+          "name": "GB Fundys",
+          "notes": "Trail, Gauntlet, 2v1"
         },
         {
           "id": 220,
           "dur": 10,
-          "name": "Clear Focus",
-          "notes": "vs. scrape, vs. matchup"
+          "name": "Box Build Up",
+          "notes": ""
+        },
+        {
+          "id": 225,
+          "dur": 10,
+          "name": "Diamond Build Up",
+          "notes": "to 4v4"
         },
         {
           "id": 221,
@@ -143,8 +143,8 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-03-18",
       "dateDisplay": "Wednesday, March 18, 2026",
-      "coachNotes": "Scrimmage Tomorrow @ Whitman Game Like",
-      "overallNote": "NO EXCUSES FOR OFFENSE ANYMORE",
+      "coachNotes": "NEED TO DO HARDHAT",
+      "overallNote": "RIDE/EMO/MAN PLAYS",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
