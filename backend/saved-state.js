@@ -86,65 +86,65 @@ window.SAVED_STATE = {
         {
           "id": 206,
           "dur": 10,
-          "name": "Star Passing",
+          "name": "Full Field Passing",
           "notes": ""
         },
         {
           "id": 204,
           "dur": 10,
-          "name": "GB Fundys",
-          "notes": "Trail, Gauntlet, 2v1"
-        },
-        {
-          "id": 220,
-          "dur": 10,
-          "name": "Box Build Up",
-          "notes": ""
+          "name": "Corner GBs",
+          "notes": "Competitive"
         },
         {
           "id": 225,
           "dur": 10,
-          "name": "Diamond Build Up",
-          "notes": "to 4v4"
+          "name": "Faceoffs",
+          "notes": "Others- 4v3s or something else"
+        },
+        {
+          "id": 220,
+          "dur": 10,
+          "name": "Clear Focus",
+          "notes": "vs. scrape, vs. matchup"
         },
         {
           "id": 221,
-          "dur": 12,
+          "dur": 14,
           "name": "Vike Ride",
           "notes": "vs. 34 down"
         },
         {
           "id": 223,
-          "dur": 12,
-          "name": "Split",
-          "notes": "O- EMO Plays/Army Navy\nD- put in need ball back play double"
+          "dur": 10,
+          "name": "4v4 Plus One at X",
+          "notes": ""
         },
         {
           "id": 224,
-          "dur": 15,
-          "name": "Situtational Sixes",
-          "notes": "Keep it in, Down 2 with 1.5 mins, Takeaway, Through Ride"
+          "dur": 12,
+          "name": "Split",
+          "notes": ""
         },
         {
           "id": 213,
-          "dur": 8,
-          "name": "EMO",
-          "notes": "Man Down Clear Install"
+          "dur": 12,
+          "name": "6v6",
+          "notes": "through clear, emphasize clear spots"
         },
         {
           "id": 219,
-          "dur": 20,
-          "name": "GRADES",
-          "notes": "gasser for every player w/ D or E"
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
         }
       ],
       "nextId": 226,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-18",
-      "dateDisplay": "Wednesday, March 18, 2026",
-      "coachNotes": "NEED TO DO HARDHAT, Hard hat from last week",
-      "overallNote": "RIDE/EMO/MAN PLAYS",
+      "dateValue": "2026-03-12",
+      "dateDisplay": "Thursday, March 12, 2026",
+      "coachNotes": "Scrimmage Tomorrow @ Whitman Game Like",
+      "overallNote": "NO EXCUSES FOR OFFENSE ANYMORE",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
@@ -202,8 +202,8 @@ window.SAVED_STATE = {
       "nextId": 312,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-19",
-      "dateDisplay": "Thursday, March 19, 2026",
+      "dateValue": "2026-03-13",
+      "dateDisplay": "Friday, March 13, 2026",
       "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
       "overallNote": "ON TOP FIELD",
       "focusText": "PREP",
