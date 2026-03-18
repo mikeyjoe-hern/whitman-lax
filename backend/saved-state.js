@@ -135,7 +135,7 @@ window.SAVED_STATE = {
           "id": 219,
           "dur": 20,
           "name": "GRADES",
-          "notes": "gasser for every player w/ D or E"
+          "notes": "gasser for every player w/ D or E- 19"
         }
       ],
       "nextId": 226,
