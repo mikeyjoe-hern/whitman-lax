@@ -78,39 +78,136 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
-          "id": 228,
+          "id": 203,
           "dur": 10,
-          "name": "Man Up/Down",
-          "notes": "Man Down Clear"
+          "name": "Warm Up",
+          "notes": ""
         },
         {
-          "id": 229,
+          "id": 206,
+          "dur": 10,
+          "name": "Star Passing",
+          "notes": ""
+        },
+        {
+          "id": 223,
           "dur": 15,
           "name": "Split",
-          "notes": "D- 100, Loco, Black"
+          "notes": "O- EMO Plays/Army Navy\nD- Hern\nD- put in need ball back play double"
+        },
+        {
+          "id": 204,
+          "dur": 10,
+          "name": "GB Fundys",
+          "notes": "Trail, Gauntlet, 2v1"
+        },
+        {
+          "id": 220,
+          "dur": 10,
+          "name": "Box Build Up",
+          "notes": ""
+        },
+        {
+          "id": 225,
+          "dur": 10,
+          "name": "Diamond Build Up",
+          "notes": "to 4v4"
+        },
+        {
+          "id": 221,
+          "dur": 12,
+          "name": "Vike Ride",
+          "notes": "vs. 34 down"
+        },
+        {
+          "id": 224,
+          "dur": 15,
+          "name": "Situtational Sixes",
+          "notes": "Keep it in, Down 2 with 1.5 mins, Takeaway, Through Ride"
+        },
+        {
+          "id": 213,
+          "dur": 8,
+          "name": "EMO",
+          "notes": "Man Down Clear Install"
+        },
+        {
+          "id": 219,
+          "dur": 20,
+          "name": "GRADES",
+          "notes": "gasser for every player w/ D or E"
         }
       ],
-      "nextId": 230,
+      "nextId": 226,
+      "startAmPm": "PM",
+      "startTime": "5:00",
+      "dateValue": "2026-03-18",
+      "dateDisplay": "Wednesday, March 18, 2026",
+      "coachNotes": "NEED TO DO HARDHAT, Hard hat from last week",
+      "overallNote": "RIDE/EMO/MAN PLAYS",
+      "focusText": "LEARN/COMPETE",
+      "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
+    },
+    {
+      "drills": [
+        {
+          "id": 307,
+          "dur": 10,
+          "name": "Warm Up",
+          "notes": ""
+        },
+        {
+          "id": 302,
+          "dur": 10,
+          "name": "Star Drills",
+          "notes": "2 stars"
+        },
+        {
+          "id": 309,
+          "dur": 10,
+          "name": "Split",
+          "notes": "O- over the top shooting D-Hern Choice\nVita- w/ Beckett"
+        },
+        {
+          "id": 311,
+          "dur": 10,
+          "name": "GB Fundies",
+          "notes": "gauntlet, trail, B2B"
+        },
+        {
+          "id": 306,
+          "dur": 10,
+          "name": "Apache",
+          "notes": "d- double"
+        },
+        {
+          "id": 310,
+          "dur": 10,
+          "name": "2v2 sides",
+          "notes": ""
+        },
+        {
+          "id": 305,
+          "dur": 10,
+          "name": "Numbers",
+          "notes": ""
+        },
+        {
+          "id": 304,
+          "dur": 20,
+          "name": "6v6/Man Up",
+          "notes": ""
+        }
+      ],
+      "nextId": 312,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-19",
       "dateDisplay": "Thursday, March 19, 2026",
-      "coachNotes": "",
-      "overallNote": "",
-      "focusText": "",
-      "pquote": ""
-    },
-    {
-      "drills": [],
-      "nextId": 312,
-      "startAmPm": "PM",
-      "startTime": "5:00",
-      "dateValue": "2026-03-20",
-      "dateDisplay": "Friday, March 20, 2026",
-      "coachNotes": "",
-      "overallNote": "",
-      "focusText": "",
-      "pquote": ""
+      "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
+      "overallNote": "PREGAME, VS ZONE, FINAL TOUCHES",
+      "focusText": "PREP",
+      "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
   ],
   "depthData": {
