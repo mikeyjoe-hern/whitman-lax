@@ -109,33 +109,33 @@ window.SAVED_STATE = {
         },
         {
           "id": 221,
-          "dur": 14,
+          "dur": 12,
           "name": "Vike Ride",
           "notes": "vs. 34 down"
         },
         {
           "id": 223,
-          "dur": 10,
-          "name": "4v4 Plus One at X",
-          "notes": ""
+          "dur": 12,
+          "name": "Split",
+          "notes": "O- EMO Plays/Army Navy\nD- put in need ball back play double"
         },
         {
           "id": 224,
-          "dur": 12,
-          "name": "Split",
-          "notes": ""
+          "dur": 15,
+          "name": "Situtational Sixes",
+          "notes": "Keep it in, Down 2 with 1.5 mins, Takeaway, Through Ride"
         },
         {
           "id": 213,
-          "dur": 12,
-          "name": "6v6",
-          "notes": "through clear, emphasize clear spots"
+          "dur": 8,
+          "name": "EMO",
+          "notes": "Man Down Clear Install"
         },
         {
           "id": 219,
-          "dur": 10,
-          "name": "Man Up/Down",
-          "notes": ""
+          "dur": 20,
+          "name": "GRADES",
+          "notes": "gasser for every player w/ D or E"
         }
       ],
       "nextId": 226,
