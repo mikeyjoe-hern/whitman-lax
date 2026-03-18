@@ -129,7 +129,7 @@ window.SAVED_STATE = {
           "id": 213,
           "dur": 8,
           "name": "EMO",
-          "notes": "Man Down Clear Install"
+          "notes": ""
         },
         {
           "id": 219,
@@ -205,7 +205,7 @@ window.SAVED_STATE = {
       "dateValue": "2026-03-19",
       "dateDisplay": "Thursday, March 19, 2026",
       "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
-      "overallNote": "PREGAME, VS ZONE, FINAL TOUCHES",
+      "overallNote": "PREGAME, VS ZONE, MORE EMO INSTALL FINAL TOUCHES",
       "focusText": "PREP",
       "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
