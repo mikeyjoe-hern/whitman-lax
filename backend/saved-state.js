@@ -78,136 +78,39 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
-          "id": 203,
-          "dur": 10,
-          "name": "Warm Up",
-          "notes": ""
-        },
-        {
-          "id": 206,
-          "dur": 10,
-          "name": "Full Field Passing",
-          "notes": ""
-        },
-        {
-          "id": 204,
-          "dur": 10,
-          "name": "Corner GBs",
-          "notes": "Competitive"
-        },
-        {
-          "id": 225,
-          "dur": 10,
-          "name": "Faceoffs",
-          "notes": "Others- 4v3s or something else"
-        },
-        {
-          "id": 220,
-          "dur": 10,
-          "name": "Clear Focus",
-          "notes": "vs. scrape, vs. matchup"
-        },
-        {
-          "id": 221,
-          "dur": 14,
-          "name": "Vike Ride",
-          "notes": "vs. 34 down"
-        },
-        {
-          "id": 223,
-          "dur": 10,
-          "name": "4v4 Plus One at X",
-          "notes": ""
-        },
-        {
-          "id": 224,
-          "dur": 12,
-          "name": "Split",
-          "notes": ""
-        },
-        {
-          "id": 213,
-          "dur": 12,
-          "name": "6v6",
-          "notes": "through clear, emphasize clear spots"
-        },
-        {
-          "id": 219,
+          "id": 228,
           "dur": 10,
           "name": "Man Up/Down",
-          "notes": ""
+          "notes": "Man Down Clear"
+        },
+        {
+          "id": 229,
+          "dur": 15,
+          "name": "Split",
+          "notes": "D- 100, Loco, Black"
         }
       ],
-      "nextId": 226,
+      "nextId": 230,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-12",
-      "dateDisplay": "Thursday, March 12, 2026",
-      "coachNotes": "Scrimmage Tomorrow @ Whitman Game Like",
-      "overallNote": "NO EXCUSES FOR OFFENSE ANYMORE",
-      "focusText": "LEARN/COMPETE",
-      "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
+      "dateValue": "2026-03-19",
+      "dateDisplay": "Thursday, March 19, 2026",
+      "coachNotes": "",
+      "overallNote": "",
+      "focusText": "",
+      "pquote": ""
     },
     {
-      "drills": [
-        {
-          "id": 307,
-          "dur": 10,
-          "name": "Warm Up",
-          "notes": ""
-        },
-        {
-          "id": 302,
-          "dur": 10,
-          "name": "Star Drills",
-          "notes": "2 stars"
-        },
-        {
-          "id": 309,
-          "dur": 10,
-          "name": "Split",
-          "notes": "O- over the top shooting D-Hern Choice\nVita- w/ Beckett"
-        },
-        {
-          "id": 311,
-          "dur": 10,
-          "name": "GB Fundies",
-          "notes": "gauntlet, trail, B2B"
-        },
-        {
-          "id": 306,
-          "dur": 10,
-          "name": "Apache",
-          "notes": "d- double"
-        },
-        {
-          "id": 310,
-          "dur": 10,
-          "name": "2v2 sides",
-          "notes": ""
-        },
-        {
-          "id": 305,
-          "dur": 10,
-          "name": "Numbers",
-          "notes": ""
-        },
-        {
-          "id": 304,
-          "dur": 20,
-          "name": "6v6/Man Up",
-          "notes": ""
-        }
-      ],
+      "drills": [],
       "nextId": 312,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-13",
-      "dateDisplay": "Friday, March 13, 2026",
-      "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
-      "overallNote": "ON TOP FIELD",
-      "focusText": "PREP",
-      "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
+      "dateValue": "2026-03-20",
+      "dateDisplay": "Friday, March 20, 2026",
+      "coachNotes": "",
+      "overallNote": "",
+      "focusText": "",
+      "pquote": ""
     }
   ],
   "depthData": {
