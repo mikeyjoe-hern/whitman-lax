@@ -190,13 +190,13 @@ window.SAVED_STATE = {
           "id": 305,
           "dur": 12,
           "name": "Split",
-          "notes": "O- vs. zone, walk through vs. man\nD- Loco"
+          "notes": "O- vs. zone, walk through vs. man/go over shut\nD- Loco"
         },
         {
           "id": 304,
           "dur": 15,
           "name": "6v6",
-          "notes": "D- get a loco rep in\nO- All plays"
+          "notes": "D- get a loco rep in\nO- get a rep vs. shut\nO- All plays"
         },
         {
           "id": 312,
