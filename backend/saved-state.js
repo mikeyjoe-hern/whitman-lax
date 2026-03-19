@@ -158,53 +158,59 @@ window.SAVED_STATE = {
         },
         {
           "id": 302,
-          "dur": 10,
-          "name": "Star Drills",
+          "dur": 8,
+          "name": "Breakouts",
           "notes": "2 stars"
         },
         {
           "id": 309,
           "dur": 10,
           "name": "Split",
-          "notes": "O- over the top shooting D-Hern Choice\nVita- w/ Beckett"
+          "notes": "O- Step Downs/Bucket\nD\nVita- w/ Beckett"
         },
         {
           "id": 311,
-          "dur": 10,
-          "name": "GB Fundies",
-          "notes": "gauntlet, trail, B2B"
+          "dur": 8,
+          "name": "Apache",
+          "notes": "D double"
         },
         {
           "id": 306,
           "dur": 10,
-          "name": "Apache",
-          "notes": "d- double"
+          "name": "3v2 Sides",
+          "notes": ""
         },
         {
           "id": 310,
-          "dur": 10,
-          "name": "2v2 sides",
-          "notes": ""
+          "dur": 15,
+          "name": "Ride/Clear",
+          "notes": "Ride vs. 34 down, Clear vs. Lock Off except goalie and drop"
         },
         {
           "id": 305,
-          "dur": 10,
-          "name": "Numbers",
-          "notes": ""
+          "dur": 12,
+          "name": "Split",
+          "notes": "O- vs. zone, walk through vs. man\nD- Loco"
         },
         {
           "id": 304,
-          "dur": 20,
-          "name": "6v6/Man Up",
-          "notes": ""
+          "dur": 15,
+          "name": "6v6",
+          "notes": "D- get a loco rep in\nO- All plays"
+        },
+        {
+          "id": 312,
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": "Man Down CLear Install"
         }
       ],
-      "nextId": 312,
+      "nextId": 313,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-19",
       "dateDisplay": "Thursday, March 19, 2026",
-      "coachNotes": "ENERGY, Hard Hat Day 8 (Unkown)",
+      "coachNotes": "FOCUS, Hard Hat New Player- Bus Leaves 5:15 be at school around 5",
       "overallNote": "PREGAME, VS ZONE, MORE EMO INSTALL FINAL TOUCHES",
       "focusText": "PREP",
       "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
