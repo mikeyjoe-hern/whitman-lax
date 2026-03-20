@@ -340,10 +340,6 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Georges Posner",
-          "injured": false
-        },
-        {
           "name": "Zaki Saberi",
           "injured": false
         },
@@ -352,11 +348,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "John-John",
+          "name": "Conor Galvin",
           "injured": false
         },
         {
-          "name": "Conor Galvin",
+          "name": "Georges Posner",
+          "injured": false
+        },
+        {
+          "name": "John-John",
           "injured": false
         }
       ]
