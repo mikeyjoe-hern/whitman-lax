@@ -5,71 +5,53 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
-          "id": 100,
-          "dur": 25,
-          "name": "Film/Talk",
-          "notes": "Have all stuff on- hard cap at 25 mins"
-        },
-        {
-          "id": 114,
-          "dur": 5,
-          "name": "Transition",
-          "notes": ""
-        },
-        {
-          "id": 115,
-          "dur": 8,
-          "name": "Warmup",
-          "notes": ""
-        },
-        {
-          "id": 116,
-          "dur": 8,
-          "name": "Hamster Drill",
-          "notes": "4 people per line"
-        },
-        {
-          "id": 118,
-          "dur": 8,
-          "name": "Split Stick",
-          "notes": "0-Diamond Passing"
-        },
-        {
-          "id": 123,
+          "id": 126,
           "dur": 10,
-          "name": "Circle GBs",
+          "name": "Warm Up",
           "notes": ""
         },
         {
-          "id": 124,
-          "dur": 16,
-          "name": "Vike Ride",
-          "notes": "START JUST MATCHING UP OUT OF APACHE- then graduate to live ride"
-        },
-        {
-          "id": 119,
-          "dur": 10,
-          "name": "Pressure Passing",
-          "notes": ""
-        },
-        {
-          "id": 125,
-          "dur": 10,
-          "name": "Split",
-          "notes": ""
-        },
-        {
-          "id": 120,
+          "id": 127,
           "dur": 20,
-          "name": "Situtational 6v6",
+          "name": "O/D Split Stick",
+          "notes": "O- spoke, then hitch and go shooting\nD- hern"
+        },
+        {
+          "id": 129,
+          "dur": 10,
+          "name": "Corner GBs",
+          "notes": ""
+        },
+        {
+          "id": 130,
+          "dur": 10,
+          "name": "Numbers",
+          "notes": ""
+        },
+        {
+          "id": 132,
+          "dur": 10,
+          "name": "Vike Ride",
+          "notes": "apache coverage to vike ride"
+        },
+        {
+          "id": 133,
+          "dur": 12,
+          "name": "6v6",
+          "notes": ""
+        },
+        {
+          "id": 134,
+          "dur": 8,
+          "name": "Man Up/Down",
           "notes": ""
         }
       ],
-      "nextId": 126,
-      "startAmPm": "PM",
-      "startTime": "5:00",
-      "dateValue": "2026-03-17",
-      "dateDisplay": "Tuesday, March 17, 2026",
+      "nextId": 135,
+      "startAmPm": "AM",
+      "startTime": "9:45",
+      "dateValue": "2026-03-21",
+      "dateDisplay": "Saturday, March 21, 2026",
       "coachNotes": "Hard Hat- Rafe? Film first 45 then 1hr practice",
       "overallNote": "- CRISP; LOTS OF VIKE RIDE TOMORROW/THURSDAY, GRADES!!",
       "focusText": "RECALIBRATE",
