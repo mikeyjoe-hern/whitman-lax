@@ -12,46 +12,70 @@ window.SAVED_STATE = {
         },
         {
           "id": 127,
-          "dur": 20,
-          "name": "O/D Split Stick",
-          "notes": "O- spoke, then hitch and go shooting\nD- hern"
-        },
-        {
-          "id": 129,
-          "dur": 10,
-          "name": "Corner GBs",
+          "dur": 8,
+          "name": "Meatloaf",
           "notes": ""
         },
         {
-          "id": 130,
+          "id": 135,
           "dur": 10,
-          "name": "Numbers",
+          "name": "GB Stations",
+          "notes": "Grounders, Trail, 2v1"
+        },
+        {
+          "id": 136,
+          "dur": 8,
+          "name": "Jailbreak GBs",
           "notes": ""
         },
         {
-          "id": 132,
+          "id": 137,
           "dur": 10,
+          "name": "Pressure Passing",
+          "notes": "3 passes to goal, emphasize V-Cuts"
+        },
+        {
+          "id": 138,
+          "dur": 10,
+          "name": "Y Drill - Transfer at X",
+          "notes": "For DEFENSE- practice the 3 man weave play"
+        },
+        {
+          "id": 139,
+          "dur": 12,
           "name": "Vike Ride",
-          "notes": "apache coverage to vike ride"
+          "notes": "vs. 34 stack"
         },
         {
-          "id": 133,
+          "id": 140,
+          "dur": 10,
+          "name": "Split",
+          "notes": "O- Roger and EMO FLIP INSTALL"
+        },
+        {
+          "id": 142,
           "dur": 12,
           "name": "6v6",
           "notes": ""
         },
         {
-          "id": 134,
-          "dur": 8,
+          "id": 143,
+          "dur": 10,
           "name": "Man Up/Down",
           "notes": ""
+        },
+        {
+          "id": 144,
+          "dur": 20,
+          "name": "Conditioning",
+          "notes": "For Grades"
         }
       ],
-      "nextId": 135,
-      "startAmPm": "AM",
-      "startTime": "9:45",
-      "dateValue": "2026-03-21",
-      "dateDisplay": "Saturday, March 21, 2026",
+      "nextId": 145,
+      "startAmPm": "PM",
+      "startTime": "5:00",
+      "dateValue": "2026-03-24",
+      "dateDisplay": "Tuesday, March 24, 2026",
       "coachNotes": "Hard Hat- Rafe? Film first 45 then 1hr practice",
       "overallNote": "- CRISP; LOTS OF VIKE RIDE TOMORROW/THURSDAY, GRADES!!",
       "focusText": "RECALIBRATE",
@@ -123,8 +147,8 @@ window.SAVED_STATE = {
       "nextId": 226,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-18",
-      "dateDisplay": "Wednesday, March 18, 2026",
+      "dateValue": "2026-03-25",
+      "dateDisplay": "Wednesday, March 25, 2026",
       "coachNotes": "NEED TO DO HARDHAT, Hard hat from last week",
       "overallNote": "RIDE/EMO/MAN PLAYS",
       "focusText": "LEARN/COMPETE",
@@ -190,8 +214,8 @@ window.SAVED_STATE = {
       "nextId": 313,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-19",
-      "dateDisplay": "Thursday, March 19, 2026",
+      "dateValue": "2026-03-26",
+      "dateDisplay": "Thursday, March 26, 2026",
       "coachNotes": "FOCUS, Hard Hat New Player- Bus Leaves 5:15 be at school around 5",
       "overallNote": "PREGAME, VS ZONE, MORE EMO INSTALL FINAL TOUCHES",
       "focusText": "PREP",
@@ -1087,7 +1111,13 @@ window.SAVED_STATE = {
       "name": "Vike Ride",
       "dur": 10,
       "type": "Ride/Clear"
+    },
+    {
+      "lid": 215,
+      "name": "Conditioning",
+      "dur": 10,
+      "type": "Other"
     }
   ],
-  "nextLid": 215
+  "nextLid": 216
 };
