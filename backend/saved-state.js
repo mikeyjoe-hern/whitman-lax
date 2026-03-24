@@ -284,12 +284,12 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Zach Worthen (back)",
-          "injured": true
+          "name": "Zach Worthen",
+          "injured": false
         },
         {
-          "name": "Angus Conley-Filippello (hip)",
-          "injured": true
+          "name": "Angus Conley-Filippello",
+          "injured": false
         }
       ]
     },
