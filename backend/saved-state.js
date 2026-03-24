@@ -76,9 +76,9 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-03-24",
       "dateDisplay": "Tuesday, March 24, 2026",
-      "coachNotes": "Hard Hat- Rafe? Film first 45 then 1hr practice",
-      "overallNote": "- CRISP; LOTS OF VIKE RIDE TOMORROW/THURSDAY, GRADES!!",
-      "focusText": "RECALIBRATE",
+      "coachNotes": "Hard Hat, Practice Tomorrow- SUB Game. clear vs. 21, faceoffs/pick play off ball, vs. zone and double pole",
+      "overallNote": "GRADES",
+      "focusText": "1% BETTER",
       "pquote": ""
     },
     {
