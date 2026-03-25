@@ -91,60 +91,72 @@ window.SAVED_STATE = {
         },
         {
           "id": 206,
-          "dur": 10,
-          "name": "Star Passing",
-          "notes": ""
-        },
-        {
-          "id": 223,
-          "dur": 15,
-          "name": "Split",
-          "notes": "O- EMO Plays/Army Navy\nD- Hern\nD- put in need ball back play double"
-        },
-        {
-          "id": 204,
-          "dur": 10,
-          "name": "GB Fundys",
-          "notes": "Trail, Gauntlet, 2v1"
-        },
-        {
-          "id": 220,
-          "dur": 10,
-          "name": "Box Build Up",
-          "notes": ""
-        },
-        {
-          "id": 225,
-          "dur": 10,
-          "name": "Diamond Build Up",
-          "notes": "to 4v4"
-        },
-        {
-          "id": 221,
-          "dur": 12,
-          "name": "Vike Ride",
-          "notes": "vs. 34 down"
-        },
-        {
-          "id": 224,
-          "dur": 15,
-          "name": "Situtational Sixes",
-          "notes": "Keep it in, Down 2 with 1.5 mins, Takeaway, Through Ride"
-        },
-        {
-          "id": 213,
           "dur": 8,
-          "name": "EMO",
+          "name": "Breakouts",
           "notes": ""
         },
         {
-          "id": 219,
-          "dur": 20,
-          "name": "GRADES",
-          "notes": "gasser for every player w/ D or E- 19"
+          "id": 228,
+          "dur": 10,
+          "name": "Split",
+          "notes": "O Shooting, D Hern"
+        },
+        {
+          "id": 226,
+          "dur": 10,
+          "name": "4v4 Corner",
+          "notes": ""
+        },
+        {
+          "id": 227,
+          "dur": 10,
+          "name": "Y Drill - Transfer at X",
+          "notes": "weave"
+        },
+        {
+          "id": 229,
+          "dur": 10,
+          "name": "Sub Game",
+          "notes": "Rabbit/Marry etc."
+        },
+        {
+          "id": 231,
+          "dur": 10,
+          "name": "Faceoffs",
+          "notes": "Rest of Group goes to Pick Play inside"
+        },
+        {
+          "id": 230,
+          "dur": 10,
+          "name": "Clear Focus",
+          "notes": "vs. 21 scrape ride"
+        },
+        {
+          "id": 232,
+          "dur": 10,
+          "name": "Split",
+          "notes": "D- double pole\nO- zone/walk through"
+        },
+        {
+          "id": 233,
+          "dur": 10,
+          "name": "4v3 Progress to 6v6",
+          "notes": ""
+        },
+        {
+          "id": 234,
+          "dur": 15,
+          "name": "6v6",
+          "notes": "half vs. Urbana O, half Whitman vs. Zone"
+        },
+        {
+          "id": 235,
+          "dur": 5,
+          "name": "Man Up/Down",
+          "notes": ""
         }
       ],
-      "nextId": 226,
+      "nextId": 236,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-25",
