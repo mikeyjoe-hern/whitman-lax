@@ -221,9 +221,15 @@ window.SAVED_STATE = {
           "dur": 8,
           "name": "Man Up/Down",
           "notes": "Man Down CLear Install"
+        },
+        {
+          "id": 313,
+          "dur": 5,
+          "name": "Stretch",
+          "notes": ""
         }
       ],
-      "nextId": 313,
+      "nextId": 314,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-26",
