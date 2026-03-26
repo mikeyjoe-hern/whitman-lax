@@ -200,15 +200,15 @@ window.SAVED_STATE = {
         },
         {
           "id": 310,
-          "dur": 15,
+          "dur": 18,
           "name": "Ride/Clear",
-          "notes": "Ride vs. Stack\nClear vs. 21 down"
+          "notes": "Ride vs. Stack (out of apache)\nClear vs. 21 down"
         },
         {
           "id": 305,
           "dur": 10,
           "name": "Split",
-          "notes": "O- vs. zone, walk through vs. man/go over shut\nD- Loco"
+          "notes": "O- vs. zone, walk through vs. man/go over shut; more gameplanning\nD- Hern\nD- Loco"
         },
         {
           "id": 304,
@@ -220,7 +220,7 @@ window.SAVED_STATE = {
           "id": 312,
           "dur": 8,
           "name": "Man Up/Down",
-          "notes": "Man Down CLear Install"
+          "notes": "Man Down Clear "
         },
         {
           "id": 313,
@@ -234,7 +234,7 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-03-26",
       "dateDisplay": "Thursday, March 26, 2026",
-      "coachNotes": "Hard Hat",
+      "coachNotes": "Hard Hat/Helmet Stickers",
       "overallNote": "PREGAME",
       "focusText": "PREP",
       "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
