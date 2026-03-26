@@ -228,8 +228,8 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-03-26",
       "dateDisplay": "Thursday, March 26, 2026",
-      "coachNotes": "FOCUS, Hard Hat New Player- Bus Leaves 5:15 be at school around 5",
-      "overallNote": "PREGAME, VS ZONE, MORE EMO INSTALL FINAL TOUCHES",
+      "coachNotes": "Hard Hat",
+      "overallNote": "PREGAME",
       "focusText": "PREP",
       "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
     }
