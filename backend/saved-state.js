@@ -177,7 +177,7 @@ window.SAVED_STATE = {
         {
           "id": 302,
           "dur": 8,
-          "name": "Breakouts",
+          "name": "Star Drill",
           "notes": "2 stars"
         },
         {
@@ -189,12 +189,12 @@ window.SAVED_STATE = {
         {
           "id": 311,
           "dur": 8,
-          "name": "Apache",
-          "notes": "D double"
+          "name": "GB Fundies",
+          "notes": "SHL, Trail, Grounders"
         },
         {
           "id": 306,
-          "dur": 10,
+          "dur": 8,
           "name": "3v2 Sides",
           "notes": ""
         },
@@ -202,23 +202,23 @@ window.SAVED_STATE = {
           "id": 310,
           "dur": 15,
           "name": "Ride/Clear",
-          "notes": "Ride vs. 34 down, Clear vs. Lock Off except goalie and drop"
+          "notes": "Ride vs. Stack\nClear vs. 21 down"
         },
         {
           "id": 305,
-          "dur": 12,
+          "dur": 10,
           "name": "Split",
           "notes": "O- vs. zone, walk through vs. man/go over shut\nD- Loco"
         },
         {
           "id": 304,
-          "dur": 15,
+          "dur": 20,
           "name": "6v6",
-          "notes": "D- get a loco rep in\nO- get a rep vs. shut\nO- All plays"
+          "notes": "O- get a rep vs. shut, black, white\nD- Double Pole"
         },
         {
           "id": 312,
-          "dur": 10,
+          "dur": 8,
           "name": "Man Up/Down",
           "notes": "Man Down CLear Install"
         }
