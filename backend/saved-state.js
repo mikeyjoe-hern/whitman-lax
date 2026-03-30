@@ -5,79 +5,79 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
+          "id": 145,
+          "dur": 30,
+          "name": "Film",
+          "notes": ""
+        },
+        {
           "id": 126,
-          "dur": 10,
+          "dur": 8,
           "name": "Warm Up",
           "notes": ""
         },
         {
-          "id": 127,
+          "id": 146,
           "dur": 8,
-          "name": "Meatloaf",
+          "name": "O/D Split Stick",
+          "notes": "o-spoke"
+        },
+        {
+          "id": 153,
+          "dur": 10,
+          "name": "4v3 Box GBs",
+          "notes": "O/D Change half way through, can add one if pick up on wrong team"
+        },
+        {
+          "id": 151,
+          "dur": 10,
+          "name": "Apache",
+          "notes": "Starting D Guys w/ Offense"
+        },
+        {
+          "id": 147,
+          "dur": 10,
+          "name": "2v1 From Wing for 4v3 or 5v4",
           "notes": ""
         },
         {
-          "id": 135,
+          "id": 148,
           "dur": 10,
-          "name": "GB Stations",
-          "notes": "Grounders, Trail, 2v1"
-        },
-        {
-          "id": 136,
-          "dur": 8,
-          "name": "Jailbreak GBs",
+          "name": "Numbers",
           "notes": ""
         },
         {
-          "id": 137,
+          "id": 149,
           "dur": 10,
-          "name": "Pressure Passing",
-          "notes": "3 passes to goal, emphasize V-Cuts"
+          "name": "Bethesda Drill (Vike Ride)",
+          "notes": "Hopefully have Aden in goal"
         },
         {
-          "id": 138,
+          "id": 150,
           "dur": 10,
-          "name": "Y Drill - Transfer at X",
-          "notes": "For DEFENSE- practice the 3 man weave play"
-        },
-        {
-          "id": 139,
-          "dur": 12,
           "name": "Vike Ride",
-          "notes": "vs. 34 stack"
+          "notes": "help Lukas"
         },
         {
-          "id": 140,
+          "id": 154,
           "dur": 10,
-          "name": "Split",
-          "notes": "O- Roger and EMO FLIP INSTALL"
-        },
-        {
-          "id": 142,
-          "dur": 12,
           "name": "6v6",
           "notes": ""
         },
         {
-          "id": 143,
+          "id": 155,
           "dur": 10,
-          "name": "Man Up/Down",
-          "notes": ""
-        },
-        {
-          "id": 144,
-          "dur": 20,
           "name": "Conditioning",
-          "notes": "For Grades"
+          "notes": "Knox + grade crew"
         }
       ],
-      "nextId": 145,
+      "nextId": 156,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-24",
-      "dateDisplay": "Tuesday, March 24, 2026",
-      "coachNotes": "Hard Hat, Practice Tomorrow- SUB Game. clear vs. 21, faceoffs/pick play off ball, vs. zone and double pole",
-      "overallNote": "GRADES",
+      "dateValue": "2026-03-30",
+      "dateDisplay": "Monday, March 30, 2026",
+      "coachNotes": "Hard Hat- Jack Cummings",
+      "overallNote": "RUN FOR PENALTIES",
       "focusText": "1% BETTER",
       "pquote": ""
     },
@@ -1135,7 +1135,13 @@ window.SAVED_STATE = {
       "name": "Conditioning",
       "dur": 10,
       "type": "Other"
+    },
+    {
+      "lid": 216,
+      "name": "Film",
+      "dur": 30,
+      "type": "Groundballs"
     }
   ],
-  "nextLid": 216
+  "nextLid": 217
 };
