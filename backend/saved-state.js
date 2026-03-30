@@ -261,12 +261,12 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Buck Nowell (quad)",
+          "name": "Colten Thompson",
           "injured": false
         },
         {
-          "name": "Colten Thompson",
-          "injured": true
+          "name": "Buck Nowell (quad)",
+          "injured": false
         },
         {
           "name": "Ziggy Powell-Moran (shoulder)",
@@ -295,7 +295,7 @@ window.SAVED_STATE = {
         },
         {
           "name": "Bo Werth",
-          "injured": false
+          "injured": true
         },
         {
           "name": "Patrick Ballance",
