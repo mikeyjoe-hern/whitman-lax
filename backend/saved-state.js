@@ -90,79 +90,61 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 206,
-          "dur": 8,
-          "name": "Breakouts",
+          "id": 236,
+          "dur": 10,
+          "name": "O/D Split Stick",
           "notes": ""
         },
         {
-          "id": 228,
-          "dur": 10,
+          "id": 237,
+          "dur": 12,
           "name": "Split",
-          "notes": "O Shooting, D Hern"
+          "notes": "O-Shooting- fundies\nD-whatever hern needs to go over before leaving"
         },
         {
-          "id": 226,
+          "id": 240,
           "dur": 10,
-          "name": "4v4 Corner",
-          "notes": ""
+          "name": "GB Stations",
+          "notes": "Trail, Grounders, Gauntlet- explain point of each one and teaching points"
         },
         {
-          "id": 227,
-          "dur": 10,
-          "name": "Y Drill - Transfer at X",
-          "notes": "weave"
-        },
-        {
-          "id": 229,
-          "dur": 10,
-          "name": "Sub Game",
-          "notes": "Rabbit/Marry etc."
-        },
-        {
-          "id": 231,
-          "dur": 10,
-          "name": "Faceoffs",
-          "notes": "Rest of Group goes to Pick Play inside"
-        },
-        {
-          "id": 230,
+          "id": 238,
           "dur": 10,
           "name": "Clear Focus",
-          "notes": "vs. 21 scrape ride"
+          "notes": "a couple reps on air, a couple live"
         },
         {
-          "id": 232,
+          "id": 239,
           "dur": 10,
-          "name": "Split",
-          "notes": "D- double pole\nO- zone/walk through"
+          "name": "Vike Ride",
+          "notes": "Lukas as Vike- a couple with just match up and over passes, a couple live"
         },
         {
-          "id": 233,
-          "dur": 10,
-          "name": "4v3 Progress to 6v6",
-          "notes": ""
-        },
-        {
-          "id": 234,
+          "id": 241,
           "dur": 15,
           "name": "6v6",
-          "notes": "half vs. Urbana O, half Whitman vs. Zone"
+          "notes": "Get a loco rep, pairs and motion"
         },
         {
-          "id": 235,
-          "dur": 5,
+          "id": 242,
+          "dur": 10,
           "name": "Man Up/Down",
+          "notes": "teach new personell\nhuntingtown-  review their man up"
+        },
+        {
+          "id": 243,
+          "dur": 5,
+          "name": "Stretch",
           "notes": ""
         }
       ],
-      "nextId": 236,
+      "nextId": 244,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-03-25",
       "dateDisplay": "Wednesday, March 25, 2026",
-      "coachNotes": "Cooper Hard Hat",
-      "overallNote": "GRADES/ATTENDANCE",
+      "coachNotes": "Christian Hard Hat Talk",
+      "overallNote": "TALK TO GRADES GUYS AT RISK",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
