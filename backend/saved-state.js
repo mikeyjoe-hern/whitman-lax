@@ -276,11 +276,11 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Bo Werth",
-          "injured": true
+          "name": "Patrick Ballance",
+          "injured": false
         },
         {
-          "name": "Patrick Ballance",
+          "name": "Bo Werth",
           "injured": false
         },
         {
