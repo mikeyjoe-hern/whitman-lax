@@ -5,12 +5,6 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
-          "id": 145,
-          "dur": 30,
-          "name": "Film",
-          "notes": ""
-        },
-        {
           "id": 126,
           "dur": 8,
           "name": "Warm Up",
@@ -20,64 +14,70 @@ window.SAVED_STATE = {
           "id": 146,
           "dur": 8,
           "name": "O/D Split Stick",
-          "notes": "o-spoke"
+          "notes": "o- V-CUT Diamond Passing\nD-stickwork"
         },
         {
           "id": 153,
           "dur": 10,
-          "name": "4v3 Box GBs",
-          "notes": "O/D Change half way through, can add one if pick up on wrong team"
+          "name": "Split",
+          "notes": "D- hern choice (pick game with 4?)\nO- double cage shooting"
         },
         {
           "id": 151,
           "dur": 10,
-          "name": "Apache",
-          "notes": "Starting D Guys w/ Offense"
+          "name": "GB Fundies",
+          "notes": "Trail, SHL, Grounders"
         },
         {
           "id": 147,
           "dur": 10,
-          "name": "2v1 From Wing for 4v3 or 5v4",
-          "notes": ""
-        },
-        {
-          "id": 148,
-          "dur": 10,
-          "name": "Numbers",
-          "notes": ""
-        },
-        {
-          "id": 149,
-          "dur": 10,
-          "name": "Bethesda Drill (Vike Ride)",
-          "notes": "Hopefully have Aden in goal"
+          "name": "Build UP",
+          "notes": "4v3 to 6v6"
         },
         {
           "id": 150,
           "dur": 10,
-          "name": "Vike Ride",
-          "notes": "help Lukas"
+          "name": "Faceoffs/Crease Work",
+          "notes": "Roswell/Vita Faceoff Guys- SSDM behind, LSM hunt fogo\nHern- O/D sticks inside"
         },
         {
           "id": 154,
-          "dur": 10,
-          "name": "6v6",
-          "notes": ""
+          "dur": 8,
+          "name": "Sub Game",
+          "notes": "Practice shutting adjacents w/ pole coming down"
         },
         {
           "id": 155,
           "dur": 10,
-          "name": "Conditioning",
-          "notes": "Knox + grade crew"
+          "name": "Clear",
+          "notes": "vs 33 ride"
+        },
+        {
+          "id": 156,
+          "dur": 10,
+          "name": "Vike Ride",
+          "notes": "vs. 34 down"
+        },
+        {
+          "id": 157,
+          "dur": 15,
+          "name": "6v6",
+          "notes": "Whitman Offense- laker/green/pairs focus\nWhitman Defense: SS as 4, stay on matchups through pick"
+        },
+        {
+          "id": 158,
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
         }
       ],
-      "nextId": 156,
+      "nextId": 159,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-04-08",
       "dateDisplay": "Wednesday, April 8, 2026",
-      "coachNotes": "Hard Hat- Jack Cummings",
-      "overallNote": "RUN FOR PENALTIES",
+      "coachNotes": "Hard Hat- Jack Cummings transfer to TSULL",
+      "overallNote": "PREPARE, HOME TOMORROW, TEAM DINNER IN CAF TONIGHT",
       "focusText": "1% BETTER",
       "pquote": ""
     },
@@ -247,7 +247,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Buck Nowell (quad)",
+          "name": "Buck Nowell",
           "injured": false
         },
         {
@@ -297,12 +297,12 @@ window.SAVED_STATE = {
       "cls": "def",
       "players": [
         {
-          "name": "Durke Anderson",
+          "name": "Lukas Schlotterer",
           "injured": false
         },
         {
-          "name": "Lukas Schlotterer",
-          "injured": false
+          "name": "Durke Anderson",
+          "injured": true
         },
         {
           "name": "Christian Armstrong",
