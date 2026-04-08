@@ -62,7 +62,7 @@ window.SAVED_STATE = {
           "id": 157,
           "dur": 15,
           "name": "6v6",
-          "notes": "Whitman Offense- laker/green/pairs focus\nWhitman Defense: SS as 4, stay on matchups through pick"
+          "notes": "Whitman Offense- laker/green/pairs focus (no shooting off dodge)\nWhitman Defense: SS as 4, stay on matchups through pick"
         },
         {
           "id": 158,
