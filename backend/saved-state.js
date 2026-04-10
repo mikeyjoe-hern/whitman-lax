@@ -136,9 +136,21 @@ window.SAVED_STATE = {
           "dur": 10,
           "name": "6v6",
           "notes": "O- needs to be assisted goal"
+        },
+        {
+          "id": 244,
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
+        },
+        {
+          "id": 245,
+          "dur": 5,
+          "name": "Stretch",
+          "notes": ""
         }
       ],
-      "nextId": 244,
+      "nextId": 246,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-04-10",
