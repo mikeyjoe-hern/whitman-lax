@@ -91,51 +91,51 @@ window.SAVED_STATE = {
         },
         {
           "id": 236,
-          "dur": 10,
+          "dur": 8,
           "name": "O/D Split Stick",
-          "notes": ""
+          "notes": "O- doubles- roll backs and step aways"
         },
         {
           "id": 237,
-          "dur": 12,
+          "dur": 10,
           "name": "Split",
-          "notes": "O-Shooting- fundies\nD-whatever hern needs to go over before leaving"
+          "notes": "O-Shooting- double cage\nD-whatever hern needs to go over before leaving"
         },
         {
           "id": 240,
           "dur": 10,
-          "name": "GB Stations",
-          "notes": "Trail, Grounders, Gauntlet- explain point of each one and teaching points"
+          "name": "4v3 keep away",
+          "notes": "split team o/d guys need to work on it"
         },
         {
           "id": 238,
           "dur": 10,
-          "name": "Clear Focus",
-          "notes": "a couple reps on air, a couple live"
+          "name": "GB Fundies",
+          "notes": "Trail, 2v1, Gauntet"
         },
         {
           "id": 239,
           "dur": 10,
-          "name": "Vike Ride",
-          "notes": "Lukas as Vike- a couple with just match up and over passes, a couple live"
+          "name": "Face-offs/Inside Work",
+          "notes": "Knox vs a pole (t-sull)"
         },
         {
           "id": 241,
-          "dur": 15,
-          "name": "6v6",
-          "notes": "Get a loco rep, pairs and motion"
+          "dur": 10,
+          "name": "Split",
+          "notes": "O- walk through w/ 2 middie lines"
         },
         {
           "id": 242,
           "dur": 10,
-          "name": "Man Up/Down",
-          "notes": "teach new personell\nhuntingtown-  review their man up"
+          "name": "Special Teams on Air",
+          "notes": "Clear vs. air, Ride vs dummy clear (hern and I banana), Man Down Clear"
         },
         {
           "id": 243,
-          "dur": 5,
-          "name": "Stretch",
-          "notes": ""
+          "dur": 10,
+          "name": "6v6",
+          "notes": "O- needs to be assisted goal"
         }
       ],
       "nextId": 244,
@@ -143,7 +143,7 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-04-10",
       "dateDisplay": "Friday, April 10, 2026",
-      "coachNotes": "Christian Hard Hat Talk",
+      "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
       "overallNote": "TALK TO GRADES GUYS AT RISK",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
