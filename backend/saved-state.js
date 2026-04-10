@@ -99,7 +99,7 @@ window.SAVED_STATE = {
           "id": 237,
           "dur": 10,
           "name": "Split",
-          "notes": "O-Shooting- double cage\nD-whatever hern needs to go over before leaving"
+          "notes": "O-Shooting- double cage\nD-whatever hern wants"
         },
         {
           "id": 240,
@@ -123,7 +123,7 @@ window.SAVED_STATE = {
           "id": 241,
           "dur": 10,
           "name": "Split",
-          "notes": "O- walk through w/ 2 middie lines"
+          "notes": "O- walk through w/ 2 middie lines\nD- invert discussion"
         },
         {
           "id": 242,
