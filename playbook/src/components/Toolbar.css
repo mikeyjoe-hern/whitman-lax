@@ -1,0 +1,136 @@
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.toolbar-group {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.toolbar-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding-right: 2px;
+}
+
+.toolbar-sep {
+  width: 1px;
+  height: 28px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 0 4px;
+  flex-shrink: 0;
+}
+
+.tb-btn {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background 0.15s, color 0.15s, opacity 0.15s;
+  white-space: nowrap;
+}
+
+.tb-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Mode buttons */
+.mode-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+}
+.mode-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.mode-btn.active {
+  background: #03a5e3;
+  color: #fff;
+}
+
+/* Player token buttons */
+.token-btn.player {
+  background: #1a7fc1;
+  color: #fff;
+  min-width: 38px;
+}
+.token-btn.player:hover {
+  background: #1565a0;
+}
+
+/* Object token buttons */
+.token-btn.obj {
+  font-size: 15px;
+  padding: 4px 8px;
+  min-width: 34px;
+}
+.obj-ball {
+  background: #c07a35;
+  color: #fff;
+}
+.obj-ball:hover {
+  background: #a0632a;
+}
+.obj-cone {
+  background: #ea580c;
+  color: #fff;
+}
+.obj-cone:hover {
+  background: #c2410c;
+}
+
+/* Color swatches */
+.color-swatch {
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--swatch-color);
+  border: 2px solid transparent;
+}
+.color-swatch.active {
+  border-color: #fff;
+  box-shadow: 0 0 0 2px var(--swatch-color);
+}
+.color-swatch:hover {
+  transform: scale(1.15);
+}
+
+/* Finish arrow button */
+.finish-btn {
+  background: #2dc653;
+  color: #fff;
+}
+.finish-btn:hover {
+  background: #22a344;
+}
+
+/* Action buttons */
+.action-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+}
+.action-btn:hover:not(:disabled) {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+.action-btn.danger:not(:disabled) {
+  color: #fca5a5;
+}
+.action-btn.danger:hover:not(:disabled) {
+  background: rgba(239, 68, 68, 0.25);
+  color: #fca5a5;
+}
