@@ -24,9 +24,9 @@ window.SAVED_STATE = {
         },
         {
           "id": 153,
-          "dur": 15,
+          "dur": 20,
           "name": "Split",
-          "notes": "D- hern choice (CLEAR CREASE, PICKS AT GLE, 2 SLIDE?)\nO- Across the top shooting, Walk through invert stuff"
+          "notes": "D- hern choice (CLEAR CREASE, PICKS AT GLE, 2 SLIDE?)\nO- Across the top shooting, Inside cutting/shooting, Walk through invert stuff"
         },
         {
           "id": 147,
