@@ -6,78 +6,60 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 126,
-          "dur": 8,
-          "name": "Warm Up",
+          "dur": 30,
+          "name": "Talk/GO to top field",
           "notes": ""
         },
         {
           "id": 146,
           "dur": 8,
           "name": "O/D Split Stick",
-          "notes": "o- V-CUT Diamond Passing\nD-stickwork"
-        },
-        {
-          "id": 153,
-          "dur": 10,
-          "name": "Split",
-          "notes": "D- hern choice (pick game with 4?)\nO- double cage shooting"
+          "notes": "o- Diamond Harball\nD-stickwork"
         },
         {
           "id": 151,
-          "dur": 10,
+          "dur": 8,
           "name": "GB Fundies",
-          "notes": "Trail, SHL, Grounders"
+          "notes": "Trail, SHL, Grounders- 2 mins per station"
+        },
+        {
+          "id": 153,
+          "dur": 15,
+          "name": "Split",
+          "notes": "D- hern choice (CLEAR CREASE, PICKS AT GLE, 2 SLIDE?)\nO- Across the top shooting, Walk through invert stuff"
         },
         {
           "id": 147,
-          "dur": 10,
-          "name": "Build UP",
-          "notes": "4v3 to 6v6"
-        },
-        {
-          "id": 150,
-          "dur": 10,
-          "name": "Faceoffs/Crease Work",
-          "notes": "Roswell/Vita Faceoff Guys- SSDM behind, LSM hunt fogo\nHern- O/D sticks inside"
-        },
-        {
-          "id": 154,
           "dur": 8,
-          "name": "Sub Game",
-          "notes": "Practice shutting adjacents w/ pole coming down"
+          "name": "Numbers",
+          "notes": "Quick to get juices flowing"
         },
         {
-          "id": 155,
+          "id": 160,
           "dur": 10,
-          "name": "Clear",
-          "notes": "vs 33 ride"
-        },
-        {
-          "id": 156,
-          "dur": 10,
-          "name": "Vike Ride",
-          "notes": "vs. 34 down"
-        },
-        {
-          "id": 157,
-          "dur": 15,
           "name": "6v6",
-          "notes": "Whitman Offense- laker/green/pairs focus (no shooting off dodge)\nWhitman Defense: SS as 4, stay on matchups through pick"
+          "notes": ""
         },
         {
-          "id": 158,
+          "id": 159,
           "dur": 10,
           "name": "Man Up/Down",
-          "notes": ""
+          "notes": "Vs. QO- 5 mins\nWhitman: 5 mins- drag 4 and bullpen"
+        },
+        {
+          "id": 161,
+          "dur": 15,
+          "name": "Walk Through",
+          "notes": "LOCO, DUMP, VIKE RIDE, CLEAR, Man DOWN CLEAR (CHANGE)"
         }
       ],
-      "nextId": 159,
+      "nextId": 162,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-08",
-      "dateDisplay": "Wednesday, April 8, 2026",
-      "coachNotes": "Hard Hat- Jack Cummings transfer to TSULL",
-      "overallNote": "PREPARE, HOME TOMORROW, TEAM DINNER IN CAF TONIGHT",
+      "dateValue": "2026-04-14",
+      "dateDisplay": "Tuesday, April 14, 2026",
+      "coachNotes": "Hard Hat- Sean",
+      "overallNote": "HELMET STICKERS/GAME REVIEWS, SCOUT OVERVIEW",
       "focusText": "1% BETTER",
       "pquote": ""
     },
@@ -1135,7 +1117,13 @@ window.SAVED_STATE = {
       "name": "Film",
       "dur": 30,
       "type": "Groundballs"
+    },
+    {
+      "lid": 217,
+      "name": "Walk Through",
+      "dur": 10,
+      "type": "Other"
     }
   ],
-  "nextLid": 217
+  "nextLid": 218
 };
