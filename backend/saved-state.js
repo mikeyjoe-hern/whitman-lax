@@ -38,7 +38,7 @@ window.SAVED_STATE = {
           "id": 160,
           "dur": 10,
           "name": "6v6",
-          "notes": ""
+          "notes": "5 mins- QO sean and tg at attack, GLE picks and 1v1 from X\n5 mins- whitman laker and green"
         },
         {
           "id": 159,
@@ -242,7 +242,7 @@ window.SAVED_STATE = {
         },
         {
           "name": "Buck Nowell",
-          "injured": false
+          "injured": true
         },
         {
           "name": "Ziggy Powell-Moran (shoulder)",
@@ -262,7 +262,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Carter Lowe (knee)",
+          "name": "Carter Lowe",
           "injured": false
         },
         {
@@ -283,7 +283,7 @@ window.SAVED_STATE = {
         },
         {
           "name": "Angus Conley-Filippello",
-          "injured": false
+          "injured": true
         }
       ]
     },
@@ -295,19 +295,11 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Durke Anderson",
-          "injured": true
+          "name": "Tommy Sullivan",
+          "injured": false
         },
         {
           "name": "Christian Armstrong",
-          "injured": false
-        },
-        {
-          "name": "Henry Herdman",
-          "injured": false
-        },
-        {
-          "name": "Elliot Fernandez",
           "injured": false
         },
         {
@@ -317,6 +309,14 @@ window.SAVED_STATE = {
         {
           "name": "Cooper Nowell",
           "injured": false
+        },
+        {
+          "name": "Elliot Fernandez",
+          "injured": false
+        },
+        {
+          "name": "Durke Anderson",
+          "injured": true
         }
       ]
     },
@@ -328,15 +328,19 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Jake Thorner",
-          "injured": false
-        },
-        {
           "name": "Magnus Jensen",
           "injured": false
         },
         {
+          "name": "Jake Thorner",
+          "injured": false
+        },
+        {
           "name": "Aitan Bar-Ziv",
+          "injured": false
+        },
+        {
+          "name": "Georges Posner",
           "injured": false
         },
         {
@@ -352,10 +356,6 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Georges Posner",
-          "injured": false
-        },
-        {
           "name": "John-John",
           "injured": false
         }
@@ -365,11 +365,11 @@ window.SAVED_STATE = {
       "cls": "def",
       "players": [
         {
-          "name": "Tommy Sullivan",
+          "name": "Zach Kendall-Taylor",
           "injured": false
         },
         {
-          "name": "Zach Kendall-Taylor",
+          "name": "Henry Herdman",
           "injured": false
         },
         {
