@@ -356,15 +356,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Zaki Saberi",
-          "injured": false
-        },
-        {
           "name": "Rafe Gonzalez",
           "injured": false
         },
         {
           "name": "Conor Galvin",
+          "injured": false
+        },
+        {
+          "name": "Zaki Saberi",
           "injured": false
         },
         {
