@@ -71,16 +71,82 @@ window.SAVED_STATE = {
       "dateValue": "2026-04-17",
       "dateDisplay": "Friday, April 17, 2026",
       "coachNotes": "Hard Hat COMPLETE- new something call out a teammate who made a hard hat move",
-      "overallNote": "FOCUS ON GETTING BETTER; CHARM OUT, LUKAS OUT",
+      "overallNote": "FOCUS ON GETTING BETTER; CHARM OUT, LUKAS OUT, PODS",
       "focusText": "1% BETTER",
       "pquote": ""
     },
     {
       "drills": [
         {
-          "id": 246,
+          "id": 203,
           "dur": 10,
           "name": "Warm Up",
+          "notes": ""
+        },
+        {
+          "id": 236,
+          "dur": 5,
+          "name": "Partner Passing",
+          "notes": "O- doubles- roll backs and step aways"
+        },
+        {
+          "id": 237,
+          "dur": 10,
+          "name": "Full Field Passing",
+          "notes": ""
+        },
+        {
+          "id": 240,
+          "dur": 10,
+          "name": "GB Fundies",
+          "notes": "Grounders, Trail, Goose w/ partner"
+        },
+        {
+          "id": 238,
+          "dur": 10,
+          "name": "Apache",
+          "notes": "Double the Ball"
+        },
+        {
+          "id": 239,
+          "dur": 10,
+          "name": "Split",
+          "notes": "O-Shooting\nD- Hern Choice"
+        },
+        {
+          "id": 246,
+          "dur": 12,
+          "name": "4v4 Plus One at X",
+          "notes": ""
+        },
+        {
+          "id": 241,
+          "dur": 10,
+          "name": "Wing GBs to Goal",
+          "notes": "O- walk through w/ 2 middie lines\nD- invert discussion"
+        },
+        {
+          "id": 242,
+          "dur": 10,
+          "name": "Ride Walk Through",
+          "notes": "T-Sull Vike"
+        },
+        {
+          "id": 243,
+          "dur": 12,
+          "name": "6v6 Situational/Competitive",
+          "notes": "Up 2 Later- Zone, Down 2 late lightening, Up 2 late O Keep in/D force out"
+        },
+        {
+          "id": 244,
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
+        },
+        {
+          "id": 245,
+          "dur": 5,
+          "name": "Stretch",
           "notes": ""
         }
       ],
@@ -160,8 +226,8 @@ window.SAVED_STATE = {
       "nextId": 314,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-20",
-      "dateDisplay": "Monday, April 20, 2026",
+      "dateValue": "2026-03-26",
+      "dateDisplay": "Thursday, March 26, 2026",
       "coachNotes": "Hard Hat/Helmet Stickers",
       "overallNote": "PREGAME",
       "focusText": "PREP",
@@ -296,15 +362,15 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Zaki Saberi",
+          "injured": false
+        },
+        {
           "name": "Rafe Gonzalez",
           "injured": false
         },
         {
           "name": "Conor Galvin",
-          "injured": false
-        },
-        {
-          "name": "Zaki Saberi",
           "injured": false
         },
         {
