@@ -57,9 +57,15 @@ window.SAVED_STATE = {
           "dur": 12,
           "name": "4v3 Progress to 6v6",
           "notes": "Flip Midfield Personnell"
+        },
+        {
+          "id": 164,
+          "dur": 10,
+          "name": "Scrimmage",
+          "notes": ""
         }
       ],
-      "nextId": 164,
+      "nextId": 165,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-04-17",
@@ -1129,7 +1135,13 @@ window.SAVED_STATE = {
       "name": "Walk Through",
       "dur": 10,
       "type": "Other"
+    },
+    {
+      "lid": 218,
+      "name": "Scrimmage",
+      "dur": 10,
+      "type": "Other"
     }
   ],
-  "nextLid": 218
+  "nextLid": 219
 };
