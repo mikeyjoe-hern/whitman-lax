@@ -6,60 +6,66 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 126,
-          "dur": 30,
-          "name": "Talk/GO to top field",
+          "dur": 10,
+          "name": "Warm Up",
           "notes": ""
         },
         {
           "id": 146,
-          "dur": 8,
-          "name": "O/D Split Stick",
-          "notes": "o- Diamond Harball\nD-stickwork"
+          "dur": 10,
+          "name": "West Genny",
+          "notes": "Competitive: Goalie Switch Halfway"
         },
         {
           "id": 151,
-          "dur": 8,
-          "name": "GB Fundies",
-          "notes": "Trail, SHL, Grounders- 2 mins per station"
+          "dur": 10,
+          "name": "Corner GBs",
+          "notes": "Competitive"
         },
         {
           "id": 153,
-          "dur": 20,
-          "name": "Split",
-          "notes": "D- hern choice (CLEAR CREASE, PICKS AT GLE, 2 SLIDE?)\nO- Across the top shooting, Inside cutting/shooting, Walk through invert stuff"
+          "dur": 10,
+          "name": "Circle GBs",
+          "notes": "Competitive "
+        },
+        {
+          "id": 162,
+          "dur": 10,
+          "name": "3v2 Sides",
+          "notes": ""
         },
         {
           "id": 147,
-          "dur": 8,
-          "name": "Numbers",
-          "notes": "Quick to get juices flowing"
+          "dur": 10,
+          "name": "Split",
+          "notes": "O- 3v2 tennis balls (flip halfway\nD- 2 slides"
         },
         {
           "id": 160,
           "dur": 10,
-          "name": "6v6",
-          "notes": "5 mins- QO sean and tg at attack, GLE picks and 1v1 from X\n5 mins- whitman laker and green"
+          "name": "Numbers: 2 teams",
+          "notes": "Not O vs. D\nCompetitive"
         },
         {
           "id": 159,
           "dur": 10,
-          "name": "Man Up/Down",
-          "notes": "Vs. QO- 5 mins\nWhitman: 5 mins- drag 4 and bullpen"
+          "name": "Ridebreak",
+          "notes": "Start O mids on other side- sprint in and find subs"
         },
         {
-          "id": 161,
-          "dur": 15,
-          "name": "Walk Through",
-          "notes": "LOCO, DUMP, VIKE RIDE, CLEAR, Man DOWN CLEAR (CHANGE)"
+          "id": 163,
+          "dur": 12,
+          "name": "4v3 Progress to 6v6",
+          "notes": "Flip Midfield Personnell"
         }
       ],
-      "nextId": 162,
+      "nextId": 164,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-14",
-      "dateDisplay": "Tuesday, April 14, 2026",
-      "coachNotes": "Hard Hat- Sean",
-      "overallNote": "HELMET STICKERS/GAME REVIEWS, SCOUT OVERVIEW",
+      "dateValue": "2026-04-17",
+      "dateDisplay": "Friday, April 17, 2026",
+      "coachNotes": "Hard Hat COMPLETE- new something call out a teammate who made a hard hat move",
+      "overallNote": "FOCUS ON GETTING BETTER; CHARM OUT, LUKAS OUT",
       "focusText": "1% BETTER",
       "pquote": ""
     },
