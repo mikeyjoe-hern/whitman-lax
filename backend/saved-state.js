@@ -78,77 +78,17 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
-          "id": 203,
+          "id": 246,
           "dur": 10,
           "name": "Warm Up",
           "notes": ""
-        },
-        {
-          "id": 236,
-          "dur": 8,
-          "name": "O/D Split Stick",
-          "notes": "O- doubles- roll backs and step aways"
-        },
-        {
-          "id": 237,
-          "dur": 10,
-          "name": "Split",
-          "notes": "O-Shooting- double cage\nD-whatever hern wants"
-        },
-        {
-          "id": 240,
-          "dur": 10,
-          "name": "4v3 keep away",
-          "notes": "split team o/d guys need to work on it"
-        },
-        {
-          "id": 238,
-          "dur": 10,
-          "name": "GB Fundies",
-          "notes": "Trail, 2v1, Gauntet"
-        },
-        {
-          "id": 239,
-          "dur": 10,
-          "name": "Face-offs/Inside Work",
-          "notes": "Knox vs a pole (t-sull)"
-        },
-        {
-          "id": 241,
-          "dur": 10,
-          "name": "Split",
-          "notes": "O- walk through w/ 2 middie lines\nD- invert discussion"
-        },
-        {
-          "id": 242,
-          "dur": 10,
-          "name": "Special Teams on Air",
-          "notes": "Clear vs. air, Ride vs dummy clear (hern and I banana), Man Down Clear"
-        },
-        {
-          "id": 243,
-          "dur": 10,
-          "name": "6v6",
-          "notes": "O- needs to be assisted goal"
-        },
-        {
-          "id": 244,
-          "dur": 10,
-          "name": "Man Up/Down",
-          "notes": ""
-        },
-        {
-          "id": 245,
-          "dur": 5,
-          "name": "Stretch",
-          "notes": ""
         }
       ],
-      "nextId": 246,
-      "startAmPm": "PM",
-      "startTime": "5:00",
-      "dateValue": "2026-04-10",
-      "dateDisplay": "Friday, April 10, 2026",
+      "nextId": 247,
+      "startAmPm": "AM",
+      "startTime": "8:00",
+      "dateValue": "2026-04-11",
+      "dateDisplay": "Saturday, April 11, 2026",
       "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
       "overallNote": "TALK TO GRADES GUYS AT RISK",
       "focusText": "LEARN/COMPETE",
