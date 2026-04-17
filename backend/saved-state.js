@@ -38,7 +38,7 @@ window.SAVED_STATE = {
           "id": 147,
           "dur": 10,
           "name": "Split",
-          "notes": "O- 3v2 tennis balls (flip halfway\nD- Hockey\nD- 2 slides"
+          "notes": "O- 3v2 tennis balls (flip halfway\nD- 2 slides"
         },
         {
           "id": 160,
