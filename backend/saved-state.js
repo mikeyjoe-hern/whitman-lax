@@ -13,44 +13,32 @@ window.SAVED_STATE = {
         {
           "id": 146,
           "dur": 10,
-          "name": "West Genny",
-          "notes": "Competitive: Goalie Switch Halfway"
+          "name": "Hamster Drill",
+          "notes": ""
         },
         {
           "id": 151,
+          "dur": 10,
+          "name": "Split Stickwork",
+          "notes": "O- across the top shooting\nD- Hern"
+        },
+        {
+          "id": 153,
+          "dur": 10,
+          "name": "GB Fundies",
+          "notes": "Trail, B2B, 2v1"
+        },
+        {
+          "id": 162,
           "dur": 10,
           "name": "Corner GBs",
           "notes": "Competitive"
         },
         {
-          "id": 153,
-          "dur": 10,
-          "name": "Circle GBs",
-          "notes": "Competitive "
-        },
-        {
-          "id": 162,
-          "dur": 10,
-          "name": "3v2 Sides",
-          "notes": ""
-        },
-        {
           "id": 147,
           "dur": 10,
-          "name": "Split",
-          "notes": "O- 3v2 tennis balls (flip halfway\nD- 2 slides"
-        },
-        {
-          "id": 160,
-          "dur": 10,
-          "name": "Numbers: 2 teams",
-          "notes": "Not O vs. D\nCompetitive"
-        },
-        {
-          "id": 159,
-          "dur": 10,
-          "name": "Ridebreak",
-          "notes": "Start O mids on other side- sprint in and find subs"
+          "name": "Numbers",
+          "notes": "Competitive"
         },
         {
           "id": 163,
@@ -59,18 +47,36 @@ window.SAVED_STATE = {
           "notes": "Flip Midfield Personnell"
         },
         {
-          "id": 164,
+          "id": 166,
           "dur": 10,
-          "name": "Scrimmage",
+          "name": "4v4 Plus One at X",
+          "notes": ""
+        },
+        {
+          "id": 159,
+          "dur": 10,
+          "name": "Ridebreak",
+          "notes": "Start O mids on other side- sprint in and find subs"
+        },
+        {
+          "id": 167,
+          "dur": 13,
+          "name": "6v6",
+          "notes": "through ride"
+        },
+        {
+          "id": 168,
+          "dur": 10,
+          "name": "Man Up/Down",
           "notes": ""
         }
       ],
-      "nextId": 166,
+      "nextId": 169,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-17",
-      "dateDisplay": "Friday, April 17, 2026",
-      "coachNotes": "Hard Hat COMPLETE- new something call out a teammate who made a hard hat move",
+      "dateValue": "2026-04-20",
+      "dateDisplay": "Monday, April 20, 2026",
+      "coachNotes": "Hard Hat- new hard hat person",
       "overallNote": "FOCUS ON GETTING BETTER; CHARM OUT, LUKAS OUT, PODS",
       "focusText": "1% BETTER",
       "pquote": ""
