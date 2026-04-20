@@ -77,7 +77,7 @@ window.SAVED_STATE = {
       "dateValue": "2026-04-20",
       "dateDisplay": "Monday, April 20, 2026",
       "coachNotes": "Hard Hat- new hard hat person",
-      "overallNote": "FOCUS ON GETTING BETTER; CHARM OUT, LUKAS OUT, PODS",
+      "overallNote": "POD MEETINGS, NEW HARD HAT",
       "focusText": "1% BETTER",
       "pquote": ""
     },
@@ -253,24 +253,12 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Dylan Byrd",
-          "injured": false
-        },
-        {
-          "name": "Jordan Yoon",
-          "injured": false
-        },
-        {
           "name": "Colten Thompson",
           "injured": false
         },
         {
-          "name": "Buck Nowell",
-          "injured": true
-        },
-        {
-          "name": "Ziggy Powell-Moran (shoulder)",
-          "injured": true
+          "name": "Dylan Byrd",
+          "injured": false
         }
       ]
     },
@@ -291,6 +279,10 @@ window.SAVED_STATE = {
         },
         {
           "name": "Jude McPhearson",
+          "injured": false
+        },
+        {
+          "name": "Jordan Yoon",
           "injured": false
         },
         {
@@ -413,12 +405,7 @@ window.SAVED_STATE = {
     },
     "FACE-OFF": {
       "cls": "fo",
-      "players": [
-        {
-          "name": "Knox Brogan",
-          "injured": false
-        }
-      ]
+      "players": []
     }
   },
   "drillLibrary": [
