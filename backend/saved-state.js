@@ -11,71 +11,41 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 146,
+          "id": 169,
           "dur": 10,
-          "name": "Hamster Drill",
+          "name": "Faceoffs",
+          "notes": "Pole"
+        },
+        {
+          "id": 170,
+          "dur": 10,
+          "name": "Rabbit Drill",
           "notes": ""
         },
         {
-          "id": 151,
-          "dur": 10,
-          "name": "Split Stickwork",
-          "notes": "O- across the top shooting\nD- Hern"
-        },
-        {
-          "id": 153,
-          "dur": 10,
-          "name": "GB Fundies",
-          "notes": "Trail, B2B, 2v1"
-        },
-        {
-          "id": 162,
-          "dur": 10,
-          "name": "Corner GBs",
-          "notes": "Competitive"
-        },
-        {
-          "id": 147,
-          "dur": 10,
-          "name": "Numbers",
-          "notes": "Competitive"
-        },
-        {
-          "id": 163,
+          "id": 172,
           "dur": 12,
-          "name": "4v3 Progress to 6v6",
-          "notes": "Flip Midfield Personnell"
+          "name": "Split",
+          "notes": "vs. Zone, vs. Man (ARMY/NAVY)"
         },
         {
-          "id": 166,
+          "id": 173,
           "dur": 10,
-          "name": "4v4 Plus One at X",
+          "name": "Pressure Passing",
           "notes": ""
         },
         {
-          "id": 159,
-          "dur": 10,
-          "name": "Ridebreak",
-          "notes": "Start O mids on other side- sprint in and find subs"
-        },
-        {
-          "id": 167,
-          "dur": 13,
-          "name": "6v6",
-          "notes": "through ride"
-        },
-        {
-          "id": 168,
+          "id": 174,
           "dur": 10,
           "name": "Man Up/Down",
-          "notes": ""
+          "notes": "vs. press MDD"
         }
       ],
-      "nextId": 169,
+      "nextId": 175,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-20",
-      "dateDisplay": "Monday, April 20, 2026",
+      "dateValue": "2026-04-22",
+      "dateDisplay": "Wednesday, April 22, 2026",
       "coachNotes": "Hard Hat- new hard hat person",
       "overallNote": "POD MEETINGS, NEW HARD HAT",
       "focusText": "1% BETTER",
@@ -159,8 +129,8 @@ window.SAVED_STATE = {
       "nextId": 247,
       "startAmPm": "AM",
       "startTime": "8:00",
-      "dateValue": "2026-04-18",
-      "dateDisplay": "Saturday, April 18, 2026",
+      "dateValue": "2026-04-23",
+      "dateDisplay": "Thursday, April 23, 2026",
       "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
       "overallNote": "TALK TO GRADES GUYS AT RISK",
       "focusText": "LEARN/COMPETE",
