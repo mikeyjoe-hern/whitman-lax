@@ -17,6 +17,12 @@ window.SAVED_STATE = {
           "notes": "O- Spoke\nD"
         },
         {
+          "id": 180,
+          "dur": 10,
+          "name": "3v2 Sides",
+          "notes": ""
+        },
+        {
           "id": 177,
           "dur": 10,
           "name": "1v1v1",
@@ -29,12 +35,6 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 179,
-          "dur": 10,
-          "name": "Ride Clear",
-          "notes": ""
-        },
-        {
           "id": 173,
           "dur": 10,
           "name": "Pressure Passing",
@@ -42,14 +42,14 @@ window.SAVED_STATE = {
         },
         {
           "id": 169,
-          "dur": 10,
+          "dur": 8,
           "name": "Faceoffs",
           "notes": "Pole"
         },
         {
-          "id": 170,
-          "dur": 10,
-          "name": "Rabbit Drill",
+          "id": 179,
+          "dur": 12,
+          "name": "Ride Clear",
           "notes": ""
         },
         {
@@ -71,7 +71,7 @@ window.SAVED_STATE = {
           "notes": "vs. press MDD"
         }
       ],
-      "nextId": 180,
+      "nextId": 181,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-04-22",
@@ -96,22 +96,10 @@ window.SAVED_STATE = {
           "notes": "O- doubles- roll backs and step aways"
         },
         {
-          "id": 237,
-          "dur": 10,
-          "name": "Full Field Passing",
-          "notes": ""
-        },
-        {
           "id": 240,
           "dur": 10,
           "name": "GB Fundies",
           "notes": "Grounders, Trail, Goose w/ partner"
-        },
-        {
-          "id": 238,
-          "dur": 10,
-          "name": "Apache",
-          "notes": "Double the Ball"
         },
         {
           "id": 239,
@@ -120,43 +108,19 @@ window.SAVED_STATE = {
           "notes": "O-Shooting\nD- Hern Choice"
         },
         {
-          "id": 246,
-          "dur": 12,
-          "name": "4v4 Plus One at X",
+          "id": 247,
+          "dur": 10,
+          "name": "Rabbit Drill",
           "notes": ""
         },
         {
-          "id": 241,
+          "id": 248,
           "dur": 10,
-          "name": "Wing GBs to Goal",
-          "notes": "O- walk through w/ 2 middie lines\nD- invert discussion"
-        },
-        {
-          "id": 242,
-          "dur": 10,
-          "name": "Ride Walk Through",
-          "notes": "T-Sull Vike"
-        },
-        {
-          "id": 243,
-          "dur": 12,
-          "name": "6v6 Situational/Competitive",
-          "notes": "Up 2 Later- Zone, Down 2 late lightening, Up 2 late O Keep in/D force out"
-        },
-        {
-          "id": 244,
-          "dur": 10,
-          "name": "Man Up/Down",
-          "notes": ""
-        },
-        {
-          "id": 245,
-          "dur": 5,
-          "name": "Stretch",
+          "name": "Faceoffs",
           "notes": ""
         }
       ],
-      "nextId": 247,
+      "nextId": 249,
       "startAmPm": "AM",
       "startTime": "8:00",
       "dateValue": "2026-04-23",
