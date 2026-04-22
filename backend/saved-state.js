@@ -11,6 +11,36 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
+          "id": 175,
+          "dur": 10,
+          "name": "O/D Split Stick",
+          "notes": "O- Spoke\nD"
+        },
+        {
+          "id": 177,
+          "dur": 10,
+          "name": "1v1v1",
+          "notes": "Competitive"
+        },
+        {
+          "id": 178,
+          "dur": 10,
+          "name": "Jailbreak GBs",
+          "notes": ""
+        },
+        {
+          "id": 179,
+          "dur": 10,
+          "name": "Ride Clear",
+          "notes": ""
+        },
+        {
+          "id": 173,
+          "dur": 10,
+          "name": "Pressure Passing",
+          "notes": ""
+        },
+        {
           "id": 169,
           "dur": 10,
           "name": "Faceoffs",
@@ -29,9 +59,9 @@ window.SAVED_STATE = {
           "notes": "vs. Zone, vs. Man (ARMY/NAVY)"
         },
         {
-          "id": 173,
-          "dur": 10,
-          "name": "Pressure Passing",
+          "id": 176,
+          "dur": 15,
+          "name": "6v6",
           "notes": ""
         },
         {
@@ -41,7 +71,7 @@ window.SAVED_STATE = {
           "notes": "vs. press MDD"
         }
       ],
-      "nextId": 175,
+      "nextId": 180,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-04-22",
@@ -1110,7 +1140,13 @@ window.SAVED_STATE = {
       "name": "Scrimmage",
       "dur": 10,
       "type": "Other"
+    },
+    {
+      "lid": 219,
+      "name": "Ride Clear",
+      "dur": 10,
+      "type": "Groundballs"
     }
   ],
-  "nextLid": 219
+  "nextLid": 220
 };
