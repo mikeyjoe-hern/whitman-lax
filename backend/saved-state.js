@@ -84,6 +84,12 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
+          "id": 249,
+          "dur": 15,
+          "name": "Team Talk",
+          "notes": ""
+        },
+        {
           "id": 203,
           "dur": 10,
           "name": "Warm Up",
@@ -92,14 +98,26 @@ window.SAVED_STATE = {
         {
           "id": 236,
           "dur": 5,
-          "name": "Partner Passing",
-          "notes": "O- doubles- roll backs and step aways"
+          "name": "Split Stick Work",
+          "notes": "O-Diamond"
         },
         {
           "id": 240,
           "dur": 10,
           "name": "GB Fundies",
           "notes": "Grounders, Trail, Goose w/ partner"
+        },
+        {
+          "id": 254,
+          "dur": 10,
+          "name": "Box Build Up / Ball Start w/ Goal",
+          "notes": ""
+        },
+        {
+          "id": 248,
+          "dur": 10,
+          "name": "Faceoffs",
+          "notes": ""
         },
         {
           "id": 239,
@@ -110,19 +128,37 @@ window.SAVED_STATE = {
         {
           "id": 247,
           "dur": 10,
-          "name": "Rabbit Drill",
+          "name": "Rabbit Drill/Sub Game",
           "notes": ""
         },
         {
-          "id": 248,
+          "id": 250,
           "dur": 10,
-          "name": "Faceoffs",
+          "name": "Ride Clear",
+          "notes": ""
+        },
+        {
+          "id": 253,
+          "dur": 5,
+          "name": "Situational sixes",
+          "notes": ""
+        },
+        {
+          "id": 251,
+          "dur": 10,
+          "name": "6v6",
+          "notes": ""
+        },
+        {
+          "id": 252,
+          "dur": 10,
+          "name": "Man Up/Down",
           "notes": ""
         }
       ],
-      "nextId": 249,
-      "startAmPm": "AM",
-      "startTime": "8:00",
+      "nextId": 255,
+      "startAmPm": "PM",
+      "startTime": "5:00",
       "dateValue": "2026-04-23",
       "dateDisplay": "Thursday, April 23, 2026",
       "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
@@ -1110,7 +1146,13 @@ window.SAVED_STATE = {
       "name": "Ride Clear",
       "dur": 10,
       "type": "Groundballs"
+    },
+    {
+      "lid": 220,
+      "name": "Team Talk",
+      "dur": 15,
+      "type": "Other"
     }
   ],
-  "nextLid": 220
+  "nextLid": 221
 };
