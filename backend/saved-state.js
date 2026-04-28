@@ -5,6 +5,12 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
+          "id": 182,
+          "dur": 15,
+          "name": "Team Talk",
+          "notes": ""
+        },
+        {
           "id": 126,
           "dur": 10,
           "name": "Warm Up",
@@ -13,50 +19,32 @@ window.SAVED_STATE = {
         {
           "id": 175,
           "dur": 10,
-          "name": "O/D Split Stick",
-          "notes": "O- Spoke\nD"
+          "name": "Meatloaf",
+          "notes": ""
         },
         {
           "id": 180,
-          "dur": 10,
-          "name": "3v2 Sides",
-          "notes": ""
+          "dur": 15,
+          "name": "Half Field Bethesda Drill",
+          "notes": "2 sides?"
         },
         {
           "id": 177,
           "dur": 10,
-          "name": "1v1v1",
+          "name": "Corner GBs",
           "notes": "Competitive"
         },
         {
           "id": 178,
           "dur": 10,
-          "name": "Jailbreak GBs",
+          "name": "Circle GBs",
+          "notes": "Competitive"
+        },
+        {
+          "id": 181,
+          "dur": 15,
+          "name": "4v4 Plus One at X",
           "notes": ""
-        },
-        {
-          "id": 173,
-          "dur": 10,
-          "name": "Pressure Passing",
-          "notes": ""
-        },
-        {
-          "id": 169,
-          "dur": 8,
-          "name": "Faceoffs",
-          "notes": "Pole"
-        },
-        {
-          "id": 179,
-          "dur": 12,
-          "name": "Ride Clear",
-          "notes": ""
-        },
-        {
-          "id": 172,
-          "dur": 12,
-          "name": "Split",
-          "notes": "vs. Zone, vs. Man (ARMY/NAVY)"
         },
         {
           "id": 176,
@@ -68,16 +56,22 @@ window.SAVED_STATE = {
           "id": 174,
           "dur": 10,
           "name": "Man Up/Down",
-          "notes": "vs. press MDD"
+          "notes": "6v4, 5v5 into 6v5"
+        },
+        {
+          "id": 183,
+          "dur": 10,
+          "name": "Scrimmage",
+          "notes": ""
         }
       ],
-      "nextId": 181,
+      "nextId": 184,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-22",
-      "dateDisplay": "Wednesday, April 22, 2026",
+      "dateValue": "2026-04-28",
+      "dateDisplay": "Tuesday, April 28, 2026",
       "coachNotes": "Hard Hat- new hard hat person",
-      "overallNote": "POD MEETINGS, NEW HARD HAT",
+      "overallNote": "HARD HAT, HELMET STICKERS, BRING CONES",
       "focusText": "1% BETTER",
       "pquote": ""
     },
@@ -162,7 +156,7 @@ window.SAVED_STATE = {
       "dateValue": "2026-04-23",
       "dateDisplay": "Thursday, April 23, 2026",
       "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
-      "overallNote": "TALK TO GRADES GUYS AT RISK",
+      "overallNote": "WING GBS",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
     },
