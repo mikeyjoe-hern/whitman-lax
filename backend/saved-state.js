@@ -231,7 +231,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Danny Merlis (ankle)",
+          "name": "Danny Merlis",
           "injured": false
         },
         {
