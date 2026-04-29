@@ -93,7 +93,7 @@ window.SAVED_STATE = {
           "id": 236,
           "dur": 5,
           "name": "Split Stick Work",
-          "notes": "O-Diamond\nD- Hern"
+          "notes": "O-Diamond D-hockey\nD- Hern"
         },
         {
           "id": 240,
