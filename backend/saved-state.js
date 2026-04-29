@@ -93,7 +93,7 @@ window.SAVED_STATE = {
           "id": 236,
           "dur": 5,
           "name": "Split Stick Work",
-          "notes": "O-Diamond"
+          "notes": "O-Diamond\nD- Hern"
         },
         {
           "id": 240,
@@ -102,55 +102,43 @@ window.SAVED_STATE = {
           "notes": "Grounders, Trail, Goose w/ partner"
         },
         {
-          "id": 254,
-          "dur": 10,
-          "name": "Box Build Up / Ball Start w/ Goal",
+          "id": 255,
+          "dur": 12,
+          "name": "Numbers",
           "notes": ""
         },
         {
-          "id": 248,
+          "id": 258,
           "dur": 10,
-          "name": "Faceoffs",
+          "name": "2v1 From Wing for 4v3 or 5v4",
           "notes": ""
         },
         {
-          "id": 239,
-          "dur": 10,
-          "name": "Split",
-          "notes": "O-Shooting\nD- Hern Choice"
-        },
-        {
-          "id": 247,
-          "dur": 10,
-          "name": "Rabbit Drill/Sub Game",
-          "notes": ""
-        },
-        {
-          "id": 250,
-          "dur": 10,
+          "id": 256,
+          "dur": 13,
           "name": "Ride Clear",
           "notes": ""
         },
         {
-          "id": 253,
-          "dur": 5,
-          "name": "Situational sixes",
+          "id": 260,
+          "dur": 10,
+          "name": "Rabbit Drill",
           "notes": ""
         },
         {
-          "id": 251,
-          "dur": 10,
+          "id": 259,
+          "dur": 12,
           "name": "6v6",
           "notes": ""
         },
         {
-          "id": 252,
+          "id": 261,
           "dur": 10,
           "name": "Man Up/Down",
           "notes": ""
         }
       ],
-      "nextId": 255,
+      "nextId": 262,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-04-29",
