@@ -79,7 +79,7 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 249,
-          "dur": 15,
+          "dur": 10,
           "name": "Team Talk",
           "notes": ""
         },
@@ -153,8 +153,8 @@ window.SAVED_STATE = {
       "nextId": 255,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-23",
-      "dateDisplay": "Thursday, April 23, 2026",
+      "dateValue": "2026-04-29",
+      "dateDisplay": "Wednesday, April 29, 2026",
       "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
       "overallNote": "WING GBS",
       "focusText": "LEARN/COMPETE",
