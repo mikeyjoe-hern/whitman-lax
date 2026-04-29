@@ -143,7 +143,7 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-04-29",
       "dateDisplay": "Wednesday, April 29, 2026",
-      "coachNotes": "Hard Hat, Talk about pods/taking winners to breakfast",
+      "coachNotes": "Hard Hat- durke",
       "overallNote": "WING GBS",
       "focusText": "LEARN/COMPETE",
       "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
