@@ -281,7 +281,7 @@ window.SAVED_STATE = {
         },
         {
           "name": "Angus Conley-Filippello",
-          "injured": true
+          "injured": false
         }
       ]
     },
@@ -297,7 +297,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Christian Armstrong",
+          "name": "Durke Anderson",
           "injured": false
         },
         {
@@ -313,7 +313,7 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
-          "name": "Durke Anderson",
+          "name": "Christian Armstrong",
           "injured": true
         }
       ]
@@ -380,7 +380,7 @@ window.SAVED_STATE = {
       "cls": "gol",
       "players": [
         {
-          "name": "Beckett",
+          "name": "Beckett Tvayer",
           "injured": false
         }
       ]
