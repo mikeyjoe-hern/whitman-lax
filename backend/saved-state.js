@@ -152,7 +152,7 @@ window.SAVED_STATE = {
       "coachNotes": "Hard Hat- durke",
       "overallNote": "WING GBS",
       "focusText": "LEARN/COMPETE",
-      "pquote": "\"There is only one way to avoid criticism: do nothing, say nothing, and be nothing\" - Aristotle"
+      "pquote": ""
     },
     {
       "drills": [
@@ -225,7 +225,7 @@ window.SAVED_STATE = {
       "coachNotes": "Hard Hat/Helmet Stickers",
       "overallNote": "PREGAME",
       "focusText": "PREP",
-      "pquote": "\"You may delay, but time will not\" - Benjamin Franklin"
+      "pquote": ""
     }
   ],
   "depthData": {
