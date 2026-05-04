@@ -20,7 +20,7 @@ window.SAVED_STATE = {
           "id": 184,
           "dur": 10,
           "name": "O/D Split Stick",
-          "notes": "O- diamond\nD- hern choice"
+          "notes": "O- diamond D- two ball gbs\nD- hern choice"
         },
         {
           "id": 185,
