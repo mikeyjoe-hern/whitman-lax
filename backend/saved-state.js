@@ -301,6 +301,10 @@ window.SAVED_STATE = {
           "injured": false
         },
         {
+          "name": "Christian Armstrong",
+          "injured": false
+        },
+        {
           "name": "Jack Cummings",
           "injured": false
         },
@@ -311,10 +315,6 @@ window.SAVED_STATE = {
         {
           "name": "Elliot Fernandez",
           "injured": false
-        },
-        {
-          "name": "Christian Armstrong",
-          "injured": true
         }
       ]
     },
@@ -387,7 +387,12 @@ window.SAVED_STATE = {
     },
     "FACE-OFF": {
       "cls": "fo",
-      "players": []
+      "players": [
+        {
+          "name": "Knox Brogan",
+          "injured": false
+        }
+      ]
     }
   },
   "drillLibrary": [
