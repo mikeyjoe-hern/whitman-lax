@@ -6,7 +6,7 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 182,
-          "dur": 15,
+          "dur": 5,
           "name": "Team Talk",
           "notes": ""
         },
@@ -17,59 +17,65 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 175,
+          "id": 184,
           "dur": 10,
-          "name": "Meatloaf",
+          "name": "O/D Split Stick",
+          "notes": "O- diamond\nD- hern choice"
+        },
+        {
+          "id": 185,
+          "dur": 10,
+          "name": "GB Stations",
+          "notes": "SHL, gauntlet, 2v1"
+        },
+        {
+          "id": 186,
+          "dur": 10,
+          "name": "Jailbreak GBs",
           "notes": ""
         },
         {
-          "id": 180,
-          "dur": 15,
-          "name": "Half Field Bethesda Drill",
-          "notes": "2 sides?"
-        },
-        {
-          "id": 177,
+          "id": 191,
           "dur": 10,
-          "name": "Corner GBs",
-          "notes": "Competitive"
+          "name": "4v4 Wings",
+          "notes": "transfer at X and to other side"
         },
         {
-          "id": 178,
+          "id": 187,
           "dur": 10,
-          "name": "Circle GBs",
-          "notes": "Competitive"
+          "name": "O/D Split Stick",
+          "notes": "O- Shooting"
         },
         {
-          "id": 181,
-          "dur": 15,
-          "name": "4v4 Plus One at X",
+          "id": 188,
+          "dur": 12,
+          "name": "Drop and Cover",
+          "notes": "Out of 10 man ride, and through sub game"
+        },
+        {
+          "id": 189,
+          "dur": 10,
+          "name": "4v3 Progress to 6v6",
           "notes": ""
         },
         {
-          "id": 176,
-          "dur": 15,
+          "id": 190,
+          "dur": 10,
           "name": "6v6",
-          "notes": ""
+          "notes": "Sean Shut"
         },
         {
-          "id": 174,
-          "dur": 10,
-          "name": "Man Up/Down",
-          "notes": "6v4, 5v5 into 6v5"
-        },
-        {
-          "id": 183,
-          "dur": 10,
+          "id": 192,
+          "dur": 20,
           "name": "Scrimmage",
           "notes": ""
         }
       ],
-      "nextId": 184,
+      "nextId": 193,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-28",
-      "dateDisplay": "Tuesday, April 28, 2026",
+      "dateValue": "2026-05-04",
+      "dateDisplay": "Monday, May 4, 2026",
       "coachNotes": "Hard Hat- new hard hat person",
       "overallNote": "HARD HAT, HELMET STICKERS, BRING CONES",
       "focusText": "1% BETTER",
@@ -141,8 +147,8 @@ window.SAVED_STATE = {
       "nextId": 262,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-04-29",
-      "dateDisplay": "Wednesday, April 29, 2026",
+      "dateValue": "2026-05-05",
+      "dateDisplay": "Tuesday, May 5, 2026",
       "coachNotes": "Hard Hat- durke",
       "overallNote": "WING GBS",
       "focusText": "LEARN/COMPETE",
@@ -214,8 +220,8 @@ window.SAVED_STATE = {
       "nextId": 314,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-03-26",
-      "dateDisplay": "Thursday, March 26, 2026",
+      "dateValue": "2026-05-06",
+      "dateDisplay": "Wednesday, May 6, 2026",
       "coachNotes": "Hard Hat/Helmet Stickers",
       "overallNote": "PREGAME",
       "focusText": "PREP",
@@ -1139,7 +1145,13 @@ window.SAVED_STATE = {
       "name": "Team Talk",
       "dur": 15,
       "type": "Other"
+    },
+    {
+      "lid": 221,
+      "name": "Drop and Cover",
+      "dur": 10,
+      "type": "Ride/Clear"
     }
   ],
-  "nextLid": 221
+  "nextLid": 222
 };
