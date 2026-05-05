@@ -114,10 +114,16 @@ window.SAVED_STATE = {
           "notes": "practice chop"
         },
         {
+          "id": 266,
+          "dur": 10,
+          "name": "Faceoffs/Inside Work",
+          "notes": "Faceoff group \nEveryone Else- crease coverage/cutters"
+        },
+        {
           "id": 256,
           "dur": 13,
           "name": "Ride Clear",
-          "notes": "vs. zone ride"
+          "notes": "vs. zone ride for clear\nvs. 34 down with 4 coming over for ride\nBLOW WHISTLE TO FORCE BACK INTO HOLE"
         },
         {
           "id": 262,
@@ -126,7 +132,7 @@ window.SAVED_STATE = {
           "notes": "2- 10 min running quarters; starting o vs. starting D"
         }
       ],
-      "nextId": 266,
+      "nextId": 267,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-05-05",
