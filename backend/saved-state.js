@@ -108,6 +108,12 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
+          "id": 268,
+          "dur": 10,
+          "name": "Pressure Passing",
+          "notes": ""
+        },
+        {
           "id": 265,
           "dur": 10,
           "name": "2v2 Wings",
@@ -121,9 +127,15 @@ window.SAVED_STATE = {
         },
         {
           "id": 256,
-          "dur": 13,
+          "dur": 15,
           "name": "Ride Clear",
           "notes": "vs. zone ride for clear\nvs. 34 down with 4 coming over for ride\nBLOW WHISTLE TO FORCE BACK INTO HOLE"
+        },
+        {
+          "id": 267,
+          "dur": 10,
+          "name": "6v6",
+          "notes": "vs. shut"
         },
         {
           "id": 262,
@@ -132,7 +144,7 @@ window.SAVED_STATE = {
           "notes": "2- 10 min running quarters; starting o vs. starting D"
         }
       ],
-      "nextId": 267,
+      "nextId": 269,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-05-05",
