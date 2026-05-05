@@ -149,7 +149,7 @@ window.SAVED_STATE = {
       "startTime": "5:00",
       "dateValue": "2026-05-05",
       "dateDisplay": "Tuesday, May 5, 2026",
-      "coachNotes": "Hard Hat- durke",
+      "coachNotes": "Hard Hat- Jude",
       "overallNote": "WING GBS",
       "focusText": "LEARN/COMPETE",
       "pquote": ""
