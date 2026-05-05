@@ -84,12 +84,6 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
-          "id": 249,
-          "dur": 10,
-          "name": "Team Talk",
-          "notes": ""
-        },
-        {
           "id": 203,
           "dur": 10,
           "name": "Warm Up",
@@ -97,9 +91,9 @@ window.SAVED_STATE = {
         },
         {
           "id": 236,
-          "dur": 5,
-          "name": "Split Stick Work",
-          "notes": "O-Diamond D-hockey\nD- Hern"
+          "dur": 10,
+          "name": "Breakouts",
+          "notes": ""
         },
         {
           "id": 240,
@@ -108,43 +102,31 @@ window.SAVED_STATE = {
           "notes": "Grounders, Trail, Goose w/ partner"
         },
         {
-          "id": 255,
-          "dur": 12,
-          "name": "Numbers",
+          "id": 264,
+          "dur": 10,
+          "name": "Circle GBs",
           "notes": ""
         },
         {
-          "id": 258,
+          "id": 265,
           "dur": 10,
-          "name": "2v1 From Wing for 4v3 or 5v4",
-          "notes": ""
+          "name": "2v2 Wings",
+          "notes": "practice chop"
         },
         {
           "id": 256,
           "dur": 13,
           "name": "Ride Clear",
-          "notes": ""
+          "notes": "vs. zone ride"
         },
         {
-          "id": 260,
-          "dur": 10,
-          "name": "Rabbit Drill",
-          "notes": ""
-        },
-        {
-          "id": 259,
-          "dur": 12,
-          "name": "6v6",
-          "notes": ""
-        },
-        {
-          "id": 261,
-          "dur": 10,
-          "name": "Man Up/Down",
-          "notes": ""
+          "id": 262,
+          "dur": 22,
+          "name": "Scrimmage",
+          "notes": "2- 10 min running quarters; starting o vs. starting D"
         }
       ],
-      "nextId": 262,
+      "nextId": 266,
       "startAmPm": "PM",
       "startTime": "5:00",
       "dateValue": "2026-05-05",
