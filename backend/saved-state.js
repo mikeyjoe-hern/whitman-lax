@@ -6,8 +6,8 @@ window.SAVED_STATE = {
       "drills": [
         {
           "id": 182,
-          "dur": 5,
-          "name": "Team Talk",
+          "dur": 10,
+          "name": "Scout Overview",
           "notes": ""
         },
         {
@@ -19,25 +19,13 @@ window.SAVED_STATE = {
         {
           "id": 184,
           "dur": 10,
-          "name": "O/D Split Stick",
-          "notes": "O- diamond D- two ball gbs\nD- hern choice"
-        },
-        {
-          "id": 185,
-          "dur": 10,
-          "name": "GB Stations",
-          "notes": "SHL, gauntlet, 2v1"
-        },
-        {
-          "id": 186,
-          "dur": 10,
-          "name": "Jailbreak GBs",
+          "name": "West Genny",
           "notes": ""
         },
         {
           "id": 191,
-          "dur": 10,
-          "name": "4v4 Wings",
+          "dur": 15,
+          "name": "Full Field Ride/Clear",
           "notes": "transfer at X and to other side"
         },
         {
@@ -47,37 +35,49 @@ window.SAVED_STATE = {
           "notes": "O- Shooting"
         },
         {
-          "id": 188,
-          "dur": 12,
-          "name": "Drop and Cover",
-          "notes": "Out of 10 man ride, and through sub game"
-        },
-        {
-          "id": 189,
+          "id": 197,
           "dur": 10,
-          "name": "4v3 Progress to 6v6",
+          "name": "Apache",
           "notes": ""
         },
         {
-          "id": 190,
+          "id": 196,
           "dur": 10,
-          "name": "6v6",
-          "notes": "Sean Shut"
+          "name": "2v2 Wings",
+          "notes": "as a 4v4 with transfer at X, can't cross midline"
         },
         {
-          "id": 192,
-          "dur": 20,
-          "name": "Scrimmage",
+          "id": 188,
+          "dur": 10,
+          "name": "Drop and Cover",
+          "notes": "Out of 10 man ride and out of clear"
+        },
+        {
+          "id": 193,
+          "dur": 10,
+          "name": "Rabbit Drill",
+          "notes": ""
+        },
+        {
+          "id": 194,
+          "dur": 10,
+          "name": "6v6",
+          "notes": ""
+        },
+        {
+          "id": 195,
+          "dur": 12,
+          "name": "Man Up/Down",
           "notes": ""
         }
       ],
-      "nextId": 193,
+      "nextId": 198,
       "startAmPm": "PM",
-      "startTime": "5:00",
-      "dateValue": "2026-05-04",
-      "dateDisplay": "Monday, May 4, 2026",
+      "startTime": "4:00",
+      "dateValue": "2026-05-06",
+      "dateDisplay": "Wednesday, May 6, 2026",
       "coachNotes": "Hard Hat- new hard hat person",
-      "overallNote": "HARD HAT, HELMET STICKERS, BRING CONES",
+      "overallNote": "BECKETT LEAVES AT 445",
       "focusText": "1% BETTER",
       "pquote": ""
     },
