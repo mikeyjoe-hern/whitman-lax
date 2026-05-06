@@ -23,12 +23,6 @@ window.SAVED_STATE = {
           "notes": ""
         },
         {
-          "id": 191,
-          "dur": 15,
-          "name": "Full Field Ride/Clear",
-          "notes": "transfer at X and to other side"
-        },
-        {
           "id": 187,
           "dur": 10,
           "name": "O/D Split Stick",
@@ -48,14 +42,26 @@ window.SAVED_STATE = {
         },
         {
           "id": 188,
-          "dur": 10,
+          "dur": 5,
           "name": "Drop and Cover",
           "notes": "Out of 10 man ride and out of clear"
+        },
+        {
+          "id": 191,
+          "dur": 12,
+          "name": "Full Field Ride/Clear",
+          "notes": "transfer at X and to other side"
         },
         {
           "id": 193,
           "dur": 10,
           "name": "Rabbit Drill",
+          "notes": ""
+        },
+        {
+          "id": 198,
+          "dur": 10,
+          "name": "Split",
           "notes": ""
         },
         {
@@ -71,7 +77,7 @@ window.SAVED_STATE = {
           "notes": ""
         }
       ],
-      "nextId": 198,
+      "nextId": 199,
       "startAmPm": "PM",
       "startTime": "4:00",
       "dateValue": "2026-05-06",
