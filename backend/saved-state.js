@@ -90,73 +90,79 @@ window.SAVED_STATE = {
     {
       "drills": [
         {
+          "id": 269,
+          "dur": 12,
+          "name": "Team Talk",
+          "notes": ""
+        },
+        {
           "id": 203,
           "dur": 10,
           "name": "Warm Up",
           "notes": ""
         },
         {
-          "id": 236,
+          "id": 270,
           "dur": 10,
-          "name": "Breakouts",
-          "notes": ""
+          "name": "Star Passing",
+          "notes": "2-3 stars"
         },
         {
           "id": 240,
           "dur": 10,
           "name": "GB Fundies",
-          "notes": "Grounders, Trail, Goose w/ partner"
+          "notes": "Trail, Grounders, SHL"
         },
         {
-          "id": 264,
+          "id": 271,
           "dur": 10,
-          "name": "Circle GBs",
-          "notes": ""
+          "name": "Split",
+          "notes": "O- Pregame Shooting\nD- Hern Choice"
         },
         {
-          "id": 268,
-          "dur": 10,
-          "name": "Pressure Passing",
-          "notes": ""
-        },
-        {
-          "id": 265,
-          "dur": 10,
-          "name": "2v2 Wings",
-          "notes": "practice chop"
-        },
-        {
-          "id": 266,
-          "dur": 10,
-          "name": "Faceoffs/Inside Work",
-          "notes": "Faceoff group \nEveryone Else- crease coverage/cutters"
-        },
-        {
-          "id": 256,
+          "id": 272,
           "dur": 15,
           "name": "Ride Clear",
-          "notes": "vs. zone ride for clear\nvs. 34 down with 4 coming over for ride\nBLOW WHISTLE TO FORCE BACK INTO HOLE"
+          "notes": "Full Field Ride\nClear vs. 33 zone"
         },
         {
-          "id": 267,
+          "id": 276,
+          "dur": 10,
+          "name": "Rabbit Drill",
+          "notes": ""
+        },
+        {
+          "id": 273,
           "dur": 10,
           "name": "6v6",
-          "notes": "vs. shut"
+          "notes": "O FOCUS"
         },
         {
-          "id": 262,
-          "dur": 22,
-          "name": "Scrimmage",
-          "notes": "2- 10 min running quarters; starting o vs. starting D"
+          "id": 274,
+          "dur": 10,
+          "name": "6v6",
+          "notes": "D Focus"
+        },
+        {
+          "id": 275,
+          "dur": 10,
+          "name": "Man Up/Down",
+          "notes": ""
+        },
+        {
+          "id": 277,
+          "dur": 5,
+          "name": "Stretch",
+          "notes": ""
         }
       ],
-      "nextId": 269,
+      "nextId": 278,
       "startAmPm": "PM",
       "startTime": "5:00",
-      "dateValue": "2026-05-05",
-      "dateDisplay": "Tuesday, May 5, 2026",
+      "dateValue": "2026-05-07",
+      "dateDisplay": "Thursday, May 7, 2026",
       "coachNotes": "Hard Hat- Jude",
-      "overallNote": "WING GBS",
+      "overallNote": "PREGAME- MENTAL FOCUS",
       "focusText": "LEARN/COMPETE",
       "pquote": ""
     },
