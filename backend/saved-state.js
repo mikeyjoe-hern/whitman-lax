@@ -123,7 +123,7 @@ window.SAVED_STATE = {
           "id": 272,
           "dur": 15,
           "name": "Ride Clear",
-          "notes": "Full Field Ride\nClear vs. 33 zone"
+          "notes": "Full Field Ride- ADD DROP AND COVER ELEMENT\nClear vs. 33 zone- ADD DROP AND COVER ELEMENT"
         },
         {
           "id": 276,
